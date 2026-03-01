@@ -1,5 +1,6 @@
 ---
 title: "知识库首页"
+comments: false
 ---
 
 这是我的笔记和思考中心，使用 Obsidian 和 Quartz 构建。
@@ -30,7 +31,18 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
-- [[AI/2026-02-27-4-claude-code-skills-everyone-should-use|每个开发者都应该掌握的 4 个 Claude Code Skills]] (中英双语 | Bilingual)
+- [[AI/2026-03-01-claude-37-sonnet-and-claude-code-cn|Claude 3.7 Sonnet 和 Claude Code]]
+- [[AI/2026-03-01-building-effective-ai-agents-cn|构建高效的 AI 智能体]]
+- [[programming/2026-03-01-learn-json-format|JSON 文件格式入门教程]]
+- [[programming/2026-03-01-learn-git-basics|Git 基础教程]]
+
+---
+
+## 📚 OpenClaw 学习资源
+
+- [[programming/2026-03-01-learn-json-format|JSON 文件格式入门]]
+- [[programming/2026-03-01-learn-git-basics|Git 基础教程]]
+- [[programming/2026-03-01-openclaw-config-guide|OpenClaw 配置文件说明]]
 
 ---
 
