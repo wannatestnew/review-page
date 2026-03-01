@@ -8,8 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/wannatestnew/review-page",
     },
   }),
 }
@@ -44,10 +43,25 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    // Giscus Comments
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "wannatestnew/review-page",
+        repoId: "R_kgDORbeHAw",
+        category: "Announcements",
+        categoryId: "DIC_kwDORbeHA84C3eln",
+        mapping: "pathname",
+        strict: false,
+        reactionsEnabled: true,
+        inputPosition: "bottom",
+        lang: "zh-CN",
+      },
+    }),
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
