@@ -6,6 +6,7 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ### 🛠️ Development & Tech
 - [[technology/index|Technology]] — Hardware and system setups.
+- [[technology/quartz-setup|My Quartz Setup Guide]]
 - [[programming/index|Programming]] — Languages, scripts, and logic.
 - [[AI/index|Artificial Intelligence]] — Large language models and agents.
 
