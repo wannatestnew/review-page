@@ -1,5 +1,3 @@
-# Quartz v4
-
 # Review Page
 
 A curated collection of news, data, and resources for study and reflection.
@@ -40,6 +38,7 @@ Feel free to browse and explore. This is a read-only collection maintained for p
 Content in this repository is collected from various sources. All rights belong to their respective owners. This is a non-commercial, educational collection.
 
 ---
+# Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
