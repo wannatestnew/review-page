@@ -1,5 +1,1 @@
----
--Technical News: What is going to happen or have already happened
-Politics and Economy: All the things happened today and yesterday
----
-
+# 2026 is a wonderful year, this is the first note
