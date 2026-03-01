@@ -31,18 +31,22 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
-- [[AI/2026-03-01-claude-37-sonnet-and-claude-code-cn|Claude 3.7 Sonnet 和 Claude Code]]
-- [[AI/2026-03-01-building-effective-ai-agents-cn|构建高效的 AI 智能体]]
-- [[programming/2026-03-01-learn-json-format|JSON 文件格式入门教程]]
+- [[programming/2026-03-01-openclaw-config-guide|OpenClaw 配置文件说明]] 🆕
+- [[programming/2026-03-01-learn-markdown-basics|Markdown 入门教程]] 🆕
+- [[programming/2026-03-01-learn-json-format|JSON 文件格式入门]]
 - [[programming/2026-03-01-learn-git-basics|Git 基础教程]]
+- [[AI/2026-03-01-claude-37-sonnet-and-claude-code-cn|Claude 3.7 Sonnet 和 Claude Code]]
 
 ---
 
 ## 📚 OpenClaw 学习资源
 
-- [[programming/2026-03-01-learn-json-format|JSON 文件格式入门]]
-- [[programming/2026-03-01-learn-git-basics|Git 基础教程]]
-- [[programming/2026-03-01-openclaw-config-guide|OpenClaw 配置文件说明]]
+| 教程 | 说明 |
+|------|------|
+| [[programming/2026-03-01-learn-json-format|JSON 入门]] | 数据交换格式基础 |
+| [[programming/2026-03-01-learn-git-basics|Git 基础]] | 版本控制入门 |
+| [[programming/2026-03-01-learn-markdown-basics|Markdown 入门]] | 文档编写格式 |
+| [[programming/2026-03-01-openclaw-config-guide|OpenClaw 配置]] | 系统配置说明 |
 
 ---
 
