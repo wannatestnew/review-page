@@ -1,16 +1,18 @@
 ---
-title: "Building Effective AI Agents"
+title: "Building Effective AI Agents (中文翻译)"
 date: 2026-03-01
-tags: [ai, web-clip]
+tags: [ai, web-clip, 中文翻译]
 source: https://www.anthropic.com/research/building-effective-agents
 category: AI
-lang: en
-translation: "2026-03-01-building-effective-ai-agents-cn"
+lang: zh
+translation_source: "2026-03-01-building-effective-ai-agents"
 ---
 
 
-> 🌐 **中文翻译**: [[2026-03-01-building-effective-ai-agents-cn|阅读本文的中文版本]]
+> 🌐 **English Version**: [[2026-03-01-building-effective-ai-agents|Read original English version]]
 # Building Effective AI Agents
+
+<!-- TRANSLATION_NEEDED: 请将以下内容翻译为中文 -->
 
 Title: Building Effective AI Agents
 
@@ -252,6 +254,6 @@ While building our agent for [SWE-bench](https://www.anthropic.com/research/swe-
 
 ---
 
-## 💭 AI Commentary
+## 💭 AI 评论
 
-*Space for notes and discussion.*
+_此部分用于笔记和讨论。_
