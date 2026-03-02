@@ -8,7 +8,7 @@ lang: en
 translation: "2026-03-01-10-viral-food-trends-you-need-to-try-in-2026-with--cn"
 ---
 
-> 🌐 **中文翻译**: [[2026-03-01-10-viral-food-trends-you-need-to-try-in-2026-with--cn|阅读本文的中文版本]]
+> 🌐 **中文翻译**: 
 # 10 Viral Food Trends You Need to Try in 2026 (With Recipes)
 
 Title: 10 Viral Food Trends You Need to Try in 2026 (With Recipes)

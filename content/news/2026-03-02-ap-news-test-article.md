@@ -8,7 +8,7 @@ lang: en
 translation: "2026-03-02-ap-news-test-article-cn"
 ---
 
-> 🌐 **中文翻译**: [[2026-03-02-ap-news-test-article-cn|阅读本文的中文版本]]
+> 🌐 **中文翻译**: 
 # AP News Test Article
 
 Title: Associated Press News: Breaking News | Latest News Today
