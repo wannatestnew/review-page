@@ -2,7 +2,7 @@
 title: "Introducing Claude 3.5 Sonnet"
 date: 2026-03-02
 tags: [ai, web-clip]
-source: https://www.anthropic.com/news/claude-3-5-sonnet
+source: https://www.anthropic.com/research/claude-3-5-sonnet
 category: AI
 lang: en
 
@@ -11,7 +11,7 @@ lang: en
 
 Title: Introducing Claude 3.5 Sonnet
 
-URL Source: https://www.anthropic.com/news/claude-3-5-sonnet
+URL Source: https://www.anthropic.com/research/claude-3-5-sonnet
 
 Markdown Content:
 ![Image 1: Claude head illustration](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4e78f69ef8d4186fb5691714abe36224483d91b0-2880x1620.png&w=3840&q=75)
