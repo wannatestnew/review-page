@@ -31,11 +31,16 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
-- [[programming/2026-03-01-openclaw-config-guide|OpenClaw 配置文件说明]] 🆕
-- [[programming/2026-03-01-learn-markdown-basics|Markdown 入门教程]] 🆕
-- [[programming/2026-03-01-learn-json-format|JSON 文件格式入门]]
-- [[programming/2026-03-01-learn-git-basics|Git 基础教程]]
-- [[AI/2026-03-01-claude-37-sonnet-and-claude-code-cn|Claude 3.7 Sonnet 和 Claude Code]]
+- [[AI/2026-03-01-introducing-gpt-45-cn|Introducing GPT-4.5 (中文)]] 🆕
+- [[AI/2026-03-01-introducing-gpt-45|Introducing GPT-4.5]] 🆕
+- [[AI/2026-03-02-introducing-claude-35-sonnet|Introducing Claude 3.5 Sonnet]] 🆕
+- [[AI/2026-03-01-building-effective-ai-agents-cn|Building Effective AI Agents (中文)]]
+- [[AI/2026-03-01-building-effective-ai-agents|Building Effective AI Agents]]
+- [[technology/2025-11-16-the-fate-of-small-open-source-cn|The fate of "small" open source (中文)]]
+- [[technology/2025-11-16-the-fate-of-small-open-source|The fate of "small" open source]]
+- [[AI/2026-03-01-claude-37-sonnet-and-claude-code-cn|Claude 3.7 Sonnet 和 Claude Code (中文)]]
+- [[AI/2026-03-01-claude-37-sonnet-and-claude-code|Claude 3.7 Sonnet and Claude Code]]
+- [[AI/2025-11-04-the-best-places-to-go-in-2026|The Best Places to Go in 2026]]
 
 ---
 
@@ -50,4 +55,4 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ---
 
-*最后更新 | Last updated: 2026-03-01*
+*最后更新 | Last updated: 2026-03-02*
