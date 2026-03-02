@@ -4,9 +4,11 @@ date: 2026-03-01
 tags: [programming, claude-code, remote-control, review]
 source: https://medium.com/@joe.njenga/i-tried-new-claude-code-remote-control-before-you-waste-your-time-c829a83417f7
 category: programming
-> 🌐 **English Version**: [[2026-03-01-claude-code-remote-control-review-en|Read English Version]]
 lang: zh
+
 ---
+
+> 🌐 **English Version**: [[2026-03-01-claude-code-remote-control-review-en|Read English Version]]
 
 # Claude Code Remote Control 体验评测
 
