@@ -59,3 +59,4 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
 ---
 
 *Last updated: February 2026*
+<!-- Force rebuild 1772474936 -->
