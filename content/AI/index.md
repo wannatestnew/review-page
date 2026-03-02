@@ -4,6 +4,7 @@ title: "AI"
 # AI
 
 ## Articles
+- [[2026-03-02-introducing-claude-35-sonnet|Introducing Claude 3.5 Sonnet]] (2026-03-02)
 - [[2026-03-01-building-effective-ai-agents-cn|Building Effective AI Agents (中文)]] (2026-03-01)
 - [[2026-03-01-building-effective-ai-agents|Building Effective AI Agents]] (2026-03-01)
 - [[2025-11-04-the-best-places-to-go-in-2026|The Best Places to Go in 2026]] (2025-11-04)
