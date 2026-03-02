@@ -8,7 +8,6 @@ lang: en
 translation: "2026-03-01-building-effective-ai-agents-cn"
 ---
 
-
 > 🌐 **中文翻译**: [[2026-03-01-building-effective-ai-agents-cn|阅读本文的中文版本]]
 # Building Effective AI Agents
 
@@ -249,9 +248,7 @@ One rule of thumb is to think about how much effort goes into human-computer int
 *   [Poka-yoke](https://en.wikipedia.org/wiki/Poka-yoke) your tools. Change the arguments so that it is harder to make mistakes.
 
 While building our agent for [SWE-bench](https://www.anthropic.com/research/swe-bench-sonnet), we actually spent more time optimizing our tools than the overall prompt. For example, we found that the model would make mistakes with tools using relative filepaths after the agent had moved out of the root directory. To fix this, we changed the tool to always require absolute filepaths—and we found that the model used this method flawlessly.
-
 ---
-
 ## 💭 AI Commentary
 
 *Space for notes and discussion.*
