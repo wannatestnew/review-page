@@ -1,4 +1,9 @@
 ---
-title: science
+title: "Science"
 ---
-# Welcome to the science section
+# Science
+
+## Articles
+
+---
+*Last updated: 2026-03-02*

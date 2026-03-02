@@ -1,4 +1,9 @@
 ---
-title: thoughts
+title: "Thoughts"
 ---
-# Welcome to the thoughts section
+# Thoughts
+
+## Articles
+
+---
+*Last updated: 2026-03-02*
