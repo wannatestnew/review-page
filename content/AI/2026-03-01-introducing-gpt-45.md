@@ -8,7 +8,6 @@ lang: en
 translation: "2026-03-01-introducing-gpt-45-cn"
 ---
 
-
 > 🌐 **中文翻译**: [[2026-03-01-introducing-gpt-45-cn|阅读本文的中文版本]]
 # Introducing GPT-4.5
 
@@ -20,104 +19,25 @@ Markdown Content:
 Introducing GPT-4.5 | OpenAI
 ===============
 
-[Skip to main content](https://openai.com/index/introducing-gpt-4-5/#main)
-
-Log in
-
 [](https://openai.com/)
 
-Switch to
+*   [Research](https://openai.com/research/index/)
+*   Products
+*   [Business](https://openai.com/business/)
+*   [Developers](https://openai.com/api/)
+*   [Company](https://openai.com/about/)
+*   [Foundation](https://openai.com/foundation/)
 
-*   [ChatGPT(opens in a new window)](https://chatgpt.com/)
-*   [Sora(opens in a new window)](https://sora.com/)
-*   [API Platform(opens in a new window)](https://platform.openai.com/)
-
-*   [Research](https://openai.com/research/index/) 
-*   [Safety](https://openai.com/safety/) 
-*   [For Business](https://openai.com/business/) 
-*   [For Developers](https://openai.com/api/) 
-*   [ChatGPT](https://chatgpt.com/overview) 
-*   [Sora](https://openai.com/sora/) 
-*   [Codex](https://openai.com/codex/) 
-*   [Stories](https://openai.com/stories/) 
-*   [Company](https://openai.com/about/) 
-*   [News](https://openai.com/news/company-announcements/) 
+Log in[Try ChatGPT(opens in a new window)](https://chatgpt.com/)
 
 *   Research
-
-Back to main menu  
-
-    *   [Research Index](https://openai.com/research/index/)
-    *   [Research Overview](https://openai.com/research/)
-    *   [Research Residency](https://openai.com/residency/)
-    *   [OpenAI for Science](https://openai.com/science/)
-    *   Latest Advancements
-    *   [GPT-5.2](https://openai.com/index/introducing-gpt-5-2/)
-    *   [GPT-5.1](https://openai.com/index/gpt-5-1/)
-    *   [Sora 2](https://openai.com/index/sora-2/)
-    *   [GPT-5](https://openai.com/index/introducing-gpt-5/)
-    *   [OpenAI o3 and o4-mini](https://openai.com/index/introducing-o3-and-o4-mini/)
-    *   [GPT-4.5](https://openai.com/index/introducing-gpt-4-5/)
-
-*   Safety
-
-Back to main menu  
-
-    *   [Safety Approach](https://openai.com/safety/)
-    *   [Security & Privacy](https://openai.com/security-and-privacy/)
-
-*   For Business
-
-Back to main menu  
-
-    *   [Business Overview](https://openai.com/business/)
-    *   [Enterprise](https://openai.com/business/frontier/)
-    *   [Startups](https://openai.com/startups/)
-    *   [Solutions](https://openai.com/solutions/)
-    *   [Learn](https://openai.com/business/learn/)
-    *   [App Integrations](https://openai.com/business/apps/)
-    *   [ChatGPT Pricing](https://openai.com/business/chatgpt-pricing/)
-    *   [API Pricing](https://openai.com/api/pricing/)
-    *   [Contact Sales](https://openai.com/contact-sales/)
-
-*   For Developers
-
-Back to main menu  
-
-    *   [API Platform](https://openai.com/api/)
-    *   [API Pricing](https://openai.com/api/pricing/)
-    *   [Agents](https://openai.com/agent-platform/)
-    *   [Codex](https://openai.com/codex/)
-    *   [Open Models](https://openai.com/open-models/)
-    *   [Community(opens in a new window)](https://community.openai.com/)
-
-*   [ChatGPT](https://chatgpt.com/overview)
-
-Back to main menu  
-
-    *   [Explore ChatGPT](https://chatgpt.com/overview)
-    *   [Business](https://chatgpt.com/for-business/team)
-    *   [Enterprise](https://chatgpt.com/for-business/enterprise)
-    *   [Education](https://chatgpt.com/for-business/education)
-    *   [Pricing](https://chatgpt.com/pricing)
-    *   [Download](https://chatgpt.com/download)
-
-*   [Sora](https://openai.com/sora/)
-*   [Codex](https://openai.com/codex/)
-*   [Stories](https://openai.com/stories/)
+*   Products
+*   Business
+*   Developers
 *   Company
+*   [Foundation](https://openai.com/foundation/)
 
-Back to main menu  
-
-    *   [About Us](https://openai.com/about/)
-    *   [Our Charter](https://openai.com/charter/)
-    *   [Foundation](https://openai.com/foundation/)
-    *   [Careers](https://openai.com/careers/)
-    *   [Brand Guidelines](https://openai.com/brand/)
-
-*   [News](https://openai.com/news/company-announcements/)
-
-Log in
+[Try ChatGPT(opens in a new window)](https://chatgpt.com/)Login
 
 OpenAI
 
@@ -411,9 +331,7 @@ Terms & Policies
 OpenAI © 2015–2026 Manage Cookies
 
 English United States
-
 ---
-
 ## 💭 AI Commentary
 
 *Space for notes and discussion.*
