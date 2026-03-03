@@ -9,10 +9,9 @@ translation_source: "programming/2026-03-01-learn-markdown-basics"
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[programming/2026-03-01-learn-markdown-basics|Read original English version]]
+> 🌐 **English Version**: 
 
 # Markdown 入门教程
-
 
 # Markdown 入门教程
 

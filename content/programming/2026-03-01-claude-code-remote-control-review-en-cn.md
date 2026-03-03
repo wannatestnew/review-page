@@ -10,10 +10,9 @@ translation_source: "programming/2026-03-01-claude-code-remote-control-review-en
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[programming/2026-03-01-claude-code-remote-control-review-en|Read original English version]]
+> 🌐 **English Version**: 
 
 # Claude Code Remote Control Review
-
 
 > 🌐 **中文翻译**： [[2026-03-01-claude-code-remote-control-review|阅读中文版本]]
 
@@ -200,8 +199,6 @@ CD ~/projects/my-API
 本评测为Claude Code的远程控制功能提供了宝贵见解，包括设置流程、当前限制以及与OpenClaw的实际比较。
 
 *注意：功能可用性可能会随着时间变化。*
-
-
 
 ---
 ## 📝 翻译说明

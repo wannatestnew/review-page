@@ -8,7 +8,7 @@ lang: en
 translation: "2026-03-03-build-your-own-fully-offline-ai-assistant-cn"
 ---
 
-> 🌐 **中文翻译**: [[2026-03-03-build-your-own-fully-offline-ai-assistant-cn|阅读本文的中文版本]]
+> 🌐 **中文翻译**: 
 # Build Your Own Fully Offline AI Assistant
 
 Title: Build Your Own Fully Offline AI Assistant

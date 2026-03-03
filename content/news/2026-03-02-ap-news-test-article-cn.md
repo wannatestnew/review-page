@@ -10,10 +10,9 @@ translation_source: "news/2026-03-02-ap-news-test-article"
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[news/2026-03-02-ap-news-test-article|Read original English version]]
+> 🌐 **English Version**: 
 
 # AP News Test Article
-
 
 > 🌐 **中文翻译**:
 # 美联社新闻测试文章

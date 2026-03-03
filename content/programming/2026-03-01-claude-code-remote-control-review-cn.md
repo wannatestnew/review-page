@@ -9,10 +9,9 @@ translation_source: "programming/2026-03-01-claude-code-remote-control-review"
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[programming/2026-03-01-claude-code-remote-control-review|Read original English version]]
+> 🌐 **English Version**: 
 
 # Claude Code Remote Control 体验评测
-
 
 > 🌐 **English Version**: [[2026-03-01-claude-code-remote-control-review-en|Read English Version]]
 
@@ -35,7 +34,6 @@ Remote Control 是一个桥梁，连接你的本地 Claude Code 会话和任何�
 ---
 
 ## 三种连接方式
-
 
 ---
 ## 📝 翻译说明

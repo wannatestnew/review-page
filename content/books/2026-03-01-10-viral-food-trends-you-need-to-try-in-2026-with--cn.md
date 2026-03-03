@@ -10,10 +10,9 @@ translation_source: "books/2026-03-01-10-viral-food-trends-you-need-to-try-in-20
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[books/2026-03-01-10-viral-food-trends-you-need-to-try-in-2026-with-|Read original English version]]
+> 🌐 **English Version**: 
 
 # 10 Viral Food Trends You Need to Try in 2026 (With Recipes)
-
 
 > 🌐 **中文翻译**:
 # 2026年你需要尝试的10个病毒式美食趋势（含食谱）

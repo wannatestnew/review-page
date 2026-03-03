@@ -9,10 +9,9 @@ translation_source: "programming/2026-03-01-learn-git-basics"
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[programming/2026-03-01-learn-git-basics|Read original English version]]
+> 🌐 **English Version**: 
 
 # Git 基础教程
-
 
 # Git 基础教程
 
@@ -294,7 +293,6 @@ git stash pop
 ---
 
 *OpenClaw 基础技能学习系列*
-
 
 ---
 ## 📝 翻译说明

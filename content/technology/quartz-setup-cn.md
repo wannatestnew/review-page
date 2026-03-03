@@ -9,10 +9,9 @@ translation_source: "technology/quartz-setup"
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[technology/quartz-setup|Read original English version]]
+> 🌐 **English Version**: 
 
 # How I Built This Digital Garden (Quartz 4)
-
 
 # 我的Quartz 4设置指南
 
@@ -47,7 +46,6 @@ translator: "Azure Translator"
 * **文档：** [Quartz 官方文档](https://quartz.jzhao.xyz/)
 
 > “数字花园是不断演变的笔记集合，而不是一系列完成的帖子。”
-
 
 ---
 ## 📝 翻译说明

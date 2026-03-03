@@ -9,10 +9,9 @@ translation_source: "programming/2026-03-01-learn-json-format"
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[programming/2026-03-01-learn-json-format|Read original English version]]
+> 🌐 **English Version**: 
 
 # JSON 文件格式入门教程
-
 
 # JSON 文件格式入门教程
 
@@ -250,7 +249,6 @@ C. 布尔值
 ---
 
 *OpenClaw 基础技能学习系列*
-
 
 ---
 ## 📝 翻译说明

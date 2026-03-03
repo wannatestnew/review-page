@@ -9,10 +9,9 @@ translation_source: "programming/2026-03-01-openclaw-config-guide"
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: [[programming/2026-03-01-openclaw-config-guide|Read original English version]]
+> 🌐 **English Version**: 
 
 # OpenClaw 配置文件说明
-
 
 # OpenClaw 配置文件说明
 
@@ -238,7 +237,6 @@ C. 使用环境变量存储
 ---
 
 *OpenClaw 基础技能学习系列*
-
 
 ---
 ## 📝 翻译说明
