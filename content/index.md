@@ -31,21 +31,21 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
+- [[AI/2026-03-02-introducing-claude-35-sonnet-cn|Introducing Claude 3.5 Sonnet]] 🆕
+- [[AI/2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo-cn|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025]] 🆕
+- [[AI/2026-03-02-introducing-claude-35-sonnet|Introducing Claude 3.5 Sonnet]] 🆕
+- [[AI/2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 | News]] 🆕
+- [[news/2026-03-02-ap-news-test-article-cn|AP News Test Article (中文翻译)]] 🆕
+- [[news/2026-03-02-ap-news-test-article|AP News Test Article]] 🆕
 - [[programming/2026-03-01-openclaw-config-guide-cn|OpenClaw 配置文件说明 (中文翻译)]] 🆕
 - [[programming/2026-03-01-learn-markdown-basics-cn|Markdown 入门教程 (中文翻译)]] 🆕
 - [[programming/2026-03-01-learn-json-format-cn|JSON 文件格式入门教程 (中文翻译)]] 🆕
 - [[programming/2026-03-01-learn-git-basics-cn|Git 基础教程 (中文翻译)]] 🆕
 - [[programming/2026-03-01-claude-code-remote-control-review-en-cn|Claude Code Remote Control Review (中文翻译)]] 🆕
 - [[programming/2026-03-01-claude-code-remote-control-review-cn|Claude Code Remote Control 体验评测 (中文翻译)]] 🆕
-- [[technology/quartz-setup-cn|How I Built This Digital Garden (Quartz 4) (中文翻译)]] 🆕
-- [[AI/2025-11-04-the-best-places-to-go-in-2026-cn|The Best Places to Go in 2026]] 🆕
-- [[AI/2026-01-02-in-2026-ai-will-move-from-hype-to-pragmatism-cn|In 2026, AI will move from hype to pragmatism]] 🆕
-- [[AI/2026-01-02-the-biggest-wellness-trends-of-2026-cn|The Biggest Wellness Trends of 2026]] 🆕
-- [[AI/2026-02-27-perplexitys-new-computer-is-another-bet-that-users-cn|Perplexity’s new Computer is another bet that users need many AI models]] 🆕
 - [[AI/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei-cn|Global reaction to the killing of Iran's Khamenei]] 🆕
-- [[AI/2026-03-02-introducing-claude-35-sonnet-cn|Introducing Claude 3.5 Sonnet]] 🆕
-- [[AI/2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo-cn|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025]] 🆕
 - [[AI/2026-03-01-introducing-gpt-45-cn|Introducing GPT-4.5 (中文翻译)]] 🆕
+- [[AI/2026-03-01-introducing-gpt-45|Introducing GPT-4.5]] 🆕
 
 ---
 
