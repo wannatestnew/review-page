@@ -6,6 +6,8 @@ title: "AI"
 
 ## Articles
 
+- [[2026-03-03-build-your-own-fully-offline-ai-assistant-cn|Build Your Own Fully Offline AI Assistant (中文)]] (2026-03-03)
+- [[2026-03-03-build-your-own-fully-offline-ai-assistant|Build Your Own Fully Offline AI Assistant]] (2026-03-03)
 - [[2026-03-02-introducing-claude-35-sonnet-cn|Introducing Claude 3.5 Sonnet (中文)]] (2026-03-02)
 - [[2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo-cn|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 (中文)]] (2026-03-02)
 - [[2026-03-02-introducing-claude-35-sonnet|Introducing Claude 3.5 Sonnet]] (2026-03-02)
