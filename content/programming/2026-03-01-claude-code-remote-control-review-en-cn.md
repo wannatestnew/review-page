@@ -189,7 +189,7 @@ CD ~/projects/my-API
 
 |项目 |信息 |
 |------|------|
-|**原始来源** |[Medium文章]（https://medium.com/@joe.njenga/i-tried-new-claude-code-remote-control-before-you-waste-your-time-c829a83417f7）|
+|**原始来源** |[Medium文章](https://medium.com/@joe.njenga/i-tried-new-claude-code-remote-control-before-you-waste-your-time-c829a83417f7)|
 |**格式日期** |2026-03-01 |
 |**注** |内容整理以便更好阅读 |
 

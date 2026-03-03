@@ -43,8 +43,8 @@ translator: "Azure Translator"
 ---
 
 ## 📽️ 参考资料
-* **教程：** [如何使用Quartz免费发布你的笔记]（https://www.youtube.com/watch?v=6s6DT1yN4dw） 作者：Nicole van der Hoeven。
-* **文档：** [Quartz 官方文档]（https://quartz.jzhao.xyz/）
+* **教程：** [如何使用Quartz免费发布你的笔记](https://www.youtube.com/watch?v=6s6DT1yN4dw) 作者：Nicole van der Hoeven。
+* **文档：** [Quartz 官方文档](https://quartz.jzhao.xyz/)
 
 > “数字花园是不断演变的笔记集合，而不是一系列完成的帖子。”
 
