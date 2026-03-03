@@ -43,7 +43,7 @@ A multimodal AI assistant that runs entirely offline to protect your privacy is 
 
 [Nick Bild](https://www.hackster.io/nickbild)Follow
 
-1 day ago • [AI & Machine Learning](https://www.hackster.io/ML)
+2 days ago • [AI & Machine Learning](https://www.hackster.io/ML)
 
 ![Image 2](https://hackster.imgix.net/uploads/attachments/1933637/multi-modal-ai-assistant-on-raspberry-pi-5-v0-vjop21jny3mg1_16_rbDhVOCFaw.jpg?auto=compress%2Cformat&w=830&h=466.875&fit=min&dpr=1)
 
@@ -130,22 +130,22 @@ Sign up
 [](https://www.hackster.io/news/a-projection-clock-you-can-actually-see-during-the-day-93367d0570cf)
 
 [A Projection Clock You Can Actually See During the Day](https://www.hackster.io/news/a-projection-clock-you-can-actually-see-during-the-day-93367d0570cf)
-[Nick Bild](https://www.hackster.io/nickbild)•12 hours ago
+[Nick Bild](https://www.hackster.io/nickbild)•19 hours ago
 
 [](https://www.hackster.io/news/cyclowatt-takes-the-cycling-power-meter-off-your-bike-and-moves-it-where-the-power-goes-your-feet-c113a2472882)
 
 [CycloWatt Takes the Cycling Power Meter Off Your Bike and Moves It Where the Power Goes: Your Feet](https://www.hackster.io/news/cyclowatt-takes-the-cycling-power-meter-off-your-bike-and-moves-it-where-the-power-goes-your-feet-c113a2472882)
-[Gareth Halfacree](https://www.hackster.io/ghalfacree)•13 hours ago
+[Gareth Halfacree](https://www.hackster.io/ghalfacree)•20 hours ago
 
 [](https://www.hackster.io/news/replacing-google-photos-with-a-raspberry-pi-5-nas-bdd4872a088b)
 
 [Replacing Google Photos with a Raspberry Pi 5 NAS](https://www.hackster.io/news/replacing-google-photos-with-a-raspberry-pi-5-nas-bdd4872a088b)
-[Nick Bild](https://www.hackster.io/nickbild)•13 hours ago
+[Nick Bild](https://www.hackster.io/nickbild)•20 hours ago
 
 [](https://www.hackster.io/news/arduino-adds-simultaneous-wi-fi-and-bluetooth-le-to-most-of-its-u-blox-nina-w102-boards-ce0a31730bf2)
 
 [Arduino Adds Simultaneous Wi-Fi and Bluetooth LE to Most of Its u-blox NINA-W102 Boards](https://www.hackster.io/news/arduino-adds-simultaneous-wi-fi-and-bluetooth-le-to-most-of-its-u-blox-nina-w102-boards-ce0a31730bf2)
-[Gareth Halfacree](https://www.hackster.io/ghalfacree)•13 hours ago
+[Gareth Halfacree](https://www.hackster.io/ghalfacree)•20 hours ago
 
 ##### Related articles
 
