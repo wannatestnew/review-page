@@ -28,4 +28,4 @@ title: "AI"
 - [[2026-01-02-in-2026-ai-will-move-from-hype-to-pragmatism|In 2026, AI will move from hype to pragmatism]] (2026-01-02)
 
 ---
-*Last updated: 2026-03-02*
+*Last updated: 2026-03-03*
