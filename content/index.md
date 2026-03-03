@@ -31,7 +31,6 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
-- [[AI/2026-03-03-build-your-own-fully-offline-ai-assistant-cn|Build Your Own Fully Offline AI Assistant (中文翻译)]] 🆕
 - [[AI/2026-03-03-build-your-own-fully-offline-ai-assistant|Build Your Own Fully Offline AI Assistant]] 🆕
 - [[AI/2026-03-02-introducing-claude-35-sonnet-cn|Introducing Claude 3.5 Sonnet]] 🆕
 - [[AI/2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo-cn|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025]] 🆕
@@ -39,13 +38,14 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 - [[AI/2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 | News]] 🆕
 - [[news/2026-03-02-ap-news-test-article-cn|AP News Test Article (中文翻译)]] 🆕
 - [[news/2026-03-02-ap-news-test-article|AP News Test Article]] 🆕
-- [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei|Global reaction to the killing of Iran's Khamenei]] 🆕
-- [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei-cn|Global reaction to the killing of Iran's Khamenei]] 🆕
+- [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei|Global reaction to the killing of Iran Khamenei]] 🆕
+- [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei-cn|Global reaction to the killing of Iran Khamenei]] 🆕
 - [[programming/2026-03-01-openclaw-config-guide-cn|OpenClaw 配置文件说明 (中文翻译)]] 🆕
 - [[programming/2026-03-01-learn-markdown-basics-cn|Markdown 入门教程 (中文翻译)]] 🆕
 - [[programming/2026-03-01-learn-json-format-cn|JSON 文件格式入门教程 (中文翻译)]] 🆕
 - [[programming/2026-03-01-learn-git-basics-cn|Git 基础教程 (中文翻译)]] 🆕
 - [[programming/2026-03-01-claude-code-remote-control-review-en-cn|Claude Code Remote Control Review (中文翻译)]] 🆕
+- [[books/2026-03-01-10-viral-food-trends|10 Viral Food Trends That Defined the 2010s]] 🆕
 
 ---
 
