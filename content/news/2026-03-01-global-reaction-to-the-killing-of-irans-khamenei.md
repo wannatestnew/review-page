@@ -3,7 +3,7 @@ title: "Global reaction to the killing of Iran's Khamenei"
 date: 2026-03-01
 tags: [ai, web-clip]
 source: https://www.reuters.com/world/middle-east/global-reaction-killing-irans-khamenei-2026-03-01/
-category: AI
+category: news
 lang: en
 translation: "2026-03-01-global-reaction-to-the-killing-of-irans-khamenei-cn"
 ---
