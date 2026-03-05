@@ -16,26 +16,12 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 - [[technology/index|技术 (Technology)]] — 硬件和系统设置 | Hardware and system setups
 - [[programming/index|编程 (Programming)]] — 语言、脚本和逻辑 | Languages, scripts, and logic
 
-### 🔬 探索 | Exploration
-- [[science/index|科学 (Science)]] — 研究和发现 | Research and discoveries
-- [[books/index|书籍 (Books)]] — 阅读列表和文学笔记 | Reading list and literature notes
-
-### 🧠 个人 | Personal
-- [[thoughts/index|思考 (Thoughts)]] — 个人反思和哲学 | Personal reflections and philosophy
-- [[news/index|新闻 (News)]] — 有趣的更新和时事 | Interesting updates and current events
-
 ---
 
 ## 📝 最新文章 | Recent Articles
 
-- [[AI/2026-03-03-build-your-own-fully-offline-ai-assistant|Build Your Own Fully Offline AI Assistant]] 🆕
-- [[AI/2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo-cn|Latest AI News and AI Breakthroughs that Matter Most (中文翻译)]] 🆕
-- [[AI/2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo|Latest AI News and AI Breakthroughs that Matter Most]] 🆕
-- [[news/2026-03-02-ap-news-test-article-cn|AP News Test Article (中文翻译)]] 🆕
-- [[news/2026-03-02-ap-news-test-article|AP News Test Article]] 🆕
-- [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei-cn|Global reaction to the killing of Iran's Khamenei (中文翻译)]] 🆕
-- [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei|Global reaction to the killing of Iran's Khamenei]] 🆕
-
+- [[AI/2026-03-01-building-effective-ai-agents-cn|Building Effective AI Agents (中文翻译)]] 🆕
+- [[AI/2026-03-01-building-effective-ai-agents|Building Effective AI Agents]] 🆕
 
 ---
 
