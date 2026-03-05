@@ -35,8 +35,7 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 - [[news/2026-03-02-ap-news-test-article|AP News Test Article]] 🆕
 - [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei-cn|Global reaction to the killing of Iran's Khamenei (中文翻译)]] 🆕
 - [[news/2026-03-01-global-reaction-to-the-killing-of-irans-khamenei|Global reaction to the killing of Iran's Khamenei]] 🆕
-- [[AI/2026-03-01-introducing-gpt-45-cn|Introducing GPT-4.5 (中文翻译)]] 🆕
-- [[AI/2026-03-01-introducing-gpt-45|Introducing GPT-4.5]] 🆕
+
 
 ---
 

@@ -9,8 +9,7 @@ title: "AI"
 - [[2026-03-03-build-your-own-fully-offline-ai-assistant|Build Your Own Fully Offline AI Assistant]] (2026-03-03)
 - [[2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo-cn|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 (中文)]] (2026-03-02)
 - [[2026-03-02-latest-ai-news-and-ai-breakthroughs-that-matter-mo|Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 | News]] (2026-03-02)
-- [[2026-03-01-introducing-gpt-45-cn|Introducing GPT-4.5 (中文)]] (2026-03-01)
-- [[2026-03-01-introducing-gpt-45|Introducing GPT-4.5]] (2026-03-01)
+
 - [[2026-03-01-building-effective-ai-agents-cn|Building Effective AI Agents (中文)]] (2026-03-01)
 - [[2026-03-01-building-effective-ai-agents|Building Effective AI Agents]] (2026-03-01)
 - [[2026-03-01-claude-37-sonnet-and-claude-code|Claude 3.7 Sonnet and Claude Code]] (2026-03-01)
