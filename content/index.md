@@ -20,8 +20,8 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
-- [[AI/2026-03-09-how-ai-is-transforming-work-at-anthropic|How AI Is Transforming Work at Anthropic]] 🆕
 - [[AI/2026-03-09-how-ai-is-transforming-work-at-anthropic-cn|How AI Is Transforming Work at Anthropic (中文翻译)]] 🆕
+- [[AI/2026-03-09-how-ai-is-transforming-work-at-anthropic|How AI Is Transforming Work at Anthropic]] 🆕
 - [[programming/2026-03-01-claude-code-remote-control-review-en-cn|Claude Code Remote Control Review (中文翻译)]] 🆕
 - [[AI/2026-03-01-building-effective-ai-agents-cn|Building Effective AI Agents (中文翻译)]]
 - [[AI/2026-03-01-building-effective-ai-agents|Building Effective AI Agents]]
