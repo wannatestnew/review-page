@@ -6,6 +6,7 @@ title: "Programming"
 
 ## Articles
 
+- [[2026-03-01-claude-code-remote-control-review-en-cn|Claude Code Remote Control Review (中文)]] (2026-03-01)
 - [[2026-03-01-openclaw-config-guide|OpenClaw 配置文件说明]] (2026-03-01)
 - [[2026-03-01-learn-markdown-basics|Markdown 入门教程]] (2026-03-01)
 - [[2026-03-01-learn-json-format|JSON 文件格式入门教程]] (2026-03-01)
@@ -14,4 +15,4 @@ title: "Programming"
 - [[2026-03-01-claude-code-remote-control-review-en|Claude Code Remote Control Review]] (2026-03-01)
 
 ---
-*Last updated: 2026-03-05*
+*Last updated: 2026-03-09*
