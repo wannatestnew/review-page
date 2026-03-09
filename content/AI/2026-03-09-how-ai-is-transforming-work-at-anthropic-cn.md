@@ -6,321 +6,413 @@ source: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthro
 category: AI
 lang: zh
 translation_source: "2026-03-09-how-ai-is-transforming-work-at-anthropic"
-translator: "GLM-5 (z-ai/glm5)"
+translator: "GLM-5 (NVIDIA NIM)"
 ---
 
-> 🌐 **English Version**: [[2026-03-09-how-ai-is-transforming-work-at-anthropic|Read original English version]]
-# How AI Is Transforming Work at Anthropic
+> 🌐 **英文原文**: [[2026-03-09-how-ai-is-transforming-work-at-anthropic|阅读英文原文]]
 
-Title: How AI Is Transforming Work at Anthropic
+# AI 如何改变 Anthropic 的工作方式
 
-URL Source: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+标题：AI 如何改变 Anthropic 的工作方式
 
-Markdown Content:
-How is AI changing the way we work? Our [previous research](https://www.anthropic.com/economic-index) on AI’s economic impacts looked at the labor market as a whole, covering a variety of different jobs. But what if we studied some of the earliest adopters of AI technology in more detail—namely, us?
+原文链接：https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
 
-Turning the lens inward, in August 2025 we surveyed 132 Anthropic engineers and researchers, conducted 53 in-depth qualitative interviews, and studied internal [Claude Code](https://www.anthropic.com/claude-code) usage data to find out how AI use is changing things at Anthropic. We find that AI use is radically changing the nature of work for software developers, generating both hope and concern.
+AI 正在如何改变我们的工作方式？我们之前关于 AI 经济影响的[研究](https://www.anthropic.com/economic-index)从整体上考察了劳动力市场，涵盖了各种不同的工作。但如果我们更详细地研究一些 AI 技术的早期采用者——也就是我们自己呢？
 
-Our research reveals a workplace facing significant transformations: Engineers are getting a lot more done, becoming more “full-stack” (able to succeed at tasks beyond their normal expertise), accelerating their learning and iteration speed, and tackling previously-neglected tasks. This expansion in breadth also has people wondering about the trade-offs—some worry that this could mean losing deeper technical competence, or becoming less able to effectively supervise Claude’s outputs, while others embrace the opportunity to think more expansively and at a higher level. Some found that more AI collaboration meant they collaborated less with colleagues; some wondered if they might eventually automate themselves out of a job.
+将视角转向内部，我们在 2025 年 8 月调查了 132 名 Anthropic 工程师和研究人员，进行了 53 次深度定性访谈，并研究了内部 [Claude Code](https://www.anthropic.com/claude-code) 使用数据，以了解 AI 的使用正在如何改变 Anthropic 的工作。
 
-We recognize that studying AI’s impact at a company building AI means representing a privileged position—our engineers have early access to cutting-edge tools, work in a relatively stable field, and are themselves contributing to the AI transformation affecting other industries. Despite this, we felt it was on balance useful to research and publish these findings, because what’s happening inside Anthropic for engineers may still be an instructive harbinger of broader societal transformation. Our findings imply some challenges and considerations that may warrant early attention across sectors (though see the Limitations section in the [Appendix](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#appendix)for caveats). At the time this data was collected, Claude Sonnet 4 and Claude Opus 4 were the most capable models available, and capabilities have continued to advance.
+我们发现，AI 的使用正在从根本上改变软件开发人员的工作性质，既带来了希望，也引发了担忧。我们的研究揭示了一个面临重大变革的工作场所：工程师们完成的工作大幅增加，变得更加"全栈"（能够成功完成超出其正常专业领域的任务），加快了学习和迭代速度，并处理以前被忽视的任务。这种广度的扩展也让人们开始思考权衡问题——有些人担心这可能意味着失去更深层次的技术能力，或者变得不那么能够有效地监督 Claude 的输出，而另一些人则欣然接受更广阔、更高层次思考的机会。有些人发现更多的 AI 协作意味着与同事协作减少；有些人想知道他们最终是否会把自己从工作中自动化掉。
 
-More capable AI brings productivity benefits, but it also raises questions about maintaining technical expertise, preserving meaningful collaboration, and preparing for an uncertain future that may require new approaches to learning, mentorship, and career development in an AI-augmented workplace. We discuss some initial steps we’re taking to explore these questions internally in the Looking Forward section below. We also explored potential policy responses in our recent blog post on [ideas for AI-related economic policy](https://www.anthropic.com/research/economic-policy-responses).
+我们认识到，在一家构建 AI 的公司研究 AI 的影响意味着处于一个特权地位——我们的工程师可以早期使用最前沿的工具，在一个相对稳定的领域工作，并且他们自己也在促成影响其他行业的 AI 变革。尽管如此，我们觉得总体上研究和发布这些发现是有用的，因为 Anthropic 内部工程师的经历可能仍然是更广泛社会变革的有益预兆。
 
-Key findings
-------------
+我们的发现暗示了一些可能值得各部门及早关注的挑战和考虑（尽管请参阅[附录](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#appendix)中的"局限性"部分以了解注意事项）。在收集这些数据时，Claude Sonnet 4 和 Claude Opus 4 是当时最强大的模型，而且能力一直在不断进步。更强大的 AI 带来了生产力提升，但也提出了关于保持技术专业知识、保持有意义的协作以及为不确定的未来做准备的问题，这可能需要在 AI 增强的工作场所采用新的学习、指导和职业发展方法。我们在下文的"展望未来"部分讨论了我们在内部探索这些问题的一些初步措施。我们还在最近关于 [AI 相关经济政策建议](https://www.anthropic.com/research/economic-policy-responses)的博客文章中探讨了潜在的政策应对措施。
 
-In this section, we briefly summarize the findings from our survey, interviews, and Claude Code data. We provide detailed findings, methods, and caveats in the subsequent sections below.
+主要发现
+--------
 
-**Survey data**
+在本节中，我们简要总结我们的调查、访谈和 Claude Code 数据的发现。我们在下文的后续部分提供详细的发现、方法和注意事项。
 
-1.   **Anthropic engineers and researchers use Claude most often for fixing code errors and learning about the codebase**. Debugging and code understanding are the most common uses (Figure 1).
-2.   **People report increasing Claude usage and productivity gains.**Employees self-report using Claude in 60% of their work and achieving a 50% productivity boost, a 2-3x increase from this time last year. This productivity looks like slightly less time per task category, but considerably more output volume (Figure 2).
-3.   **27% of Claude-assisted work consists of tasks that wouldn't have been done otherwise**, such as scaling projects, making nice-to-have tools (e.g. interactive data dashboards), and exploratory work that wouldn't be cost-effective if done manually.
-4.   **Most employees use Claude frequently while reporting they can “fully delegate” 0-20% of their work to it.** Claude is a constant collaborator but using it generally involves active supervision and validation, especially in high-stakes work—versus handing off tasks requiring no verification at all.
+**调查数据**
 
-**Qualitative interviews**
+1. **Anthropic 工程师和研究人员最常使用 Claude 来修复代码错误和学习代码库**。调试和代码理解是最常见的用途（图 1）。
 
-1.   **Employees are developing intuitions for AI delegation**. Engineers tend to delegate tasks that are easily verifiable, where they “can relatively easily sniff-check on correctness”, low-stakes (e.g. “throwaway debug or research code”), or boring (“The more excited I am to do the task, the more likely I am to not use Claude”). Many describe a trust progression, starting with simple tasks and gradually delegating more complex work—and while they’re currently keeping most design or “taste” tasks, this boundary is being renegotiated as models improve.
-2.   **Skillsets are broadening into more areas, but some are getting less practice.**Claude enables people to broaden their skills into more areas (of software engineering (“I can very capably work on front-end, or transactional databases... where previously I would've been scared to touch stuff”), but some employees are also concerned, paradoxically, about the atrophy of deeper skillsets required for both writing and critiquing code—“When producing output is so easy and fast, it gets harder and harder to actually take the time to learn something.”
-3.   **Changing relationship to coding craft.**Some engineers embrace AI assistance and focus on outcomes (“I thought that I really enjoyed writing code, and I think instead I actually just enjoy what I get out of writing code”); others say that “there are certainly some parts of [writing code] that I miss.”
-4.   **Workplace social dynamics may be changing.** Claude is now the first stop for questions that used to go to colleagues—some report fewer mentorship and collaboration opportunities as a result. (“I like working with people and it's sad that I ‘need’ them less now… More junior people don't come to me with questions as often.”)
-5.   **Career evolution and uncertainty.** Engineers report shifting toward higher-level work managing AI systems and report significant productivity gains. However, these changes also raise questions about the long-term trajectory of software engineering as a profession. Some express conflicting feelings about the future: “I feel optimistic in the short term but in the long term I think AI will end up doing everything and make me and many others irrelevant.” Others emphasize genuine uncertainty, saying only that it was “hard to say” what their roles might look like in a few years’ time.
+2. **人们报告 Claude 使用增加和生产力提升**。员工自我报告在工作中 60% 的时间使用 Claude，并实现了 50% 的生产力提升，比去年同期增长 2-3 倍。这种生产力表现为每个任务类别花费的时间略少，但产出量大幅增加（图 2）。
 
-**Claude Code usage trends**
+3. **27% 的 Claude 辅助工作由原本不会完成的任务组成**，例如扩展项目、制作"锦上添花"的工具（例如交互式数据仪表板），以及手动完成不划算的探索性工作。
 
-1.   **Claude is handling increasingly complex tasks more autonomously**. Six months ago, Claude Code would complete about 10 actions on its own before needing human input. Now, it generally handles around 20, needing less frequent human steering to complete more complex workflows (Figure 3). Engineers increasingly use Claude for complex tasks like code design/planning (1% to 10% of usage) and implementing new features (14% to 37%) (Figure 4).
-2.   **Claude fixes a lot of “papercuts”.** 8.6% of Claude Code tasks involve fixing minor issues that improve quality of life, like refactoring code for maintainability (that is, “fixing papercuts”) that people say would typically be deprioritized. These small fixes could add up to larger productivity and efficiency gains.
-3.   **Everyone is becoming more “full-stack”.** Different teams use Claude in different ways, often to augment their core expertise—Security uses it to analyze unfamiliar code, Alignment & Safety use it to build front-end visualizations of their data, and so on (Figure 5).
+4. **大多数员工频繁使用 Claude，同时报告他们只能将 0-20% 的工作"完全委托"给它**。Claude 是一个持续的合作伙伴，但使用它通常需要主动的监督和验证，特别是在高风险工作中——而不是移交不需要任何验证的任务。
 
-Survey data
------------
+**定性访谈**
 
-We surveyed 132 Anthropic engineers and researchers from across the organization about their Claude use, to better understand how exactly they were using it day-to-day. We distributed our survey through internal communication channels and direct outreach to employees across diverse teams representing both research and product functions. We have included a Limitations section in the Appendix with more methodological details, and we are sharing [our survey questions](https://assets.anthropic.com/m/6cd21f7d4f82afcb/original/Claude-at-Work-Survey.pdf) so others can evaluate our approach and adapt it for their own research.
+1. **员工正在培养 AI 委托的直觉**。工程师倾向于委托容易验证的任务，他们可以相对容易地"嗅查正确性"，低风险（例如"一次性调试或研究代码"），或无聊的任务（"我对任务越兴奋，我就越不可能使用 Claude"）。许多人描述了一个信任渐进过程，从简单任务开始，逐渐委托更复杂的工作——虽然他们目前保留大多数设计或"品味"任务，但随着模型的改进，这个边界正在被重新协商。
 
-### What coding tasks are people using Claude for?
+2. **技能集正在向更多领域扩展，但有些技能练习减少**。Claude 使人们能够将技能扩展到软件工程的更多领域（"我可以很好地从事前端工作或事务数据库......而以前我会害怕接触我不擅长的事物"），但矛盾的是，一些员工也担心编写和批评代码所需的更深层次技能集的萎缩——"当产出如此简单快速时，实际上越来越难花时间学习一些东西。"
 
-We asked the surveyed engineers and researchers to rate how often they used Claude for various types of coding tasks, such as “debugging” (using Claude to help fix errors in code), “code understanding” (having Claude explain existing code to help the human user understand the codebase), “refactoring” (using Claude to help restructure existing code), and “data science” (e.g. having Claude analyze datasets and make bar charts).
+3. **与编程工艺的关系改变**。一些工程师欣然接受 AI 辅助并关注结果（"我以为我真的很喜欢写代码，但我认为我实际上只是喜欢写代码得到的东西"）；另一些人说"当然有些[写代码]的部分我怀念。"
 
-Below are the most common daily tasks. Most employees (55%) used Claude for debugging on a daily basis. 42% used Claude everyday for code understanding, and 37% used Claude everyday for implementing new features. The less-frequent tasks were high level design/planning (likely because these are tasks people tend to keep in human hands), as well as data science and front-end development (likely because they are overall less common tasks). This roughly aligns with the Claude Code usage data distribution reported in the “Claude Code usage trends” section.
+4. **工作场所的社交动态可能正在改变**。Claude 现在是以前问同事的问题的第一站——一些人因此报告指导和协作机会减少。（"我喜欢与人合作，很伤心我现在'需要'他们少了......更初级的人不那么经常来问我问题了。"）
 
-![Image 1: Figure 1: Proportion of daily users (x-axis) for various coding tasks (y-axis).](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F64a18b1756d8954a93e1356f1330ec11075fbe54-3840x2160.png&w=3840&q=75)
+5. **职业演变和不确定性**。工程师报告转向管理 AI 系统的更高层次工作，并报告显著的生产力提升。然而，这些变化也提出了软件工程作为职业的长期轨迹问题。一些人表达了对未来的矛盾感受："我在短期内感到乐观，但从长远来看，我认为 AI 最终会做所有事情，让我和其他许多人变得无关紧要。"另一些人强调真正的不确定性，只说他们的角色几年后会是什么样子"很难说"。
 
-_Figure 1: Proportion of daily users (x-axis) for various coding tasks (y-axis)._
+**Claude Code 使用趋势**
 
-### Usage and productivity
+1. **Claude 正在更自主地处理日益复杂的任务**。六个月前，Claude Code 在需要人工输入之前会自己完成大约 10 个操作。现在，它通常处理大约 20 个操作，需要更少的人工指导来完成更复杂的工作流程（图 3）。工程师越来越多地将 Claude 用于复杂任务，如代码设计/规划（使用量从 1% 到 10%）和实现新功能（14% 到 37%）（图 4）。
 
-Employees self-reported that 12 months ago, they used Claude in 28% of their daily work and got a +20% productivity boost from it, whereas now, they use Claude in 59% of their work and achieve +50% productivity gains from it on average. (This roughly corroborates the 67% increase in merged pull requests—i.e. successfully incorporated changes to code—per engineer per day we saw when we adopted Claude Code [across our Engineering org](https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built).) The year-on-year comparison is quite dramatic—this suggests a more than 2x increase in both metrics in one year. Usage and productivity are also strongly correlated, and at the extreme end of the distribution, 14% of respondents are increasing their productivity by more than 100% by using Claude—these are our internal “power users.”
+2. **Claude 修复了很多"小问题"**。8.6% 的 Claude Code 任务涉及修复改善生活质量的小问题，如重构代码以提高可维护性（即"修复小问题"），人们说这些任务通常会被优先级降低。这些小修复可能会累积成更大的生产力和效率提升。
 
-To caveat this finding (and other self-reported productivity findings below), productivity is difficult to precisely measure (see [Appendix](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#appendix) for more limitations). There is [recent work from METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), an AI research nonprofit, showing that experienced developers working with AI on highly familiar codebases overestimated their productivity boost from AI. That being said, the factors that METR identified as contributing to lower productivity than expected (e.g. AI performing worse in large, complex environments, or where there’s a lot of tacit knowledge/context necessary) closely correspond to the types of tasks our employees said they _don’t_ delegate to Claude (see [AI delegation approaches](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#ai-delegation-approaches), below). Our productivity gains, self-reported _across_ tasks, might reflect employees developing strategic AI delegation skills—something not accounted for in the METR study.
+3. **每个人都在变得更加"全栈"**。不同的团队以不同的方式使用 Claude，通常用来增强他们的核心专业知识——安全团队用它来分析不熟悉的代码，对齐与安全团队用它来构建数据的前端可视化，等等（图 5）。
 
-An interesting productivity pattern emerges when asking employees, for task categories where they currently use Claude, how it affects their overall time spent and work output volume in that task category. Across almost all task categories, we see a net decrease in time spent, and a larger net increase in output volume:
+调查数据
+--------
 
-![Image 2: Figure 2: Impact on time spent (left panel) and output volume (right panel) by task (y-axis). The x-axis on each plot corresponds to either a self-reported decrease (negative values), increase (positive values) or no change (vertical dashed line) in time spent or output volume for categories of Claude-assisted tasks, compared to not using Claude. Error bars show 95% confidence intervals. Circle area is proportional to the number of responses at each rating point. Only respondents who reported using Claude for each task category are included.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9449bf9393743105a414e17324f30970208ce14b-3840x2160.png&w=3840&q=75)
+我们调查了来自整个组织的 132 名 Anthropic 工程师和研究人员关于他们使用 Claude 的情况，以更好地了解他们日常究竟是如何使用它的。我们通过内部沟通渠道和直接联系代表研究和产品职能的各个团队的员工分发调查。我们在附录中包含了"局限性"部分，提供了更多方法细节，并且我们正在分享[我们的调查问题](https://assets.anthropic.com/m/6cd21f7d4f82afcb/original/Claude-at-Work-Survey.pdf)，以便其他人可以评估我们的方法并将其用于自己的研究。
 
-_Figure 2: Impact on time spent (left panel) and output volume (right panel) by task (y-axis). The x-axis on each plot corresponds to either a self-reported decrease (negative values), increase (positive values) or no change (vertical dashed line) in time spent or output volume for categories of Claude-assisted tasks, compared to not using Claude. Error bars show 95% confidence intervals. Circle area is proportional to the number of responses at each rating point. Only respondents who reported using Claude for each task category are included._
+### 人们用 Claude 做什么编码任务？
 
-However, when we dig deeper into the raw data, we see that the time saving responses cluster at opposite ends—some people spend significantly _more_ time on tasks that are Claude-assisted.
+我们要求被调查的工程师和研究人员评估他们使用 Claude 进行各种编码任务的频率，例如"调试"（使用 Claude 帮助修复代码中的错误）、"代码理解"（让 Claude 解释现有代码以帮助人类用户理解代码库）、"重构"（使用 Claude 帮助重构现有代码）和"数据科学"（例如让 Claude 分析数据集并制作条形图）。以下是最常见的日常任务。
 
-Why is that? People generally explained that they had to do more debugging and cleanup of Claude’s code (e.g. “when I vibe code myself into a corner”), and shoulder more cognitive overhead for understanding Claude’s code since they didn’t write it themselves. Some mentioned spending more time on tasks in an enabling sense—one said that using Claude helps them “persist on tasks that I previously would've given up on immediately”; another said it helps them do more thorough testing and also more learning and exploration in new codebases. It seems that generally, engineers experiencing time savings may be those who are scoping quickly-verifiable tasks for Claude, while those spending more time might be debugging AI-generated code or working in domains where Claude needs more guidance.
+大多数员工（55%）每天使用 Claude 进行调试。42% 每天使用 Claude 进行代码理解，37% 每天使用 Claude 实现新功能。频率较低的任务是高层设计/规划（可能因为这些是人们倾向于保留在人工手中的任务），以及数据科学和前端开发（可能因为它们总体上是较少见的任务）。
 
-It is also not clear from our data where reported time savings are being reinvested—whether into additional engineering tasks, non-engineering tasks, interacting with Claude or reviewing its output, or activities outside of work. Our task categorization framework does not capture all the ways engineers might allocate their time. Additionally, the time savings may reflect perception biases in self-reporting. Further research is needed to disentangle these effects.
+这与"Claude Code 使用趋势"部分报告的 Claude Code 使用数据分布大致一致。
 
-Output volume increases are more straightforward and substantial; there is a larger net increase across all task categories. This pattern makes sense when we consider that people are reporting on task categories (like “debugging” overall) rather than individual tasks—i.e. people can spend slightly less time on debugging as a category while producing much more debugging output overall. Productivity is very hard to measure directly, but this self-reported data suggests that AI enables increased productivity at Anthropic primarily through greater output volume.
+![图 1：各种编码任务（y 轴）的日常用户比例（x 轴）。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F64a18b1756d8954a93e1356f1330ec11075fbe54-3840x2160.png&w=3840&q=75)
 
-### Claude enabling new work
+*图 1：各种编码任务（y 轴）的日常用户比例（x 轴）。*
 
-One thing we were curious about: Is Claude enabling qualitatively new kinds of work, or would Claude-assisted work have been done by employees eventually (albeit potentially at a slower rate)?
+### 使用和生产力
 
-Employees estimated that 27% of their Claude-assisted work wouldn't have been done without it. Engineers cited using AI for scaling projects, nice-to-haves (e.g. interactive data dashboards), useful but tedious work like documentation and testing, and exploratory work that wouldn't be cost-effective manually. As one person explained, they can now fix more “papercuts” that previously damaged quality of life, such as refactoring badly-structured code, or building “small tools that help accomplish another task faster.” We looked for this in our usage data analysis as well, and [found that](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#fixing-papercuts) 8.6% of Claude Code tasks involve ‘papercut fixes.’
+员工自我报告称，12 个月前，他们在日常工作的 28% 中使用 Claude 并从中获得了 +20% 的生产力提升，而现在，他们在工作的 59% 中使用 Claude 并平均实现 +50% 的生产力提升。（这与我们在整个工程组织中采用 Claude Code 时看到的每位工程师每天成功合并的拉取请求——即成功纳入代码的更改——增加 67% 大致吻合。）
 
-Another researcher explained that they ran many versions of Claude simultaneously, all exploring different approaches to a problem:
+年度对比相当显著——这表明一年内两个指标都增长了 2 倍以上。使用和生产力也密切相关，在分布的极端端，14% 的受访者通过使用 Claude 将生产力提高了 100% 以上——这些是我们内部的"超级用户"。
 
-> People tend to think about super capable models as a single instance, like getting a faster car. But having a million horses… allows you to test a bunch of different ideas… It’s exciting and more creative when you have that extra breadth to explore.
+需要说明的是这个发现（以及下面其他自我报告的生产力发现），生产力很难精确衡量（有关更多限制，请参阅[附录](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#appendix)）。[METR 最近的研究](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)（一个 AI 研究非营利组织）表明，在高度熟悉的代码库上与 AI 合作的经验丰富的开发者高估了他们从 AI 获得的生产力提升。
 
-As we'll see in the following sections, this new work often involves engineers tackling tasks outside their core expertise.
+也就是说，METR 确定的导致生产力低于预期的因素（例如 AI 在大型复杂环境中表现较差，或需要大量隐性知识/背景）与我们的员工说他们_不_委托给 Claude 的任务类型密切相关（请参阅下文的 [AI 委托方法](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#ai-delegation-approaches)）。我们跨任务自我报告的生产力提升可能反映了员工培养的战略性 AI 委托技能——这是 METR 研究中没有考虑到的。
 
-### How much work can be fully delegated to Claude?
+当询问员工对于他们当前使用 Claude 的任务类别，它如何影响他们在该任务类别中的总体时间花费和工作产出量时，一个有趣的生产力模式出现了。几乎所有任务类别，我们都看到时间花费的净减少，以及产出量的更大净增加：
 
-Although engineers use Claude frequently, more than half said they can “fully delegate” only between 0-20% of their work to Claude. (It’s worth noting that there is variation in how respondents might interpret “fully delegate”—from tasks needing no verification at all to those that are reliable enough to require only light oversight.) When explaining why, engineers described working actively and iteratively with Claude, and validating its outputs—particularly for complex tasks or high-stakes areas where code quality standards are critical. This suggests that engineers tend to collaborate closely with Claude and check its work rather than handing off tasks without verification, and that they set a high bar for what counts as “fully delegated.”
+![图 2：各任务（y 轴）对时间花费（左面板）和产出量（右面板）的影响。每个图的 x 轴对应于 Claude 辅助任务类别的时间花费或产出量的自我报告减少（负值）、增加（正值）或无变化（垂直虚线），与不使用 Claude 相比。误差线显示 95% 置信区间。圆面积与每个评分点的响应数量成比例。仅包括报告使用 Claude 进行每个任务类别的受访者。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9449bf9393743105a414e17324f30970208ce14b-3840x2160.png&w=3840&q=75)
 
-Qualitative interviews
-----------------------
+*图 2：各任务（y 轴）对时间花费（左面板）和产出量（右面板）的影响。每个图的 x 轴对应于 Claude 辅助任务类别的时间花费或产出量的自我报告减少（负值）、增加（正值）或无变化（垂直虚线），与不使用 Claude 相比。误差线显示 95% 置信区间。圆面积与每个评分点的响应数量成比例。仅包括报告使用 Claude 进行每个任务类别的受访者。*
 
-While these survey findings reveal significant productivity gains and changing work patterns, they raise questions about how engineers are actually experiencing these changes day-to-day. To understand the human dimension behind these metrics, we conducted in-depth interviews with 53 of the Anthropic engineers and researchers who responded to the survey, to get more insight into how they’re thinking and feeling about these changes in the workplace.
+然而，当我们深入挖掘原始数据时，我们看到节省时间的响应聚集在两端——一些人在 Claude 辅助的任务上花费了显著_更多_的时间。为什么会这样？
 
-### AI delegation approaches
+人们通常解释说，他们不得不对 Claude 的代码进行更多的调试和清理（例如"当我用氛围编码把自己逼入角落时"），并承担更多理解 Claude 代码的认知负担，因为他们没有自己编写代码。一些人提到以赋能的方式在任务上花费更多时间——一个人说使用 Claude 帮助他们"坚持完成我以前会立即放弃的任务"；另一个人说它帮助他们进行更彻底的测试，以及在新代码库中更多的学习和探索。
 
-Engineers and researchers are developing a variety of strategies for productively leveraging Claude in their workflow. People generally delegate tasks that are:
+似乎一般来说，经历时间节省的工程师可能是那些为 Claude 规划快速可验证任务的人，而花费更多时间的人可能是在调试 AI 生成的代码或在没有 Claude 需要更多指导的领域工作。
 
-**Outside the user’s context _and_ low complexity**: 
+我们的数据也不清楚报告的时间节省被重新投资到哪里——是额外的工程任务、非工程任务、与 Claude 交互或审查其输出，还是工作之外的活动。我们的任务分类框架没有捕捉到工程师可能分配时间的所有方式。此外，时间节省可能反映了自我报告中的感知偏差。需要进一步研究来理清这些影响。
 
-“I use Claude for things where I have low context, but think that the overall complexity is also low.”
-“The majority of the infra[structure] problems I have are not difficult and can be handled by Claude… I don’t know Git or Linux very well… Claude does a good job covering for my lack of experience in these areas.”
-**Easily verifiable:**“It's absolutely _amazing_ for everything where validation effort isn't large in comparison to creation effort.”
-**Well-defined or self-contained:**“If a subcomponent of the project is sufficiently decoupled from the rest, I'll get Claude to take a stab.”
-**Code quality isn’t critical:**“If it's throwaway debug[ging] or research code, it goes straight to Claude. If it's conceptually difficult or needs some very specific type of debug injection, or a design problem, I do it myself.”
-**Repetitive or boring:**“The more excited I am to do the task, the more likely I am to not use Claude. Whereas if I'm feeling a lot of resistance… I often find it easier to start a conversation with Claude about the task.”
-In our survey, on average people said that 44% of Claude-assisted work consisted of tasks they wouldn't have enjoyed doing themselves.
-**Faster to prompt than execute:**“[For] a task that I anticipate will take me less than 10 minutes... I'm probably not going to bother using Claude.”
-“The cold start problem is probably the biggest blocker right now. And by cold start, I mean there is a lot of intrinsic information that I just have about how my team's code base works that Claude will not have by default… I could spend time trying to iterate on the perfect prompt [but] I’m just going to go and do it myself.”
+产出量增加更为直接和显著；所有任务类别都有更大的净增加。当我们考虑到人们是在报告任务类别（如整体"调试"）而不是单个任务时，这种模式就有意义了——即人们可以在调试类别上花费略少的时间，同时产生更多的调试产出。
 
-These factors mentioned by our employees in their decisions about delegation were similar to those found to explain AI-related productivity slowdowns (such as high developer familiarity with codebase, large and complex repositories) in an [external study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) from METR. The convergence on these delegation criteria across our interviews suggests that appropriate task choice is an important factor in AI productivity gains (which should be carefully controlled for in future productivity studies).
+生产力很难直接衡量，但这些自我报告的数据表明，AI 主要通过更大的产出量使 Anthropic 的生产力提高。
 
-#### Trust but verify
+### Claude 支持新工作
 
-Many users described a progression in their Claude usage that involved delegating increasingly complex tasks over time: “At first I used AI tools with basic questions about Rust programming language... Lately, I've been using Claude Code for all my coding.”
+我们好奇的一件事：Claude 是在支持定性上新的工作类型，还是 Claude 辅助的工作最终会由员工完成（尽管可能速度较慢）？员工估计他们 27% 的 Claude 辅助工作如果没有它就不会完成。
 
-One engineer likened the trust progression to adopting other technologies, like Google Maps:
+工程师列举了使用 AI 进行项目扩展、"锦上添花"的东西（例如交互式数据仪表板）、有用但乏味的工作如文档和测试，以及手动完成不划算的探索性工作。正如一个人解释的那样，他们现在可以修复更多以前损害生活质量的"小问题"，例如重构结构不良的代码，或构建"帮助更快完成另一项任务的小工具"。
 
-> In the beginning I would use [Google Maps] only for routes I didn't know... This is like me using Claude to write SQL that I didn't know, but not asking it to write Python that I did. Then I started using Google Maps on routes that I mostly knew, but maybe I didn't know the last mile... Today I use Google Maps all the time, even for my daily commute. If it says to take a different way I do, and just trust that it considered all options... I use Claude Code in a similar way today.
+我们在使用数据分析中也寻找了这一点，并[发现](https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic#fixing-papercuts) 8.6% 的 Claude Code 任务涉及"小问题修复"。
 
-Engineers are split on whether to use Claude within or outside their expertise. Some use it for “peripheral” domains to save implementation time; others prefer familiar territory where they can verify outputs (“I use Claude in such a way where I still have full understanding of what it’s doing”). A security engineer highlighted the importance of experience when Claude proposed a solution that was “really smart in the dangerous way, the kind of thing a very talented junior engineer might propose”. That is, it was something that could only be recognised as problematic by users with judgment and experience.
+另一位研究人员解释说，他们同时运行许多版本的 Claude，都探索解决问题的不同方法：
 
-Other engineers use Claude for both types of tasks, either in an experimental way (“I basically always use Claude to take a first crack at any coding problem”), or by adapting their approach depending on their level of expertise in the task:
+> 人们倾向于将超级强大的模型视为单个实例，就像获得一辆更快的车。但拥有一百万匹马......允许你测试一堆不同的想法......当你有额外的广度可以探索时，这令人兴奋且更具创造性。
 
-> I use the tools for both things that are core to my expertise (as an accelerant, where I know what to expect and can guide the agent effectively), and for things that are slightly outside my area of expertise, where I know roughly what to expect but that Claude is able to fill in the gaps in my memory or familiarity with specific definitions.
+正如我们将在以下部分看到的那样，这种新工作通常涉及工程师处理其核心专业知识之外的任务。
 
-> If it's something that I am particularly versed about, I will be more assertive and tell Claude what it needs to track down. If it's something I'm not sure about I often ask it to be the expert and give me options and insights on things I should consider and research.
+### 多少工作可以完全委托给 Claude？
 
-#### What tasks do people keep for themselves?
+尽管工程师频繁使用 Claude，但超过一半的人说他们只能将 0-20% 的工作"完全委托"给 Claude。（值得注意的是，受访者对"完全委托"的解读可能有所不同——从完全不需要验证的任务到足够可靠只需轻监督的任务。）
 
-People consistently said they didn’t use Claude for tasks involving high-level or strategic thinking, or for design decisions that require organizational context or “taste.” One engineer explained: “I usually keep the high-level thinking and design. I delegate anything I can from new feature development to debugging.” This is reflected in our survey data, which showed the least productivity gains for design and planning tasks (Figure 2). Many people described delegation boundaries as a “moving target,” though, regularly renegotiated as models improve (below, the Claude Code usage data shows relatively more coding design/planning usage now than six months ago).
+在解释原因时，工程师描述了主动和迭代地与 Claude 合作，并验证其输出——特别是对于复杂任务或代码质量标准至关重要的高风险领域。这表明工程师倾向于与 Claude 密切合作并检查其工作，而不是在不验证的情况下移交任务，并且他们对什么算作"完全委托"设定了很高的标准。
 
-### Skill transformations
+定性访谈
+--------
 
-#### New capabilities…
+虽然这些调查发现揭示了显著的生产力提升和不断变化的工作模式，但它们提出了工程师日常实际如何经历这些变化的问题。为了了解这些指标背后的人性维度，我们对 53 名响应调查的 Anthropic 工程师和研究人员进行了深度访谈，以更深入地了解他们如何看待和感受工作场所的这些变化。
 
-The survey finding that 27% of Claude-assisted work wouldn't have been done otherwise reflects a broader pattern: engineers using AI to work outside their core expertise. Many employees report completing work previously outside their expertise—backend engineers building UIs; researchers creating visualizations. One backend engineer described building a complex UI by iterating with Claude: “It did a way better job than I ever would’ve. I would not have been able to do it, definitely not on time... [The designers] were like ‘wait, you did this?’ I said “No, Claude did this - I just prompted it.’”
+### AI 委托方法
 
-Engineers report “becoming more full-stack… I can very capably work on front-end, or transactional databases, or API code, where previously I would've been scared to touch stuff I'm less of an expert on.” This capability expansion enables tighter feedback loops and faster learning—one engineer said that a “couple week process” of building, scheduling meetings, and iterating could become “a couple hour working session” with colleagues present for live feedback.
+工程师和研究人员正在开发各种策略，以便在工作流程中有效地利用 Claude。人们通常委托以下类型的任务：
 
-In general, people were enthused by their new ability to prototype quickly, parallelize work, reduce toil, and generally raise their level of ambition. One senior engineer told us, “The tools are definitely making junior engineers more productive and more bold with the types of projects they will take on.” Some also said that the reduced “activation energy” of using Claude enabled them to defeat procrastination more easily, “dramatically decreas[ing] the energy required for me to want to start tackling a problem and therefore I'm willing to tackle so many additional things.”
+**超出用户背景_且_复杂性低**："我使用 Claude 处理我背景很少但整体复杂性也很低的事情。"
 
-#### …and less hands-on practice
+"我的大多数基础设施问题都不难，可以由 Claude 处理......我不太了解 Git 或 Linux......Claude 在弥补我这些领域经验不足方面做得很好。"
 
-At the same time, some were worried about “skills atrophying as [they] delegate more”, and losing the incidental (or “collateral”) learning that happens during manual problem-solving:
+**容易验证**："对于验证工作量与创建工作量相比不大的所有事情，它绝对_棒极了_。"
 
-> If you were to go out and debug a hard issue yourself, you're going to spend time reading docs and code that isn't directly useful for solving your problem—but this entire time you're building a model of how the system works. There's a lot less of that going on because Claude can just get you to the problem right away.
+**定义明确或自包含**："如果项目的子组件与其余部分足够解耦，我会让 Claude 试一试。"
 
-> I used to explore every config to understand what the tool can do but now I rely on AI to tell me how to use new tools and so I lack the expertise. In conversations with other teammates I can instantly recall things vs now I have to ask AI.
+**代码质量不关键**："如果是一次性调试或研究代码，它会直接交给 Claude。如果是概念上困难或需要某种特定类型的调试注入，或者是设计问题，我会自己做。"
 
-> Using Claude has the potential to skip the part where I learn how to perform a task by solving an easy instance, and then struggle to solve a more complicated instance later.
+**重复或无聊**："我对任务越兴奋，我就越不可能使用 Claude。而如果我感到很多阻力......我经常发现与 Claude 开始关于任务的对话更容易。"
 
-One senior engineer said they’d be more worried about their skills if they were more junior:
+在我们的调查中，人们平均说 44% 的 Claude 辅助工作由他们自己不会喜欢做的任务组成。
 
-> I’m primarily using AI in cases where I know what the answer should be or should look like. I developed that ability by doing SWE ‘the hard way’... But if I were [earlier in my career], I would think it would take a lot of deliberate effort to continue growing my own abilities rather than blindly accepting the model output.
+**提示比执行更快**："对于一个我预计需要不到 10 分钟的任务......我可能不会费心使用 Claude。"
 
-One reason that the atrophy of coding skills is concerning is the “paradox of supervision”—as mentioned above, effectively using Claude requires supervision, and supervising Claude requires the very coding skills that may atrophy from AI overuse. One person said:
+"冷启动问题可能是现在最大的障碍。所谓冷启动，我意思是我的团队代码库如何运作有很多内在信息，Claude 默认不会有......我可以花时间尝试迭代完美的提示，但我只是自己去做了。"
 
-> Honestly, I worry much more about the oversight and supervision problem than I do about my skill set specifically… having my skills atrophy or fail to develop is primarily gonna be problematic with respect to my ability to safely use AI for the tasks that I care about versus my ability to independently do those tasks.
+我们员工在委托决定中提到的这些因素与 [METR 的外部研究](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)中发现解释 AI 相关生产力放缓的因素（如开发者对代码库的高熟悉度、大型复杂存储库）相似。我们的访谈中这些委托标准的趋同表明，适当的任务选择是 AI 生产力提升的重要因素（未来生产力研究应仔细控制这一点）。
 
-To combat this, some engineers deliberately practice without AI: "Every once in a while, even if I know that Claude can nail a problem, I will not ask it to. It helps me keep myself sharp.”
+#### 信任但要验证
 
-#### Will we still need those hands-on coding skills?
+许多用户描述了他们的 Claude 使用进展，涉及随时间推移委托日益复杂的任务：
 
-Perhaps software engineering is moving to higher levels of abstraction, which it has done in the past. Early programmers worked much closer to the machine—manually managing memory, writing in assembly language, or even toggling physical switches to input instructions. Over time, higher-level, more human-readable languages emerged that automatically handled complex, low-level operations. Perhaps, in particular with the rise of “vibe coding”, we’re now moving to English as a programming language. One of our staff suggested that aspiring engineers “get good at having AIs [write code], and focus on learning higher level concepts and patterns.”
+"起初我使用 AI 工具询问关于 Rust 编程语言的基本问题......最近，我一直使用 Claude Code 进行所有编码。"
 
-A few employees said they felt that this shift empowers them to think at a higher level—“about the end product and the end user” rather than just the code. One person described the current shift by comparing it to previously having to learn linked-lists in computer science—fundamental structures that higher-level programming languages now handle automatically. “I’m very glad I knew how to do that... [but] doing those low level operations isn’t particularly important emotionally. I would rather care about what the code allows me to do.” Another engineer made a similar comparison, but noted that abstraction comes at a cost—with the move to higher-level languages, most engineers lost a deep understanding of memory handling.
+一位工程师将信任进展比作采用其他技术，如 Google Maps：
 
-Continuing to develop skills in an area can lead to better supervision of Claude and more efficient work (“I notice that when it's something I'm familiar with, it's often faster for me to do it”). But engineers are divided on whether this matters. Some remain sanguine:
+> 起初我只在我不认识的路线使用 Google Maps......这就像我使用 Claude 编写我不认识的 SQL，但不要求它编写我认识的 Python。然后我开始在大多数认识的路线使用 Google Maps，但可能不认识最后一公里......今天我一直在使用 Google Maps，即使是我每天的通勤。如果它说走不同的路，我就照做，并相信它考虑了所有选项......我今天以类似的方式使用 Claude Code。
 
-> I don't worry too much about skill erosion. The AI still makes me think through problems carefully and helps me learn new approaches. If anything, being able to explore and test ideas more quickly has accelerated my learning in some areas.
+工程师在使用 Claude 是在其专业领域内还是外部分歧很大。一些人将其用于"外围"领域以节省实施时间；另一些人更喜欢熟悉的领域，他们可以在那里验证输出（"我以这样的方式使用 Claude，即我仍然完全理解它在做什么"）。
 
-Another was more pragmatic: “I am for sure atrophying in my skills as a software engineer... But those skills could come back if they ever needed to, and I just don't need them anymore!” One noted they only lost less-important skills like making charts, and “the kind of code that's critical I can still write very well.”
+一位安全工程师强调了经验的重要性，当 Claude 提出一个"以危险的方式真正聪明的解决方案，那种非常有才华的初级工程师可能会提出的方案"时。也就是说，只有具有判断力和经验的用户才能认识到这是有问题的。
 
-Perhaps most interestingly, one engineer challenged the premise: “The ‘getting rusty’ framing relies on an assumption that coding will someday go back to the way it was pre-Claude 3.5. And I don't think it will.”
+其他工程师将 Claude 用于两种类型的任务，要么以实验方式（"我基本上总是让 Claude 对任何编码问题进行第一次尝试"），要么根据他们在任务中的专业水平调整他们的方法：
 
-#### The craft and meaning of software engineering
+> 我将这些工具用于我专业知识核心的事情（作为加速剂，我知道预期什么并可以有效地指导代理），以及稍微超出我专业领域的事情，我大致知道预期什么，但 Claude 能够填补我在记忆或对特定定义的熟悉度方面的空白。
 
-​​Engineers diverge sharply on whether they miss hands-on coding. Some feel genuine loss—“It’s the end of an era for me - I've been programming for 25 years, and feeling competent in that skill set is a core part of my professional satisfaction.” Others worry about not enjoying the new nature of the work: “Spending your day prompting Claude is not very fun or fulfilling. It's much more fun and fulfilling to put on some music and get in the zone and implement something yourself.”
+> 如果是我特别精通的事情，我会更加果断，告诉 Claude 它需要追踪什么。如果是我不确定的事情，我经常要求它成为专家，给我提供我应该考虑和研究的选择和见解。
 
-Some directly addressed the trade-off and accepted it: “There are certainly some parts of [writing code] that I miss - getting into a zen flow state when refactoring code, but overall I'm so much more productive now that I'll gladly give that up.”
+#### 人们自己保留什么任务？
 
-One person said that iterating with Claude has been _more_ fun, because they can be more picky with their feedback than with humans. Others are more interested in outcomes. One engineer said:
+人们一致表示，他们不会将涉及高层或战略思考的任务，或需要组织背景或"品味"的设计决策用于 Claude。一位工程师解释道："我通常保留高层思考和设计。我将新功能开发到调试的所有可以委托的事情都委托出去。"
 
-> I expected that by this point I would feel scared or bored… however I don't really feel either of those things. Instead I feel quite excited that I can do significantly more. I thought that I really enjoyed writing code, and instead I actually just enjoy what I get out of writing code.
+这反映在我们的调查数据中，显示设计和规划任务的生产力提升最少（图 2）。然而，许多人将委托边界描述为一个"移动目标"，随着模型的改进定期重新协商（下文的 Claude Code 使用数据显示，现在比六个月前有相对更多的编码设计/规划使用）。
 
-Whether people embrace AI assistance or mourn the loss of hands-on coding seems to depend on what aspects of software engineering they find most meaningful.
+### 技能转型
 
-### Changing social dynamics in the workplace
+#### 新能力......
 
-One of the more prominent themes was that Claude has become the first stop for questions that once went to colleagues. “I ask way more questions [now] in general, but like 80-90% of them go to Claude," one employee noted. This creates a filtering mechanism where Claude handles routine inquiries, leaving colleagues to address more complex, strategic, or context-heavy issues that exceed AI capabilities (“It has reduced my dependence on [my team] by 80%, [but] the last 20% is crucial and I go and talk to them”). People also “bounce ideas off” Claude, similar to interactions with human collaborators.
+调查发现 27% 的 Claude 辅助工作原本不会完成，反映了一个更广泛的模式：工程师使用 AI 在其核心专业知识之外工作。许多员工报告完成以前超出其专业知识的工作——后端工程师构建 UI；研究人员创建可视化。
 
-About half reported unchanged team collaboration patterns. One engineer said that he was still meeting with people, sharing context, and choosing directions, and that he thought that in the near future there’d still be a lot of collaboration, but “instead of doing your standard focus work, you’ll be talking to a lot of Claudes.”
+一位后端工程师描述了通过与 Claude 迭代构建复杂的 UI："它做得比我以往任何时候都要好得多。我不可能做到这一点，绝对无法按时完成......[设计师们]问'等等，你做的？'我说'不，Claude 做的——我只是提示它。'"
 
-However, others described experiencing less interaction with colleagues (“I work way more with Claude than with any of my colleagues.”) Some appreciate the reduced social friction (“I don't feel bad about taking my colleague’s time”). Others resist the change (“I actually don't love that the common response is ‘have you asked Claude?’ I really enjoy working with people in person and highly value that”) or miss the older way of working: “I like working with people and it is sad that I ‘need’ them less now.” Several pointed out the impact on traditional mentorship dynamics, because “Claude can provide a lot of coaching to junior staff” instead of senior engineers. One senior engineer said:
+工程师报告"变得更加全栈......我可以很好地从事前端、事务数据库或 API 代码，而以前我会害怕接触我不太擅长的事物。"
 
-> It's been sad that more junior people don't come to me with questions as often, though they definitely get their questions answered more effectively and learn faster.
+这种能力扩展实现了更紧密的反馈循环和更快的 学习——一位工程师说，构建、安排会议和迭代的"几周过程"可以在同事在场进行实时反馈的情况下变成"几小时的工作会议"。
 
-### Career uncertainty and adaptation
+总的来说，人们对他们快速原型设计、并行工作、减少繁琐工作和总体提高雄心水平的新能力感到兴奋。一位高级工程师告诉我们，"这些工具绝对使初级工程师更有生产力，更大胆地承担他们不会承担的项目类型。"
 
-Many engineers describe their role shifting from writing code to managing AIs. Engineers increasingly see themselves as “manager[s] of AI agents”—some already “constantly have at least a few [Claude] instances running.” One person estimated their work has shifted “70%+ to being a code reviewer/reviser rather than a net-new code writer” and another saw “taking accountability for the work of 1, 5, or 100 Claudes” as part of their future role.
+一些人还说，使用 Claude 减少的"活化能"使他们更容易克服拖延症，"显著降低了我想开始解决问题的能量需求，因此我愿意解决更多额外的事情。"
 
-In the longer term, career uncertainty is widespread. Engineers saw these changes as harbingers of broader industry transformation, and many said that it was “hard to say” what their careers might look like a few years down the line. Some expressed a conflict between short-term optimism and long-term uncertainty. “I feel optimistic in the short term but in the long term I think AI will end up doing everything and make me and many others irrelevant,” one stated. Others put a finer point on it: “It kind of feels like I'm coming to work every day to put myself out of a job.”
+#### ......以及更少的实践
 
-Some engineers were more optimistic. One said, “I fear for the junior devs, but I also appreciate that junior devs are maybe the thirstiest for new technology. I feel generally very optimistic about the trajectory of the profession.” They argued that, while there’s a potential risk of inexperienced engineers shipping problematic code, the combination of better AI guardrails, more built-in educational resources, and natural learning from mistakes will help the field adapt over time.
+与此同时，一些人担心"随着委托更多，技能萎缩"，并失去了在手动解决问题过程中发生的附带（或"附带"）学习：
 
-We asked how people envision their future roles and whether they have any adaptation strategies. Some mentioned plans to specialize further (“developing the skill to meaningfully review AI’s work will take longer and require more specialization”), some anticipated focusing on more interpersonal and strategic work in the future (“we will spend more time finding consensus and let the AIs spend more time on the implementation”). One said they use Claude specifically for career development, getting feedback from it on work and leadership skills (“The rate at which I can learn things or even just be effective without fully learning things just completely changed. I almost feel like the ceiling just shattered for me”).
+> 如果你自己去调试一个难题，你会花时间阅读对解决你的问题没有直接用处的文档和代码——但这整个过程中你在建立系统如何工作的模型。现在这种情况少了很多，因为 Claude 可以直接让你到达问题所在。
 
-Overall, many acknowledge deep uncertainty: “I have very low confidence in what specific skills I think will be useful in the future.” A team lead said: “Nobody knows what's going to happen… the important thing is to just be really adaptable.”
+> 我以前会探索每个配置以了解工具可以做什么，但现在我依赖 AI 告诉我如何使用新工具，所以我缺乏专业知识。在与队友的对话中，我可以立即回忆起一些事情，而现在我必须问 AI。
 
-Claude Code usage trends
-------------------------
+> 使用 Claude 有可能跳过我通过解决简单实例来学习如何执行任务的部分，然后后来难以解决更复杂的实例。
 
-The survey and interview data show that increased Claude usage is helping people work faster and take on new types of work, though this comes with tensions around AI delegation and skill development. Still, self-reported data only tells part of the story. To complement this, we also analyzed actual Claude usage data across Anthropic teams. Because survey respondents reported Claude Code as the majority of their usage, we used our [privacy-preserving analysis tool](https://www.anthropic.com/research/clio) to analyze 200,000 internal transcripts from Claude Code from February and August 2025.
+一位高级工程师说，如果他们更初级，他们会更担心自己的技能：
 
-### Tackling harder problems with less oversight
+> 我主要在我知道答案应该是什么或应该长什么样的情况下使用 AI。我通过'艰难的方式'做软件开发来培养这种能力......但如果我[职业生涯更早期]，我认为需要很多刻意的努力来继续发展我自己的能力，而不是盲目接受模型输出。
 
-Claude Code usage has shifted toward more difficult and autonomous coding tasks over the last six months: (Figure 3):
+编码技能萎缩令人担忧的一个原因是"监督悖论"——如上所述，有效地使用 Claude 需要监督，而监督 Claude 需要可能因 AI 过度使用而萎缩的编码技能。一个人说：
 
-*   **Employees are tackling increasingly complex tasks with Claude Code.** We estimated task complexity of each transcript on a 1-5 scale where 1 corresponds to “basic edits” and 5 is “expert-level tasks requiring weeks/months of human expert work”. Task complexity increased from 3.2 to 3.8 on average.To illustrate the difference between the scores: tasks averaging 3.2 included “Troubleshoot Python module import errors” while tasks averaging 3.8 included “Implement and optimize caching systems.”
-*   **The maximum number of consecutive tool calls Claude Code makes per transcript increased by 116%.**Tool calls correspond to actions Claude takes using external tools like making edits to files or running commands. Claude now chains together 21.2 independent tool calls without need for human intervention versus 9.8 tool calls from six months ago.
-*   **The number of human turns decreased by 33%.** The average number of human turns decreased from 6.2 to 4.1 per transcript, suggesting that less human input is necessary to accomplish a given task now compared to six months ago.
+> 老实说，我更担心监督问题而不是我的具体技能集......让我的技能萎缩或未能发展主要会在安全使用 AI 处理我关心的任务方面有问题，而不是我独立做这些任务的能力。
 
-![Image 3: Figure 3. Changes in Claude Code usage between August 2025 and February 2025 (x-axes). Average task complexity increased over time (left panel), average maximum consecutive tool calls per transcript increased over time (middle panel), and number of human turns decreased over time (right panel). Error bars show 95% confidence intervals. The data suggest people are increasingly delegating more autonomy to Claude over time.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd23e1b8d8af84b45d5cffcc6f0a029d635508153-3840x2160.png&w=3840&q=75)
+为了对抗这一点，一些工程师刻意在没有 AI 的情况下练习："每隔一段时间，即使我知道 Claude 可以解决一个问题，我也不会要求它解决。这有助于我保持敏锐。"
 
-_Figure 3. Changes in Claude Code usage between August 2025 and February 2025 (x-axes). Average task complexity increased over time (left panel), average maximum consecutive tool calls per transcript increased over time (middle panel), and number of human turns decreased over time (right panel). Error bars show 95% confidence intervals. The data suggest people are increasingly delegating more autonomy to Claude over time._
+#### 我们还需要那些动手编码技能吗？
 
-These usage data corroborate the survey data: engineers delegate increasingly complex work to Claude and Claude requires less oversight. It seems plausible that this is driving the observed productivity gains.
+也许软件工程正在转向更高层次的抽象，这是它过去做过的。早期的程序员更接近机器工作——手动管理内存、用汇编语言编写，甚至切换物理开关来输入指令。随着时间的推移，出现了更高级、更易读的语言，自动处理复杂的低级操作。
 
-### Distribution of tasks
+也许，特别是随着"氛围编码"的兴起，我们现在正在转向英语作为编程语言。我们的一位员工建议，有抱负的工程师应该"擅长让 AI 编写代码，并专注于学习更高层次的概念和模式。"
 
-We classified Claude Code transcripts into one or more types of coding tasks, studying how the uses for different tasks have evolved over the last six months:
+一些员工表示，他们觉得这种转变使他们能够在更高层次上思考——"关于最终产品和最终用户"而不仅仅是代码。一个人通过将其与以前必须在计算机科学中学习链表来描述当前的转变——更高级的编程语言现在自动处理的基本结构。
 
-![Image 4: Figure 4. Distribution of various coding tasks (y-axis) as a percentage of the overall number of records (x-axis). We compare the distribution 6 months ago (pink) to present day (purple). The y-axis is ordered by frequency in Feb 2025.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7da627df8a6be4cb90ecd6e6e41345b8122401ed-3840x2160.png&w=3840&q=75)
+"我很高兴我知道如何做......[但]做那些低级操作在情感上并不特别重要。我宁愿关心代码允许我做什么。"
 
-_Figure 4. Distribution of various coding tasks (y-axis) as a percentage of the overall number of records (x-axis). We compare the distribution 6 months ago (pink) to present day (purple). The y-axis is ordered by frequency in Feb 2025._
+另一位工程师做了类似的比较，但指出抽象是有代价的——随着转向更高级的语言，大多数工程师失去了对内存处理的深刻理解。继续在某个领域发展技能可以带来更好的 Claude 监督和更高效的工作（"我注意到，当是我熟悉的事情时，我做它通常更快"）。
 
-The overall task frequency distribution estimated from usage data roughly aligns with the self-reported task frequency distribution. The most striking change between February and August 2025 is that there now are proportionately many more transcripts using Claude to implement new features (14.3% → 36.9%) and do code design or planning (1.0% → 9.9%). This shift in the relative distribution of Claude Code tasks may suggest that Claude has become better at these more complex tasks, though it could also reflect changes in how teams adopt Claude Code for different workflows rather than increases in absolute work volume (see Appendix for more limitations).
+但工程师们对此是否重要存在分歧。一些人保持乐观：
 
-#### Fixing papercuts
+> 我不太担心技能侵蚀。AI 仍然让我仔细思考问题并帮助我学习新方法。如果有的话，能够更快地探索和测试想法在某些领域加速了我的学习。
 
-We found from the survey that engineers now spend more time making small quality-of-life improvements; in line with this, 8.6% of current Claude Code tasks are classified as “papercut fixes”. These include larger tasks such as creating performance visualization tools and refactoring code for maintainability, as well as smaller tasks like creating terminal shortcuts. This may contribute to engineers’ reported productivity gains (addressing previously neglected quality-of-life improvements may lead to more efficiency over time) and potentially reducing friction and frustration in daily work.
+另一位更加务实："作为软件工程师，我的技能确实在萎缩......但这些技能如果需要的话可以回来，而我只是不再需要它们了！"
 
-#### Task variation across teams
+一位指出他们只失去了不太重要的技能，如制作图表，而"关键类型的代码我仍然可以写得很好"。
 
-To study how tasks currently vary across teams, we refined our classification approach to assign each August transcript to a single primary coding task, and split the data by internal teams (y-axis). The stacked bar chart shows the breakdown of coding tasks for each team:
+也许最有趣的是，一位工程师挑战了这个前提："'变得生疏'的框架依赖于有朝一日编码会回到 Claude 3.5 之前的状态的假设。我认为它不会。"
 
-![Image 5: Figure 5. Each horizontal bar represents a team (y-axis) with segments showing the proportion of that team’s Claude Code usage for different coding tasks (x-axis), color-coded by coding task (legend). Top bar (“All Teams”) represents the overall distribution.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F313f1cc36b0eb1fec9ee986f50e8d937ddc796ba-3840x2160.png&w=3840&q=75)
+#### 软件工程的工艺和意义
 
-_Figure 5. Each horizontal bar represents a team (y-axis) with segments showing the proportion of that team’s Claude Code usage for different coding tasks (x-axis), color-coded by coding task (legend). Top bar (“All Teams”) represents the overall distribution._
+工程师们对于是否怀念动手编码分歧很大。一些人感到真正的失落——"对我来说这是一个时代的终结——我编程已经 25 年了，在那个技能集中感到胜任是我职业满意度的核心部分。"
 
-The "All Teams" bar shows the overall distribution, with the most common tasks being building new features, debugging, and code understanding. This provides a baseline for team-specific comparisons.
+另一些人担心不享受工作的新性质："整天提示 Claude 不是很有趣或充实。放点音乐，进入状态，自己实现一些东西要有趣和充实得多。"
 
-Notable team-specific patterns:
+一些人直接面对并接受了这种权衡："当然有些[写代码]的部分我怀念——重构代码时进入禅流状态，但总体上我现在生产力提高了很多，我很乐意放弃这个。"
 
-1.   The **Pre-training** team (who help to train Claude) often uses Claude Code for building new features (54.6%), much of which is running extra experiments.
-2.   The **Alignment & Safety** and **Post-training** teams do the most front-end development (7.5% and 7.4%) with Claude Code, often for creating data visualizations.
-3.   The **Security** team often uses Claude Code for code understanding (48.9%), specifically analyzing and understanding the security implications of different parts of the codebase.
-4.   **Non-technical** employees often use Claude Code for debugging (51.5%), such as troubleshooting network issues or Git operations, as well as for data science (12.7%); Claude appears to be valuable for bridging gaps in technical knowledge.
+一个人说与 Claude 迭代更_有趣_，因为他们可以比对人更挑剔他们的反馈。另一些人更关注结果。一位工程师说：
 
-Many of these team-specific patterns demonstrate the same capability expansion we observed in our survey and interviews: enabling new kinds of work that those on the team either wouldn't have the time or the skillset to do otherwise. For example, the pretraining team ran lots of additional experiments and non-technical employees were able to fix errors in code. And whereas the data suggests that teams do use Claude for their core tasks (for instance, the Infrastructure team most commonly uses Claude Code for infrastructure and DevOps work), Claude often also augments their core tasks (for instance, researchers use Claude for front-end development to better visualize their data). This suggests that Claude is enabling everyone to become more full-stack in their work.
+> 我原以为到这个时候我会感到害怕或无聊......然而我并没有真正感到这些中的任何一个。相反，我感到相当兴奋，我可以做得更多。我以为我真的很喜欢写代码，而实际上我只是喜欢写代码得到的东西。
 
-Looking forward
----------------
+人们是欣然接受 AI 辅助还是哀叹动手编码的丧失，似乎取决于他们发现软件工程的哪些方面最有意义。
 
-Anthropic employees have greatly increased their use of Claude over the past year, using it to not only accelerate existing work but to learn new codebases, reduce toil, expand into new domains, and tackle previously neglected improvements. As Claude becomes more autonomous and capable, engineers are discovering new ways to use AI delegation while also figuring out what skills they’ll need in the future. These shifts bring clear productivity and learning benefits alongside genuine uncertainty about the longer-term trajectory of software engineering work. Will AI resemble past software engineering transitions—from lower- to higher-level programming languages, or from individual contributor to manager, as several engineers suggested? Or will it go further?
+### 工作场所社交动态的变化
 
-It’s still early days—Anthropic has many early adopters internally, the landscape is rapidly changing, and our findings likely don’t generalize to other organizations or contexts right now (see Appendix for more limitations). This research reflects that uncertainty: the findings are nuanced, with no single consensus or clear directives emerging. But it does raise questions about how we can thoughtfully and effectively navigate these changes.
+一个更突出的主题是，Claude 已成为曾经问同事的问题的第一站。"我现在总体上问更多问题，但其中 80-90% 都问 Claude，"一位员工指出。
 
-To follow up on this initial work, we’re taking several steps. We're talking to Anthropic engineers, researchers, and leadership to address the opportunities and challenges raised. This includes examining how we bring teams together and collaborate with each other, how we support professional development, and/or how we establish best practices for AI-augmented work (e.g. guided by our [AI fluency framework](https://www.anthropic.com/learn/claude-for-you)). We're also expanding this research beyond engineers to understand how AI transformation affects roles across the organization and supporting external organizations such as CodePath as they adapt computer science curricula for an AI-assisted future. Looking ahead, we're also considering structural approaches that may become increasingly relevant as AI capabilities advance, like new pathways for role evolution or reskilling within the organization.
+这创造了一个过滤机制，其中 Claude 处理常规询问，留下同事处理超出 AI 能力的更复杂、战略性或需要背景的问题（"它将我对[我的团队]的依赖减少了 80%，[但]最后 20% 至关重要，我去和他们交谈"）。
 
-We expect to share more concrete plans in 2026 as our thinking matures. Anthropic is a laboratory for responsible workplace transition; we want to not just study how AI transforms work, but also experiment with how to navigate that transformation thoughtfully, starting with ourselves first.
+人们也与 Claude"交换想法"，类似于与人类合作者的互动。大约一半报告团队协作模式没有变化。一位工程师说他仍然与人会面、分享背景和选择方向，他认为在不久的将来仍然会有很多协作，但"不是做你的标准专注工作，你将与很多 Claude 交谈。"
+
+然而，另一些人描述经历与同事互动减少（"我比与任何同事都更多与 Claude 合作。"）
+
+一些人欣赏减少的社交摩擦（"我不觉得占用同事的时间不好"）。另一些人抵制这种变化（"我实际上不喜欢常见的回答是'你问过 Claude 吗？'我真的很喜欢与人面对面工作，高度重视这一点"）或怀念旧的工作方式："我喜欢与人合作，我很伤心我现在'需要'他们少了。"
+
+几个人指出了对传统指导动态的影响，因为"Claude 可以为初级员工提供很多指导"而不是高级工程师。一位高级工程师说：
+
+> 更初级的人不那么经常来问我问题，这很令人伤心，尽管他们确实更有效地得到问题的答案，学得更快。
+
+### 职业不确定性和适应
+
+许多工程师将他们的角色描述为从编写代码转向管理 AI。工程师越来越多地将自己视为"AI 代理的管理者"——一些人已经"一直在运行至少几个 Claude 实例"。
+
+一个人估计他们的工作已转移"70% 以上成为代码审查者/修订者，而不是净新代码编写者"，另一个人将"对 1 个、5 个或 100 个 Claude 的工作负责"视为他们未来角色的一部分。
+
+从长远来看，职业不确定性很普遍。工程师将这些变化视为更广泛行业转型的预兆，许多人说他们的职业几年后会是什么样子"很难说"。
+
+一些人表达了短期乐观和长期不确定性之间的冲突。"我在短期内感到乐观，但从长远来看，我认为 AI 最终会做所有事情，让我和其他许多人变得无关紧要，"一个人说。另一些人更加明确："感觉有点像我每天来工作是为了让自己失业。"
+
+一些工程师更加乐观。一个人说，"我为初级开发者担心，但我也欣赏初级开发者可能是最渴望新技术的。我对职业的轨迹总体上感到非常乐观。"
+
+他们认为，虽然缺乏经验的工程师发布有问题的代码有潜在风险，但更好的 AI 护栏、更多内置教育资源和从错误中自然学习的结合将有助于该领域随时间适应。
+
+我们询问人们如何设想他们未来的角色以及他们是否有任何适应策略。一些人提到计划进一步专业化（"培养有意义地审查 AI 工作的技能将需要更长时间和更多专业化"），一些人预计未来会更专注于人际和战略性工作（"我们将花更多时间寻找共识，让 AI 花更多时间在实施上"）。
+
+一个人说他们专门使用 Claude 进行职业发展，从中获得关于工作和领导技能的反馈（"我学习事物的速度或甚至只是在不完全学习事物的情况下有效工作的速度完全改变了。我几乎觉得天花板对我来说粉碎了"）。
+
+总的来说，许多人承认深刻的不确定性："我对我认为未来哪些特定技能有用非常没有信心。"一位团队负责人说："没人知道会发生什么......重要的是要真正适应。"
+
+Claude Code 使用趋势
+--------
+
+调查和访谈数据表明，Claude 使用增加帮助人们更快地工作并承担新类型的工作，尽管这伴随着 AI 委托和技能发展方面的紧张关系。尽管如此，自我报告的数据只讲述了故事的一部分。为了补充这一点，我们还分析了整个 Anthropic 团队的实际 Claude 使用数据。
+
+由于调查受访者报告 Claude Code 是他们大部分使用量，我们使用我们的[隐私保护分析工具](https://www.anthropic.com/research/clio)分析了 2025 年 2 月和 8 月来自 Claude Code 的 200,000 份内部记录。
+
+### 在更少监督下解决更难的问题
+
+Claude Code 的使用在过去六个月转向更困难和自主的编码任务：（图 3）：
+
+* **员工正在用 Claude Code 处理日益复杂的任务**。我们在 1-5 的量表上估计每份记录的任务复杂性，其中 1 对应"基本编辑"，5 是"需要数周/数月人类专家工作的专家级任务"。任务复杂性从平均 3.2 增加到 3.8。为了说明分数之间的差异：平均 3.2 的任务包括"排查 Python 模块导入错误"，而平均 3.8 的任务包括"实现和优化缓存系统"。
+
+* **Claude Code 每份记录的最大连续工具调用数增加了 116%**。工具调用对应于 Claude 使用外部工具采取的行动，如编辑文件或运行命令。Claude 现在可以在不需要人工干预的情况下串联 21.2 个独立工具调用，而六个月前的 9.8 个工具调用。
+
+* **人工轮数减少了 33%**。人工轮数的平均数从每份记录 6.2 减少到 4.1，表明与六个月前相比，现在完成给定任务需要的人工输入更少。
+
+![图 3. Claude Code 使用在 2025 年 8 月和 2025 年 2 月之间的变化（x 轴）。平均任务复杂性随时间增加（左面板），每份记录的平均最大连续工具调用随时间增加（中面板），人工轮数随时间减少（右面板）。误差线显示 95% 置信区间。数据表明人们正在随时间推移向 Claude 委托更多自主权。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd23e1b8d8af84b45d5cffcc6f0a029d635508153-3840x2160.png&w=3840&q=75)
+
+*图 3. Claude Code 使用在 2025 年 8 月和 2025 年 2 月之间的变化（x 轴）。平均任务复杂性随时间增加（左面板），每份记录的平均最大连续工具调用随时间增加（中面板），人工轮数随时间减少（右面板）。误差线显示 95% 置信区间。数据表明人们正在随时间推移向 Claude 委托更多自主权。*
+
+这些使用数据印证了调查数据：工程师委托给 Claude 的工作日益复杂，Claude 需要的监督减少。这似乎有理由推动观察到的生产力提升。
+
+### 任务分布
+
+我们将 Claude Code 记录分类为一种或多种编码任务类型，研究不同任务的使用在过去六个月中如何演变：
+
+![图 4. 各种编码任务（y 轴）作为总记录数百分比的分布（x 轴）。我们比较 6 个月前（粉色）和现在（紫色）的分布。y 轴按 2025 年 2 月的频率排序。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7da627df8a6be4cb90ecd6e6e41345b8122401ed-3840x2160.png&w=3840&q=75)
+
+*图 4. 各种编码任务（y 轴）作为总记录数百分比的分布（x 轴）。我们比较 6 个月前（粉色）和现在（紫色）的分布。y 轴按 2025 年 2 月的频率排序。*
+
+从使用数据估计的整体任务频率分布与自我报告的任务频率分布大致一致。2025 年 2 月和 8 月之间最引人注目的变化是，现在有相对更多的记录使用 Claude 实现新功能（14.3% → 36.9%）和进行代码设计或规划（1.0% → 9.9%）。
+
+Claude Code 任务的相对分布转变可能表明 Claude 已在这些更复杂的任务上变得更好，尽管这也可能反映团队如何为不同工作流程采用 Claude Code 的变化，而不是绝对工作量的增加（有关更多限制，请参阅附录）。
+
+#### 修复小问题
+
+我们从调查中发现，工程师现在花更多时间进行小的生活质量改善；与此一致，目前 8.6% 的 Claude Code 任务被归类为"小问题修复"。这些包括更大的任务，如创建性能可视化工具和重构代码以提高可维护性，以及更小的任务，如创建终端快捷方式。
+
+这可能有助于工程师报告的生产力提升（处理以前被忽视的生活质量改善可能会随时间推移带来更多效率），并可能减少日常工作中的摩擦和挫折。
+
+#### 团队间任务差异
+
+为了研究任务目前如何在团队之间变化，我们改进了分类方法，将每份 8 月记录分配给单个主要编码任务，并按内部团队分割数据（y 轴）。堆叠条形图显示每个团队的编码任务细分：
+
+![图 5. 每个水平条代表一个团队（y 轴），段落显示该团队 Claude Code 使用在不同编码任务中的比例（x 轴），按编码任务进行颜色编码（图例）。顶部条（"所有团队"）代表整体分布。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F313f1cc36b0eb1fec9ee986f50e8d937ddc796ba-3840x2160.png&w=3840&q=75)
+
+*图 5. 每个水平条代表一个团队（y 轴），段落显示该团队 Claude Code 使用在不同编码任务中的比例（x 轴），按编码任务进行颜色编码（图例）。顶部条（"所有团队"）代表整体分布。*
+
+"所有团队"条显示整体分布，最常见的任务是构建新功能、调试和代码理解。这为团队特定比较提供了基线。
+
+值得注意的团队特定模式：
+
+1. **预训练**团队（帮助训练 Claude）经常使用 Claude Code 构建新功能（54.6%），其中大部分是运行额外实验。
+
+2. **对齐与安全**和**后训练**团队使用 Claude Code 进行最多的前端开发（7.5% 和 7.4%），通常用于创建数据可视化。
+
+3. **安全**团队经常使用 Claude Code 进行代码理解（48.9%），专门分析和理解代码库不同部分的安全影响。
+
+4. **非技术**员工经常使用 Claude Code 进行调试（51.5%），如排查网络问题或 Git 操作，以及数据科学（12.7%）；Claude 似乎在弥合技术知识差距方面很有价值。
+
+许多这些团队特定的模式展示了我们在调查和访谈中观察到的相同能力扩展：使团队能够完成他们否则没有时间或技能集做的新类型工作。例如，预训练团队运行了大量额外实验，非技术员工能够修复代码中的错误。
+
+而虽然数据表明团队确实将 Claude 用于他们的核心任务（例如，基础设施团队最常将 Claude Code 用于基础设施和 DevOps 工作），Claude 通常也增强他们的核心任务（例如，研究人员使用 Claude 进行前端开发以更好地可视化他们的数据）。
+
+这表明 Claude 正在使每个人在工作中变得更加全栈。
+
+展望未来
+--------
+
+Anthropic 员工在过去一年大大增加了对 Claude 的使用，用它不仅加速现有工作，还学习新代码库、减少繁琐工作、扩展到新领域和处理以前被忽视的改进。随着 Claude 变得更加自主和有能力，工程师正在发现使用 AI 委托的新方法，同时也弄清楚他们未来需要什么技能。
+
+这些变化带来了明显的生产力和学习益处，同时也伴随着对软件工程工作长期轨迹的真正不确定性。AI 会像几位工程师建议的那样，类似于过去的软件工程转型——从低级到高级编程语言，或从个人贡献者到管理者？还是会走得更远？
+
+现在还为时过早——Anthropic 内部有很多早期采用者，形势正在迅速变化，我们的发现可能目前还不能推广到其他组织或背景（有关更多限制，请参阅附录）。这项研究反映了这种不确定性：发现是微妙的，没有出现单一共识或明确指令。但它确实提出了我们如何深思熟虑和有效地应对这些变化的问题。
+
+为了跟进这项初步工作，我们正在采取几个步骤。我们正在与 Anthropic 工程师、研究人员和领导层交谈，以应对提出的机遇和挑战。这包括研究我们如何将团队聚集在一起并相互协作，我们如何支持专业发展，以及/或我们如何建立 AI 增强工作的最佳实践（例如，以我们的 [AI 流畅度框架](https://www.anthropic.com/learn/claude-for-you)为指导）。
+
+我们还正在将这项研究扩展到工程师之外，以了解 AI 变革如何影响整个组织的角色，并支持外部组织如 CodePath，因为他们为 AI 辅助的未来调整计算机科学课程。
+
+展望未来，我们还在考虑结构性方法，这些方法可能随着 AI 能力的进步变得越来越相关，比如组织内角色演变或再培训的新途径。我们预计在 2026 年分享更具体的计划，随着我们思考的成熟。
+
+Anthropic 是负责任的工作场所转型实验室；我们不仅想研究 AI 如何改变工作，还想尝试如何深思熟虑地应对这种转型，从我们自己开始。
 
 #### Bibtex
 
-If you’d like to cite this post you can use the following Bibtex key:
+如果你想引用这篇文章，可以使用以下 Bibtex 键：
 
 ```
 @online{huang2025aiwork,
-author = {Saffron Huang and Bryan Seethor and Esin Durmus and Kunal Handa and Miles McCain and Michael Stern and Deep Ganguli},
-title = {How AI Is Transforming Work at Anthropic},
-date = {2025-12-02},
-year = {2025},
-url = {https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic/},
+  author = {Saffron Huang and Bryan Seethor and Esin Durmus and Kunal Handa and Miles McCain and Michael Stern and Deep Ganguli},
+  title = {How AI Is Transforming Work at Anthropic},
+  date = {2025-12-02},
+  year = {2025},
+  url = {https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic/},
 }
 ```
 
-#### Acknowledgments
+#### 致谢
 
-Saffron Huang led the project, designed and executed the surveys, interviews, and data analysis, plotted figures and wrote the blog post. Bryan Seethor co-designed the surveys and interviews, co-led survey and interview data collection, analyzed interview themes, contributed to writing, and managed the project timeline. Esin Durmus contributed to experiment design and provided detailed direction and feedback throughout. Kunal Handa contributed infrastructure for the interviewing process. Deep Ganguli provided critical guidance and organizational support. All authors provided detailed guidance and feedback throughout.
+Saffron Huang 领导了这个项目，设计并执行了调查、访谈和数据分析，绘制了图表并撰写了博客文章。Bryan Seethor 共同设计了调查和访谈，共同领导了调查和访谈数据收集，分析了访谈主题，对写作做出了贡献，并管理了项目时间表。Esin Durmus 对实验设计做出了贡献，并在整个过程中提供了详细的指导和反馈。Kunal Handa 为访谈流程提供了基础设施。Deep Ganguli 提供了关键的指导和组织支持。所有作者在整个过程中提供了详细的指导和反馈。
 
-Additionally, we thank Ruth Appel, Sally Aldous, Avital Balwit, Drew Bent, Zoe Blumenfeld, Miriam Chaum, Jack Clark, Jake Eaton, Sarah Heck, Kamya Jagadish, Jen Martinez, Peter McCrory, Jared Mueller, Christopher Nulty, Sasha de Marigny, Sarah Pollack, Hannah Pritchett, Stuart Ritchie, David Saunders, Alex Tamkin, Janel Thamkul, Sar Warner, and Heather Whitney for their helpful ideas, discussion, feedback and support. Thank you to Casey Yamaguma for illustrating the figures. We also appreciate the productive comments and discussion from Anton Korinek, Ioana Marinescu, Silvana Tenreyro, and Neil Thompson.
+此外，我们感谢 Ruth Appel、Sally Aldous、Avital Balwit、Drew Bent、Zoe Blumenfeld、Miriam Chaum、Jack Clark、Jake Eaton、Sarah Heck、Kamya Jagadish、Jen Martinez、Peter McCrory、Jared Mueller、Christopher Nulty、Sasha de Marigny、Sarah Pollack、Hannah Pritchett、Stuart Ritchie、David Saunders、Alex Tamkin、Janel Thamkul、Sar Warner 和 Heather Whitney 的有益想法、讨论、反馈和支持。
 
-Appendix
+感谢 Casey Yamaguma 绘制图表。我们也感谢 Anton Korinek、Ioana Marinescu、Silvana Tenreyro 和 Neil Thompson 的建设性评论和讨论。
+
+附录
 --------
 
-### Limitations
+### 局限性
 
-Our survey findings are subject to several methodological limitations. We selected respondents through both convenience sampling and purposive sampling (to ensure broad organizational representation). We posted the survey across multiple internal Slack channels, yielding 68 responses, and we also selected 20 diverse teams across research and product functions from the organizational chart and directly messaged 5-10 individuals per team (n=207 total outreach), getting a 31% response rate for the final 64 responses. We interviewed the first 53 people who responded. There is likely some selection bias here, as people who are particularly engaged with Claude or have strong opinions (positive or negative) may have been more likely to respond, while those with more neutral experiences may have been underrepresented.
+我们的调查发现受到几个方法论限制的影响。我们通过便利抽样和目的性抽样（以确保广泛的组织代表性）选择受访者。我们在多个内部 Slack 频道发布了调查，获得了 68 份回复，我们还从组织图中选择了研究和产品职能的 20 个不同团队，直接向每个团队发送了 5-10 人的消息（总共联系 207 人），最终 64 份回复的响应率为 31%。我们采访了第一批响应的 53 人。
 
-Additionally, responses may be affected by social desirability bias (since responses were not anonymous and all participants are Anthropic employees, respondents may have inflated positive assessments of Claude's impact) and recency bias (asking participants to recall their productivity and usage patterns from 12 months ago is subject to memory distortion). Furthermore, as discussed, productivity is in general very difficult to estimate, so these self-reports should be taken with a grain of salt. These self-reported perceptions should be interpreted alongside our more objective Claude Code usage data, and future research would benefit from anonymous data collection and more robustly validated measurement instruments.
+这里可能存在一些选择偏差，因为特别关注 Claude 或有强烈意见（正面或负面）的人可能更有可能回应，而经历更中性的人可能代表性不足。此外，回答可能受到社会期望偏差的影响（因为回答不是匿名的，所有参与者都是 Anthropic 员工，受访者可能夸大对 Claude 影响的正面评估）和近期偏差（要求参与者回忆他们 12 个月前的生产力和使用模式会受到记忆扭曲的影响）。
 
-Our Claude Code analysis uses proportionate sampling across time periods, which means we can only measure relative changes in task distribution, not absolute changes in work volume. For example, when we report that feature implementation increased from 14% to 37% of Claude Code usage, this does not necessarily indicate that more total feature work is being done.
+此外，如所讨论的，生产力总体上很难估计，所以这些自我报告应该有所保留。这些自我报告的感知应该与我们更客观的 Claude Code 使用数据一起解释，未来的研究将受益于匿名数据收集和更稳健验证的测量工具。
 
-Finally, this research was conducted in August 2025 when Claude Sonnet 4 and Claude Opus 4 were our state-of-the-art models. Given the rapid pace of AI development, the patterns we observed may have already shifted as newer models become available.
+我们的 Claude Code 分析使用跨时间段的按比例抽样，这意味着我们只能测量任务分布的相对变化，而不是工作量的绝对变化。例如，当我们报告功能实现从 Claude Code 使用的 14% 增加到 37% 时，这并不一定表明正在做更多的总功能工作。
+
+最后，这项研究是在 2025 年 8 月进行的，当时 Claude Sonnet 4 和 Claude Opus 4 是我们最先进的模型。鉴于 AI 发展的快速步伐，随着新模型的推出，我们观察到的模式可能已经发生了变化。
+
 ---
+
 ## 📝 翻译说明
 
 本文由 **AI 自动翻译**，可能存在翻译不当之处。
@@ -328,8 +420,7 @@ Finally, this research was conducted in August 2025 when Claude Sonnet 4 and Cla
 | 项目 | 信息 |
 |------|------|
 | **原文链接** | [点击查看](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic) |
-| **翻译模型** | GLM-5 (z-ai/glm5) |
-| **翻译来源** | NVIDIA NIM API |
+| **翻译模型** | GLM-5 (NVIDIA NIM) |
 | **翻译时间** | 2026-03-09 |
 | **校对状态** | 待人工校对 |
 
