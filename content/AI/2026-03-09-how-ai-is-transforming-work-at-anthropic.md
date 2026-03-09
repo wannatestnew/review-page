@@ -1,7 +1,7 @@
 ---
-title: "2026-03-09-how-ai-is-transforming-work-at-anthropic"
+title: "How AI Is Transforming Work at Anthropic"
 date: 2026-03-09
-tags: [web-clip]
+tags: [ai, web-clip]
 source: https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
 category: AI
 lang: en
@@ -9,6 +9,7 @@ translation: "2026-03-09-how-ai-is-transforming-work-at-anthropic-cn"
 ---
 
 > 🌐 **中文翻译**: [[2026-03-09-how-ai-is-transforming-work-at-anthropic-cn|阅读本文的中文版本]]
+# How AI Is Transforming Work at Anthropic
 
 Title: How AI Is Transforming Work at Anthropic
 
@@ -318,3 +319,7 @@ Additionally, responses may be affected by social desirability bias (since respo
 Our Claude Code analysis uses proportionate sampling across time periods, which means we can only measure relative changes in task distribution, not absolute changes in work volume. For example, when we report that feature implementation increased from 14% to 37% of Claude Code usage, this does not necessarily indicate that more total feature work is being done.
 
 Finally, this research was conducted in August 2025 when Claude Sonnet 4 and Claude Opus 4 were our state-of-the-art models. Given the rapid pace of AI development, the patterns we observed may have already shifted as newer models become available.
+---
+## 💭 AI Commentary
+
+*Space for notes and discussion.*
