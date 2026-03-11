@@ -6,6 +6,7 @@ title: "AI"
 
 ## Articles
 
+- [[2026-03-11-how-to-train-your-own-llm-cn|How to Train Your Own LLM (中文)]] (2026-03-11)
 - [[2026-03-11-how-to-train-your-own-llm|How to Train Your Own LLM]] (2026-03-11)
 - [[2026-03-09-how-ai-is-transforming-work-at-anthropic-cn|How AI Is Transforming Work at Anthropic (中文)]] (2026-03-09)
 - [[2026-03-09-how-ai-is-transforming-work-at-anthropic|How AI Is Transforming Work at Anthropic]] (2026-03-09)
