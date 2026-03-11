@@ -1,14 +1,13 @@
 ---
-title: "2026-03-11-how-to-train-your-own-llm"
+title: "How to Train Your Own LLM"
 date: 2026-03-11
-tags: [web-clip]
+tags: [ai, web-clip]
 source: https://www.scribd.com/document/918831668/How-to-Train-Your-Own-LLM
 category: AI
 lang: en
-translation: "2026-03-11-how-to-train-your-own-llm-cn"
----
 
-> 🌐 **中文翻译**: [[2026-03-11-how-to-train-your-own-llm-cn|阅读本文的中文版本]]
+---
+# How to Train Your Own LLM
 
 Title: How to Train Your Own LLM
 
@@ -26,7 +25,7 @@ Opens in a new window Opens an external website Opens an external website in a n
 
 Skip to main content
 
-[Open navigation menu](https://www.scribd.com/document/918831668/How-to-Train-Your-Own-LLM#sidebar)[![Image 1: Scribd](blob:http://localhost/d0cf58e0c96bd48797ae3249dd19d8af)](https://www.scribd.com/)
+[Open navigation menu](https://www.scribd.com/document/918831668/How-to-Train-Your-Own-LLM#sidebar)](https://www.scribd.com/)
 
 Close suggestions Search Search
 
@@ -221,7 +220,7 @@ Share this document
 *   [Share with Email, opens mail client](mailto:?subject=Read%20How%20to%20Train%20Your%20Own%20LLM%20on%20Scribd&body=I%E2%80%99m%20reading%20How%20to%20Train%20Your%20Own%20LLM%20on%20Scribd:%20https%3A%2F%2Fwww.scribd.com%2Fdocument%2F918831668%2FHow-to-Train-Your-Own-LLM)
 *   Copy link
 
-[![Image 7](https://s-f.scribdassets.com/webpack/assets/images/fallbacks/scribd_inhouse_728x90_en@1x.ec04e4d8.png)Millions of documents at your fingertips, ad-free Subscribe with a free trial](https://www.scribd.com/oauth/signup?doc_id=918831668)
+Millions of documents at your fingertips, ad-free Subscribe with a free trial](https://www.scribd.com/oauth/signup?doc_id=918831668)
 
 You might also like
 -------------------
@@ -364,8 +363,8 @@ Social
 
 Get our free apps
 
-*   [![Image 95: Scribd - Download on the App Store](https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/app_store_black_en.c01025ef.svg)](https://apps.apple.com/us/app/6448807714?mt=8&pt=298534)
-*   [![Image 96: Scribd - Get it on Google Play](https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/play_store_en.52ebe950.svg)](https://play.google.com/store/apps/details?id=com.scribd.app.reader0.docs)
+*   ](https://apps.apple.com/us/app/6448807714?mt=8&pt=298534)
+*   ](https://play.google.com/store/apps/details?id=com.scribd.app.reader0.docs)
 
 About
 
@@ -396,29 +395,25 @@ Social
 
 Get our free apps
 
-*   [![Image 97: Scribd - Download on the App Store](https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/app_store_black_en.c01025ef.svg)](https://apps.apple.com/us/app/6448807714?mt=8&pt=298534)
-*   [![Image 98: Scribd - Get it on Google Play](https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/play_store_en.52ebe950.svg)](https://play.google.com/store/apps/details?id=com.scribd.app.reader0.docs)
+*   ](https://apps.apple.com/us/app/6448807714?mt=8&pt=298534)
+*   ](https://play.google.com/store/apps/details?id=com.scribd.app.reader0.docs)
 
 *   [Documents](https://www.scribd.com/docs)
 
 Language:
 
-English
-
-Copyright © 2026 Scribd Inc.
-
-We take content rights seriously. [Learn more](https://support.scribd.com/hc/en-us/articles/210129026-Frequently-Asked-Questions-about-Copyrights-and-the-DMCA) in our FAQs or [report infringement here](https://support.scribd.com/hc/en-us/articles/210129146-REPORT-COPYRIGHT-INFRINGEMENTS-AND-ABUSE-HERE).
+EnglishWe take content rights seriously. [Learn more](https://support.scribd.com/hc/en-us/articles/210129026-Frequently-Asked-Questions-about-Copyrights-and-the-DMCA) in our FAQs or [report infringement here](https://support.scribd.com/hc/en-us/articles/210129146-REPORT-COPYRIGHT-INFRINGEMENTS-AND-ABUSE-HERE).
 
 We take content rights seriously. [Learn more](https://support.scribd.com/hc/en-us/articles/210129026-Frequently-Asked-Questions-about-Copyrights-and-the-DMCA) in our FAQs or [report infringement here](https://support.scribd.com/hc/en-us/articles/210129146-REPORT-COPYRIGHT-INFRINGEMENTS-AND-ABUSE-HERE).
 
 Language:
 
-English
-
-Copyright © 2026 Scribd Inc.
-
-576648e32a3d8b82ca71961b7a986505
+English576648e32a3d8b82ca71961b7a986505
 
 ![Image 99: dot image pixel](https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Wed%2C%2011%20Mar%202026%2002%3A53%3A10%20GMT&n=0&b=Train%20Your%20Own%20LLM%20with%20QLoRA%20%7C%20PDF%20%7C%20Graphics%20Processing%20Unit%20%7C%20Machine%20Learning&.yp=10143699&f=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F918831668%2FHow-to-Train-Your-Own-LLM&enc=UTF-8&gdpr=0&us_privacy=1-N-&gpp=DBACOe~CQg5uUAQg5uUAEXxFAENCSFgAAAAAEPgACiQAAASNgJAAVAA4ACAAEgANAAmABoAEcAK0Ac4A_QCDgEdAW6AvMB4oEEwJGgAAAAA.IKmQKAAFAANAAqABwAEAAJAAWgA0AB0AD0AIoATAAoABfADCAGgANgAgwBHACUAE6AK0Ac4A_QCDgEdAN4AhMBGIC3QFwgLzAYyA1IB4oEEwIzASNApWBUwA~BQg5uUAQg5uUAEXxFAENCSFAAAAAAIfAAAAABI2AkABUADgAIAASAA0ACYAGgARwArQBzgD9AIOAR0BboC8wHigQTAkaAAA.IKmQKAAFAANAAqABwAEAAJAAWgA0AB0AD0AIoATAAoABfADCAGgANgAgwBHACUAE6AK0Ac4A_QCDgEdAN4AhMBGIC3QFwgLzAYyA1IB4oEEwIzASNApWBUw~1-N-&gpp_sid=6&yv=1.16.6&tagmgr=gtm)![Image 100](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%26800%26600%264%2624%26800%26600%260%26na&eci=2&event_id=1eb69356-1770-492f-acd0-24fabb66d982&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=6efff817-a08f-46cf-a94f-570e61be4a75&pt=Train%20Your%20Own%20LLM%20with%20QLoRA%20%7C%20PDF%20%7C%20Graphics%20Processing%20Unit%20%7C%20Machine%20Learning&tw_document_href=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F918831668%2FHow-to-Train-Your-Own-LLM&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1773197592004.498663268141185425&txn_id=nzbvs&type=javascript&version=2.3.44)![Image 101](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%26800%26600%264%2624%26800%26600%260%26na&eci=2&event_id=1eb69356-1770-492f-acd0-24fabb66d982&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=6efff817-a08f-46cf-a94f-570e61be4a75&pt=Train%20Your%20Own%20LLM%20with%20QLoRA%20%7C%20PDF%20%7C%20Graphics%20Processing%20Unit%20%7C%20Machine%20Learning&tw_document_href=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F918831668%2FHow-to-Train-Your-Own-LLM&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1773197592004.498663268141185425&txn_id=nzbvs&type=javascript&version=2.3.44)
 
 ![Image 102](https://bat.bing.com/action/0?ti=15260218&tm=gtm002&Ver=2&mid=f4c42dd9-2d3a-4dfb-a775-aa31eb630f2a&bo=1&sid=718441001cf511f1bd52f38f0c46b582&vid=718a59601cf511f18a1155a8944116f6&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Train%20Your%20Own%20LLM%20with%20QLoRA%20%7C%20PDF%20%7C%20Graphics%20Processing%20Unit%20%7C%20Machine%20Learning&p=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F918831668%2FHow-to-Train-Your-Own-LLM&r=&lt=2428&evt=pageLoad&sv=2&cdb=AQAU&rn=329274)
+---
+## 💭 AI Commentary
+
+*Space for notes and discussion.*

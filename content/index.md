@@ -20,13 +20,21 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
--  🆕
--  🆕
--  🆕
--  🆕
--  🆕
-- - - - - - - - -  🆕
-- 
+- [[AI/2026-03-11-how-to-train-your-own-llm|How to Train Your Own LLM]] 🆕
+- [[AI/2026-03-09-how-ai-is-transforming-work-at-anthropic-cn|How AI Is Transforming Work at Anthropic (中文翻译)]] 🆕
+- [[AI/2026-03-09-how-ai-is-transforming-work-at-anthropic|How AI Is Transforming Work at Anthropic]] 🆕
+- [[programming/2026-03-01-claude-code-remote-control-review-en-cn|Claude Code Remote Control Review (中文翻译)]] 🆕
+- [[AI/2026-03-01-building-effective-ai-agents-cn|Building Effective AI Agents (中文翻译)]]
+- [[AI/2026-03-01-building-effective-ai-agents|Building Effective AI Agents]]
+- [[programming/2026-03-01-openclaw-config-guide|OpenClaw 配置文件说明]]
+- [[programming/2026-03-01-learn-markdown-basics|Markdown 入门教程]]
+- [[programming/2026-03-01-learn-json-format|JSON 文件格式入门教程]]
+- [[programming/2026-03-01-learn-git-basics|Git 基础教程]]
+- [[programming/2026-03-01-claude-code-remote-control-review|Claude Code Remote Control 体验评测]]
+- [[programming/2026-03-01-claude-code-remote-control-review-en|Claude Code Remote Control Review]]
+- [[technology/quartz-setup-cn|How I Built This Digital Garden (Quartz 4) (中文翻译)]] 🆕
+- [[technology/quartz-setup|How I Built This Digital Garden (Quartz 4)]]
+
 ---
 
 ## 📚 OpenClaw 学习资源
