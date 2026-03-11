@@ -10,9 +10,10 @@ translation_source: "programming/2026-03-01-claude-code-remote-control-review-en
 translator: "Azure Translator"
 ---
 
-> 🌐 **English Version**: 
+> 🌐 **English Version**: [[programming/2026-03-01-claude-code-remote-control-review-en|Read original English version]]
 
 # Claude Code Remote Control Review
+
 
 > 🌐 **中文翻译**： [[2026-03-01-claude-code-remote-control-review|阅读中文版本]]
 
@@ -188,7 +189,7 @@ CD ~/projects/my-API
 
 |项目 |信息 |
 |------|------|
-|**原始来源** |[Medium文章](https://medium.com/@joe.njenga/i-tried-new-claude-code-remote-control-before-you-waste-your-time-c829a83417f7)|
+|**原始来源** |[Medium文章]（https://medium.com/@joe.njenga/i-tried-new-claude-code-remote-control-before-you-waste-your-time-c829a83417f7）|
 |**格式日期** |2026-03-01 |
 |**注** |内容整理以便更好阅读 |
 
@@ -200,6 +201,8 @@ CD ~/projects/my-API
 
 *注意：功能可用性可能会随着时间变化。*
 
+
+
 ---
 ## 📝 翻译说明
 
@@ -209,6 +212,6 @@ CD ~/projects/my-API
 |------|------|
 | **原文** | [Claude Code Remote Control Review](programming/2026-03-01-claude-code-remote-control-review-en.md) |
 | **翻译服务** | Microsoft Azure Translator |
-| **翻译时间** | 2026-03-03 |
+| **翻译时间** | 2026-03-11 |
 
 > 💬 如发现翻译问题，欢迎在评论区指正。
