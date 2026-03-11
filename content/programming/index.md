@@ -15,4 +15,4 @@ title: "Programming"
 - [[2026-03-01-claude-code-remote-control-review-en|Claude Code Remote Control Review]] (2026-03-01)
 
 ---
-*Last updated: 2026-03-09*
+*Last updated: 2026-03-11*

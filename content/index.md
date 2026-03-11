@@ -20,6 +20,8 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 
 ## 📝 最新文章 | Recent Articles
 
+- [[AI/2026-03-11-how-to-train-your-own-llm-cn|How to Train Your Own LLM (中文翻译)]] 🆕
+- [[AI/2026-03-11-how-to-train-your-own-llm|How to Train Your Own LLM]] 🆕
 - [[AI/2026-03-09-how-ai-is-transforming-work-at-anthropic-cn|How AI Is Transforming Work at Anthropic (中文翻译)]] 🆕
 - [[AI/2026-03-09-how-ai-is-transforming-work-at-anthropic|How AI Is Transforming Work at Anthropic]] 🆕
 - [[programming/2026-03-01-claude-code-remote-control-review-en-cn|Claude Code Remote Control Review (中文翻译)]] 🆕
@@ -46,4 +48,4 @@ This is my central hub for notes and thoughts, built with Obsidian and Quartz.
 |  | 系统配置说明 |
 
 ---
-*最后更新 | Last updated: 2026-03-09*
+*最后更新 | Last updated: 2026-03-11*
