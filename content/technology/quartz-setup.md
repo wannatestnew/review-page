@@ -5,7 +5,10 @@ tags:
   - technology
   - tutorials
   - quartz
+translation: "technology/quartz-setup-cn"
 ---
+
+> 🌐 **中文翻译**: [[technology/quartz-setup-cn|阅读本文的中文版本]]
 
 # My Quartz 4 Setup Guide
 

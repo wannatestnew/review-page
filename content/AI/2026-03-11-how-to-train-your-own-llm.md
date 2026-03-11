@@ -1,3 +1,15 @@
+---
+title: "How to Train Your Own LLM"
+date: 2026-03-11
+tags: [ai, llm, training]
+source: https://labs.lamatic.ai/p/how-to-train-your-own-llm/
+category: AI
+lang: en
+translation: "2026-03-11-how-to-train-your-own-llm-cn"
+---
+
+> 🌐 **中文翻译**: [[2026-03-11-how-to-train-your-own-llm-cn|阅读本文的中文版本]]
+
 # How to Train Your Own LLM & 4 Key Considerations for Success
 
 *Source: [Lamatic Labs](https://labs.lamatic.ai/p/how-to-train-your-own-llm/)*
