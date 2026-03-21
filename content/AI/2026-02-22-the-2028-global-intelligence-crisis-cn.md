@@ -6,10 +6,11 @@ source: https://www.citriniresearch.com/p/2028gic
 category: AI
 lang: zh
 translation_source: "2026-02-22-the-2028-global-intelligence-crisis"
-translator: "GLM-5 (z-ai/glm5)"
+translator: "Azure Translator API"
 ---
 
 > 🌐 **English Version**: [[2026-02-22-the-2028-global-intelligence-crisis|Read original English version]]
+
 # THE 2028 GLOBAL INTELLIGENCE CRISIS
 
 Title: THE 2028 GLOBAL INTELLIGENCE CRISIS
@@ -19,384 +20,389 @@ URL Source: https://www.citriniresearch.com/p/2028gic
 Published Time: 2026-02-22T19:22:00+00:00
 
 Markdown Content:
-_What if our AI bullishness continues to be right...and what if that’s actually bearish?_
+_What如果我们的人工智能看涨依然正确......如果这其实是看跌呢？_
 
-**What follows is a scenario, not a prediction.** This isn’t bear porn or AI doomer fan-fiction. The sole intent of this piece is modeling a scenario that’s been relatively underexplored. Our friend Alap Shah posed the question, and together we brainstormed the answer. We wrote this part, and he’s written two others you can find [here](https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true).
+**以下内容是一个情景，不是预测。**这不是熊色情或AI末日论同人小说。本文的唯一目的是模拟一个相对未被充分探讨的情景。我们的朋友Alap Shah提出了这个问题，我们一起头脑风暴出了答案。这部分是我们写的，他还写了另外两部分，你可以在这里找到[https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true]。
 
-Hopefully, reading this leaves you more prepared for potential left tail risks as AI makes the economy increasingly weird.
+希望阅读这些内容能让你更好地应对随着AI让经济变得越来越奇怪的潜在左尾风险。
 
-**This is the CitriniResearch Macro Memo from June 2028, detailing the progression and fallout of the Global Intelligence Crisis.**
+**这是CitriniResearch于2028年6月发布的宏观备忘录，详细说明了全球情报危机的进展及其后果。**
 
-](https://substackcdn.com/image/fetch/$s_!rCTy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ede0b37-f3be-4787-90ff-10cb24719fdc_710x1119.jpeg)
+]（https://substackcdn.com/image/fetch/$s_!rCTy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ede0b37-f3be-4787-90ff-10cb24719fdc_710x1119.jpeg）
 
-_**CitriniResearch**_
+_**柑橘研究**_
 
-_**~~February 22nd, 2026~~ June 30th, 2028**_
+_**~~2026年2月22日~~ 2028年6月30日**_
 
-The unemployment rate printed 10.2% this morning, a 0.3% upside surprise. The market sold off 2% on the number, bringing the cumulative drawdown in the S&P to 38% from its October 2026 highs.
+今晨失业率为10.2%，出人意料地上涨了0.3%。市场对该指数下跌2%，使标普累计回撤从2026年10月高点回升至38%。
 
-Traders have grown numb. Six months ago, a print like this would have triggered a circuit breaker.
+交易者们已经麻木了。六个月前，这样的指纹会触发断路器。
 
-_**Two years.**_ That’s all it took to get from “contained” and “sector-specific” to an economy that no longer resembles the one any of us grew up in. This quarter’s macro memo is our attempt to reconstruct the sequence - a post-mortem on the pre-crisis economy.
+_**两年。**_ 这就是从“受控”和“特定行业”转变为一个不再像我们成长的经济体所需要的全部。本季度的宏观备忘录是我们试图重建这一顺序的——对危机前经济的事后分析。
 
-The euphoria was palpable. By October 2026, the S&P 500 flirted with 8000, the Nasdaq broke above 30k. The initial wave of layoffs due to human obsolescence began in early 2026, and they did exactly what layoffs are supposed to. Margins expanded, earnings beat, stocks rallied. Record-setting corporate profits were funneled right back into AI compute.
+欣喜若狂。到2026年10月，标普500指数曾接近8000点，纳斯达克突破3万点。由于人类报废导致的首波裁员浪潮始于2026年初，他们完全按照裁员的目的完成了裁员的任务。利润率扩大，盈利超过预期，股市反弹。创纪录的企业利润被重新投入到人工智能计算中。
 
-The headline numbers were still great. Nominal GDP repeatedly printed mid-to-high single-digit annualized growth. Productivity was booming. Real output per hour rose at rates not seen since the 1950s, driven by AI agents that don’t sleep, take sick days or require health insurance.
+头条数字依然很高。名义GDP反复实现中高个位数年化增长。生产力迅速增长。每小时实际产出以自20世纪50年代以来未见的速度增长，这得益于不睡觉、请病假或需要医保的人工智能代理。
 
-The owners of compute saw their wealth explode as labor costs vanished. Meanwhile, real wage growth collapsed. Despite the administration’s repeated boasts of record productivity, white-collar workers lost jobs to machines and were forced into lower-paying roles.
+计算权的所有者看到他们的财富爆炸式增长，因为劳动力成本消失了。与此同时，实际工资增长崩溃。尽管政府多次吹嘘创纪录的生产力，白领工人却因机器而失去工作，被迫从事低薪岗位。
 
-When cracks began appearing in the consumer economy, economic pundits popularized the phrase “_Ghost GDP_“: output that shows up in the national accounts but never circulates through the real economy.
+当消费经济出现裂痕时，经济专家推广了“产出_Ghost GDP_”：这些产出出现在国民账户中，但从未在实体经济中流通。
 
-_In every way AI was exceeding expectations, and the market was AI._ The only problem…**the economy was not.**
+_In人工智能在各方面都超出预期，市场AI._唯一的问题是......经济没有。**
 
-It should have been clear all along that a single GPU cluster in North Dakota generating the output previously attributed to 10,000 white-collar workers in midtown Manhattan is more economic pandemic than economic panacea. The velocity of money flatlined. The human-centric consumer economy, 70% of GDP at the time, withered. We probably could have figured this out sooner if we just asked how much money machines spend on discretionary goods. (Hint: it’s zero.)
+早就应该很清楚，北达科他州一个GPU集群，产生了曼哈顿中城一万名白领工人的产出，这更多是经济疫情而非经济灵丹。货币流通速度停滞不前。以人为中心的消费经济，当时占GDP的70%，逐渐衰落。如果我们直接问机器在非必需品上花了多少钱，可能早点就能发现。（提示：是零。）
 
-AI capabilities improved, companies needed fewer workers, white collar layoffs increased, displaced workers spent less, margin pressure pushed firms to invest more in AI, AI capabilities improved…
+人工智能能力提升，公司减少了员工需求，白领裁员增加，被裁员的支出减少，利润率压力促使企业加大对人工智能的投资，人工智能能力提升......
 
-It was a negative feedback loop with no natural brake. The _human_ _intelligence displacement spiral_. White-collar workers saw their earnings power (and, rationally, their spending) structurally impaired. Their incomes were the bedrock of the $13 trillion mortgage market - forcing underwriters to reassess whether prime mortgages are still money good.
+这是一个没有自然制动的负反馈回路。_人类_ _intelligence位移spiral_。白领工人的收入能力（理性地说，消费）受到结构性损害。他们的收入是13万亿美元抵押贷款市场的基石——迫使承销商重新评估优质抵押贷款是否仍然具备经济价值。
 
-Seventeen years without a real default cycle had left privates bloated with PE-backed software deals that assumed ARR would remain recurring. The first wave of defaults due to AI disruption in mid-2027 challenged that assumption.
+十七年没有真正的默认周期，私募市场因私募股权支持的软件交易而臃肿，这些协议默认ARR会持续出现。2027年中期因人工智能颠覆引发的第一波违约浪潮挑战了这一假设。
 
-This would have been manageable if the disruption remained contained to software, but it didn’t. By the end of 2027, it threatened every business model predicated on intermediation. Swaths of companies built on monetizing friction for humans disintegrated.
+如果中断仍限于软件，这本可管理，但事实并非如此。到2027年底，它威胁到了所有基于中介的商业模式。大量以摩擦为人类变现为基础的公司逐渐瓦解。
 
-The system turned out to be one long daisy chain of correlated bets on white-collar productivity growth. The November 2027 crash only served to accelerate all of the negative feedback loops already in place.
+这个系统实际上是一串白领生产率增长相关的赌注。2027年11月的崩盘只加速了所有已存在的负反馈循环。
 
-We’ve been waiting for “bad news is good news” for almost a year now. The government is starting to consider proposals, but public faith in the ability of the government to stage any sort of rescue has dwindled. Policy response has always lagged economic reality, but lack of a comprehensive plan is now threatening to accelerate a deflationary spiral.
+我们已经等待“坏消息就是好消息”快一年了。政府开始考虑相关提案，但公众对政府实施任何救援能力的信心已经减弱。政策反应一直落后于经济现实，但缺乏全面计划正威胁加速通缩螺旋。
 
-In late 2025, agentic coding tools took a step function jump in capability.
+2025年底，代理编码工具的功能实现了飞跃。
 
-A competent developer working with Claude Code or Codex could now replicate the core functionality of a mid-market SaaS product in weeks. Not perfectly or with every edge case handled, but well enough that the CIO reviewing a $500k annual renewal started asking the question “what if we just built this ourselves?”
+一位熟练的开发者使用Claude Code或Codex，现在可以在几周内复制中端市场SaaS产品的核心功能。虽然不是完全完美，也不是所有边缘情况都处理得很好，但足够好，以至于审查50万美元年度续约的CIO开始问：“如果我们自己建这个怎么样？”
 
-Fiscal years mostly line up with calendar years, so 2026 enterprise spend had been set in Q4 2025, when “agentic AI” was still a buzzword. The mid-year review was the first time procurement teams were making decisions with visibility into what these systems could actually do. Some watched their own internal teams spin up prototypes replicating six-figure SaaS contracts in weeks.
+财政年度大多与日历年相符，因此2026年企业支出定于2025年第四季度，当时“代理人工智能”仍是一个流行词。年中评估是采购团队首次能够在可视化的情况下，了解这些系统实际能做什么。有些人看着自己的内部团队在数周内复制出六位数SaaS合同的原型。
 
-That summer, we spoke with a procurement manager at a Fortune 500. He told us about one of his budget negotiations. The salesperson had expected to run the same playbook as last year: a 5% annual price increase, the standard “your team depends on us” pitch. The procurement manager told him he’d been in conversations with OpenAI about having their “forward deployed engineers” use AI tools to replace the vendor entirely. They renewed at a 30% discount. That was a good outcome, he said. The “long-tail of SaaS”, like [Monday.com](http://monday.com/), Zapier and Asana, had it much worse.
+那个夏天，我们采访了一家财富500强公司的采购经理。他告诉我们他的一次预算谈判。销售人员原本预计会沿用去年的策略：每年涨价5%，标准的“你们团队依赖我们”的说法。采购经理告诉他，他曾与OpenAI讨论过让他们的“前置部署工程师”使用AI工具完全取代供应商。他们续签时打了30%的折扣。他说，这是一个很好的结果。SaaS的“长尾”，比如[Monday.com]（http://monday.com/）、Zapier和Asana，情况更糟。
 
-Investors were prepared - expectant, even - that the long tail would be hit hard. They may have made up a third of spending for the typical enterprise stack, but they were obviously exposed. The systems of record, however, were supposed to be safe from disruption.
+投资者已经准备好——甚至期待——长尾市场将受到重创。它们可能占典型企业堆栈的三分之一支出，但显然是暴露在外的。然而，记录系统本应安全，不会扰。
 
-It wasn’t until ServiceNow’s Q3 26 report that the mechanism of reflexivity became clearer.
+直到ServiceNow发布2026年第三季度的报告，反思性的机制才变得更加清晰。
 
-> _**SERVICENOW NET NEW ACV GROWTH DECELERATES TO 14% FROM 23%; ANNOUNCES 15% WORKFORCE REDUCTION AND ‘STRUCTURAL EFFICIENCY PROGRAM’; SHARES FALL 18% | Bloomberg, October 2026**_
+> _**ServiceNow新苹果醋净增长率从23%降至14%;宣布15%的劳动力裁减和“结构效率计划”;股价下跌18% |彭博社，2026年10月**_
 
-SaaS wasn’t “dead”. There was still a cost-benefit-analysis to running and supporting in-house builds. But in-house _was_ an option, and that factored into pricing negotiations. Perhaps more importantly, the competitive landscape had changed. AI had made it easier to develop and ship new features, so differentiation collapsed. Incumbents were in a race to the bottom on pricing - a knife-fight with both each other and with the new crop of upstart challengers that popped up. Emboldened by the leap in agentic coding capabilities and with no legacy cost structure to protect, these aggressively took share.
+SaaS并没有“死”。运营和支持内部建设仍需进行成本效益分析。但内部公司确实是一个选项，这也影响了价格谈判。也许更重要的是，竞争格局发生了变化。人工智能让开发和发布新功能变得更容易，差异化逐渐崩溃。现任者在价格上正处于一场向下竞赛——彼此之间以及新兴挑战者之间的刀战。在代理编码能力的飞跃和无需保护遗留成本结构的情况下，这些公司积极参与其中。
 
-The interconnected nature of these systems weren’t fully appreciated until this print, either. ServiceNow sold seats. When Fortune 500 clients cut 15% of their workforce, they cancelled 15% of their licenses. The same AI-driven headcount reductions that were boosting margins at their customers were mechanically destroying their own revenue base.
+这些系统的相互关联性直到这张印刷品才被充分认识。ServiceNow售出了座位。当财富500强客户裁减15%的员工时，他们取消了15%的执照。那些由人工智能驱动、提升客户利润率的裁员措施，机械性地摧毁了他们自身的收入基础。
 
-The company that sold workflow automation was being disrupted by better workflow automation, and its response was to cut headcount and use the savings to fund the very technology disrupting it.
+销售工作流程自动化的公司正被更好的工作流程自动化所颠覆，其应对措施是裁员，用节省下来的资金支持颠覆它的技术。
 
-What else were they supposed to do? _Sit still and die slower? **The companies most threatened by AI became AI’s most aggressive adopters.**_
+他们还能做什么呢？_Sit静止，死得更慢？**最受人工智能威胁的公司成为了人工智能最积极的采用者。**_
 
-This sounds obvious in hindsight, but it really wasn’t at the time (at least to me). The historical disruption model said incumbents resist new technology, they lose share to nimble entrants and die slowly. That’s what happened to Kodak, to Blockbuster, to BlackBerry. What happened in 2026 was different; the incumbents didn’t resist because they couldn’t afford to.
+事后看来这很明显，但当时对我来说并不明显。历史颠覆模型认为，既有企业抵制新技术，失去市场份额给灵活的新进入者，且会缓慢消亡。这正是柯达、百视达、黑莓的遭遇。2026年发生的事情不同;现任者没有抵抗，因为他们负担不起。
 
-With stocks down 40-60% and boards demanding answers, the AI-threatened companies did the only thing they could. Cut headcount, redeploy the savings into AI tools, use those tools to maintain output with lower costs.
+在股票下跌40-60%且董事会要求给出答案的情况下，这些受人工智能威胁的公司只能做他们唯一能做的事。裁减人手，将节省下来的资金重新部署到人工智能工具中，利用这些工具以更低的成本维持产出。
 
-Each company’s individual response was rational. The collective result was catastrophic. Every dollar saved on headcount flowed into AI capability that made the next round of job cuts possible.
+每家公司的个别反应都很合理。集体结果是灾难性的。节省下来的每一美元都投入到了人工智能能力中，使下一轮裁员成为可能。
 
-S**oftware was only the opening act.** What investors missed while they debated whether SaaS multiples had bottomed was that the reflexive loop had already escaped the software sector. The same logic that justified ServiceNow cutting headcount applied to every company with a white-collar cost structure.
+S**oftware 只是开场表演。** 投资者在讨论 SaaS 多重公司是否见底时忽略了软件行业的反身循环。同样的逻辑适用于所有采用白领成本结构的公司，而ServiceNow裁员的理由也是如此。
 
-By early 2027, LLM usage had become default. People were using AI agents who didn’t even know what an AI agent was, in the same way people who never learned what “cloud computing” was used streaming services. They thought of it the same way they thought of autocomplete or spell-check - a thing their phone just did now.
+到2027年初，LLM的使用已成为默认状态。人们使用了甚至不知道AI代理是什么的人，就像那些从未学会“云计算”是什么的人使用流媒体服务一样。他们把它当作对自动补全或拼写检查的理解——现在他们的手机才刚刚做到这一点。
 
-Qwen’s open-source agentic shopper was the catalyst for AI handling consumer decisions. Within weeks, every major AI assistant had integrated some agentic commerce feature. Distilled models meant these agents could run on phones and laptops, not just cloud instances, reducing the marginal cost of inference significantly.
+Qwen的开源代理购物工具成为AI处理消费者决策的催化剂。几周内，所有主要的人工智能助手都集成了某种代理商务功能。精炼模型意味着这些代理可以在手机和笔记本电脑上运行，而不仅仅是云端实例，从而显著降低了推理的边际成本。
 
-The part that should have unsettled investors more than it did was that these agents didn’t wait to be asked. They ran in the background according to the user’s preferences. Commerce stopped being a series of discrete human decisions and became a continuous optimization process, running 24/7 on behalf of every connected consumer. By March 2027, the median individual in the United States was consuming 400,000 tokens per day - 10x since the end of 2026.
+本应让投资者更不安的是，这些经纪人并没有等到被邀请。它们根据用户的偏好在后台运行。商业不再是一系列离散的人类决策，而是成为一个持续优化的过程，代表每一个连接的消费者全天候24小时运行。到2027年3月，美国的中位数个人每天消耗代币为40万枚——自2026年底以来的10倍。
 
-The next link in the chain was already breaking.
+链条的下一环已经断裂。
 
-**Intermediation.**
+**中介。**
 
-Over the past fifty years, the U.S. economy built a giant rent-extraction layer on top of human limitations: things take time, patience runs out, brand familiarity substitutes for diligence, and most people are willing to accept a bad price to avoid more clicks. Trillions of dollars of enterprise value depended on those constraints persisting.
+在过去的五十年里，美国经济在人类的限制基础上构建了巨大的租金抽取层：事情需要时间，耐心会耗尽，品牌熟悉感取代了勤勉，大多数人愿意接受低价以避免更多点击。数万亿美元的企业价值依赖于这些限制的持续存在。
 
-It started out simple enough. Agents removed friction.
+一开始很简单。代理人消除了摩擦。
 
-Subscriptions and memberships that passively renewed despite months of disuse. Introductory pricing that sneakily doubled after the trial period. Each one was rebranded as a hostage situation that agents could negotiate. The average customer lifetime value, the metric the entire subscription economy was built on, distinctly declined.
+订阅和会员资格在几个月未使用后仍被动续费。试用期后偷偷翻倍的初次定价。每一次都被重新包装为人质事件，供特工协商。整个订阅经济的基石——平均客户生命周期价值明显下降。
 
-Consumer agents began to change how nearly all consumer transactions worked.
+消费者代理开始改变几乎所有消费者交易的运作方式。
 
-Humans don’t really have the time to price-match across five competing platforms before buying a box of protein bars. Machines do.
+人类在购买一盒蛋白棒之前，根本没有时间在五个竞争平台上进行价格匹配。机器会。
 
-Travel booking platforms were an early casualty, because they were the simplest. By Q4 2026, our agents could assemble a complete itinerary (flights, hotels, ground transport, loyalty optimization, budget constraints, refunds) faster and cheaper than any platform.
+旅游预订平台是最简单的，因此成为早期的牺牲品。到2026年第四季度，我们的代理能够比任何平台更快、更便宜地组建完整的行程（航班、酒店、地面交通、忠诚度优化、预算限制、退款）。
 
-Insurance renewals, where the entire renewal model depended on policyholder inertia, were reformed. Agents that re-shop your coverage annually dismantled the 15-20% of premiums that insurers earned from passive renewals.
+保险续保制度——整个续保模式依赖于投保人惯性——得到了改革。每年重新购买你的保险的代理人会拆解保险公司通过被动续保获得的15%-20%的保费。
 
-Financial advice. Tax prep. Routine legal work. Any category where the service provider’s value proposition was ultimately “I will navigate complexity that you find tedious” was disrupted, as the agents found nothing tedious.
+理财建议。报税准备。例行的法律工作。任何服务提供者最终的价值主张是“我会应对你觉得繁琐的复杂性”的类别都会被打乱，因为客服人员觉得没有任何繁琐。
 
-Even places we thought insulated by the value of human relationships proved fragile. Real estate, where buyers had tolerated 5-6% commissions for decades because of information asymmetry between agent and consumer, crumbled once AI agents equipped with MLS access and decades of transaction data could replicate the knowledge base instantly. A sell-side piece from March 2027 titled it “agent on agent violence”. The median buy-side commission in major metros had compressed from 2.5-3% to under 1%, and a growing share of transactions were closing with no human agent on the buy side at all.
+即使是我们以为因人际关系价值而隔绝的地方，也变得脆弱。房地产行业，买家因经纪人与消费者信息不对称而忍受5-6%佣金，但随着配备MLS访问和数十年交易数据的AI经纪人能够即时复制知识库，房地产行业崩溃。2027年3月的卖方文章标题为《经纪人间暴力》。主要大都市的买方佣金中位数已从2.5%-3%降至不到1%，越来越多的交易在买方完全没有人工代理人的情况下完成。
 
-We had overestimated the value of “human relationships”. Turns out that a lot of what people called relationships was simply friction with a friendly face.
+我们高估了“人际关系”的价值。事实证明，很多人所谓的关系其实只是和一个友好面孔的摩擦。
 
-That was just the start of the disruption for the intermediation layer. Successful companies had spent billions to effectively exploit quirks of consumer behavior and human psychology that didn’t matter anymore.
+这只是中介层颠覆的开始。成功的公司花费数十亿美元，有效地利用那些已不再重要的消费者行为和人类心理的怪癖。
 
-Machines optimizing for price and fit do not care about your favorite app or the websites you’ve been habitually opening for the last four years, nor feel the pull of a well-designed checkout experience. They don’t get tired and accept the easiest option or default to “I always just order from here”.
+那些为了价格和贴合度而优化的机器，既不在意你最喜欢的应用，也不会在意你过去四年习惯性打开的网站，也不会感受到精心设计的结账体验的吸引力。他们不会厌倦接受最简单的选项，或者默认“我总是从这里点单”。
 
-That destroyed a particular kind of moat: **habitual intermediation.**
+这破坏了一种特殊的护城河：**习惯性中介。**
 
-DoorDash (DASH US) was the poster child.
+DoorDash（DASH US）就是典范。
 
-Coding agents had collapsed the barrier to entry for launching a delivery app. A competent developer could deploy a functional competitor in weeks, and dozens did, enticing drivers away from DoorDash and Uber Eats by passing 90-95% of the delivery fee through to the driver. Multi-app dashboards let gig workers track incoming jobs from twenty or thirty platforms at once, eliminating the lock-in that the incumbents depended on. The market fragmented overnight and margins compressed to nearly nothing.
+编码代理打破了推出送货应用的门槛。一个有能力的开发者能在几周内部署出功能正常的竞争对手，数十家确实这么做了，通过将90%到95%的配送费用转嫁给司机，吸引了司机远离DoorDash和Uber Eats。多应用仪表盘让零工工作者能够同时追踪来自二三十个平台的职位，消除了现有平台依赖的锁定。市场一夜之间分裂，利润率几乎为零。
 
-Agents accelerated both sides of the destruction. They enabled the competitors and then they used them. The DoorDash moat was literally “you’re hungry, you’re lazy, this is the app on your home screen.” An agent doesn’t have a home screen. It checks DoorDash, Uber Eats, the restaurant’s own site, and twenty new vibe-coded alternatives so it can pick the lowest fee and fastest delivery every time.
+特工加速了双方的破坏。他们助长了竞争对手，然后又利用了他们。DoorDash的护城河字面意思是“你饿了，你懒了，这就是你主屏幕上的应用。”经纪人没有主屏幕。它会检查DoorDash、Uber Eats、餐厅自家网站以及二十个新的氛围编码替代方案，以便每次都能选择最低费用和最快的送餐方式。
 
-Habitual app loyalty, the entire basis of the business model, simply didn’t exist for a machine.
+习惯性的应用忠诚度，作为商业模式的全部基础，对机器来说根本不存在。
 
-This was oddly poetic, as perhaps the only example in this entire saga of agents doing a favor for the soon-to-be-displaced white collar workers. When they ended up as delivery drivers, at least half their earnings weren’t going to Uber and DoorDash. Of course, this favor from technology didn’t last for long as autonomous vehicles proliferated.
+这颇具诗意，或许是整个事件中唯一一个特工为即将被驱逐的白领工人做善事的例子。当他们最终成为送货司机时，至少一半的收入并没有去Uber和DoorDash。当然，随着自动驾驶汽车的普及，这种技术的青睐并未持续太久。
 
-Once agents controlled the transaction, they went looking for bigger paperclips.
+一旦特工控制了交易，他们开始寻找更大的回形针。
 
-There was only so much price-matching and aggregating to do. The biggest way to repeatedly save the user money (especially when agents started transacting among themselves) was to **eliminate fees.**In machine-to-machine commerce, _the 2-3% card interchange rate became an obvious target._
+价格匹配和汇总的空间有限。反复为用户节省成本的最大方法（尤其是当代理开始相互交易时）是**取消手续费。**在机器对机器交易中，2-3%的卡片交换率_the显而易见的target._
 
-Agents went looking for faster and cheaper options than cards. Most settled on using stablecoins via Solana or Ethereum L2s, where settlement was near-instant and the transaction cost was measured in fractions of a penny.
+代理人们开始寻找比信用卡更快更便宜的选项。大多数人选择通过Solana或以太坊L2使用稳定币，结算几乎即时完成，交易成本以分之一便士计量。
 
-> _**MASTERCARD Q1 2027: NET REVENUES +6% Y/Y; PURCHASE VOLUME GROWTH SLOWS TO +3.4% Y/Y FROM +5.9% PRIOR QUARTER; MANAGEMENT NOTES “AGENT-LED PRICE OPTIMIZATION” AND “PRESSURE IN DISCRETIONARY CATEGORIES” | Bloomberg, April 29 2027**_
+> _**MASTERCARD 2027年第一季度：净收入+6%环比;采购量增长放缓至+3.4%，较上一季度的+5.9%有所减缓;管理笔记“代理主导价格优化”和“裁量类别的压力”|彭博社，2027年4月29日**_
 
-Mastercard’s Q1 2027 report was the point of no return. Agentic commerce went from being a product story to a plumbing story. MA dropped 9% the following day. Visa did too, but pared losses after analysts pointed out its stronger positioning in stablecoin infrastructure.
+万事达卡2027年第一季度报告成为了无法回头的转折点。代理商从一个产品故事变成了管道故事。次日马萨诸塞指数下降了9%。Visa也做了，但在分析师指出其在稳定币基础设施中的强势定位后，缩小了亏损。
 
-](https://substackcdn.com/image/fetch/$s_!gW0T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70ccc118-1388-4602-a5bd-bbc4284208f6_1024x541.png)
+]（https://substackcdn.com/image/fetch/$s_!gW0T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70ccc118-1388-4602-a5bd-bbc4284208f6_1024x541.png）
 
-Agentic commerce routing around interchange posed a far greater risk to card-focused banks and mono-line issuers, who collected the majority of that 2-3% fee and had built entire business segments around rewards programs funded by the merchant subsidy.
+代理式商业路由绕过交换站，对以卡片为主的银行和单线发行行来说风险更大，这些银行收取了大部分2-3%的费用，并围绕商户补贴资助的奖励计划建立了完整的业务板块。
 
-American Express (AXP US) was hit hardest; a combined headwind from white-collar workforce reductions gutting its customer base and agents routing around interchange gutting its revenue model. Synchrony (SYF US), Capital One (COF US) and Discover (DFS US) all fell more than 10% over the following weeks, as well.
+美国运通（AXP US）受影响最严重;白领劳动力裁减削弱了客户群，客服绕过换机转运又削弱了其收入模式。Synchrony（美国SYF）、Capital One（美国COF）和Discover（DFS美国）在接下来的几周内也下跌超过10%。
 
-Their moats were made of friction. And **friction was going to zero.**
+他们的护城河由摩擦力构成。而且*摩擦力会降到零。**
 
-Through 2026, markets treated negative AI impact as a sector story. Software and consulting were getting crushed, payments and other toll booths were wobbly, but the broader economy seemed fine. The labor market, while softening, was not in freefall. The consensus view was that creative destruction was part of any technological innovation cycle. It would be painful in pockets, but the overall net positives from AI would outweigh any negatives.
+直到2026年，市场将负面AI影响视为行业故事。软件和咨询业被压制，支付和其他收费站不稳，但整体经济似乎还算不错。劳动力市场虽然有所放缓，但并未陷入自由落体状态。共识观点认为，创造性破坏是任何技术创新周期的一部分。在局部地区会很痛苦，但AI带来的整体净利大于任何负面影响。
 
-Our January 2027 macro memo argued this was the wrong mental model. The US economy is a white-collar services economy. White-collar workers represented 50% of employment and drove roughly 75% of discretionary consumer spending. The businesses and jobs that AI was chewing up were not tangential to the US economy, they _were_ the US economy.
+我们2027年1月的宏观备忘录认为这是错误的心态模型。美国经济是一个白领服务型经济。白领占就业的50%，并推动了约75%的非必需消费支出。人工智能蚕食的企业和就业岗位并非与美国经济无关紧要，而是美国经济本身。
 
-“Technological innovation destroys jobs and then creates even more”. This was the most popular and convincing counter-argument at the time. It was popular and convincing because it’d been right for two centuries. Even if we couldn’t conceive of what the future jobs would be, they would surely arrive.
+“技术创新摧毁了就业岗位，然后创造了更多工作岗位。”这是当时最流行且最有说服力的反驳。它受欢迎且令人信服，因为它已经正确了两个世纪。即使我们无法预见未来的工作岗位，它们肯定会到来。
 
-ATMs made branches cheaper to operate so banks opened more of them and teller employment rose for the next twenty years. The internet disrupted travel agencies, the Yellow Pages, brick-and-mortar retail, but it invented entirely new industries in their place that conjured new jobs.
+ATM使得分行运营成本降低，银行开设了更多分行，柜员就业在接下来的二十年里有所增加。互联网颠覆了旅行社、黄页、实体零售业，但它却创造了全新的产业，创造了新的就业机会。
 
-Every new job, however, required a human to perform it.
+然而，每一份新工作都需要有人来完成。
 
-AI is now a general intelligence that improves at the very tasks humans would redeploy to. Displaced coders cannot simply move to “AI management” because AI is already capable of that.
+人工智能现在是一种通用智能，能够在人类本应重新部署的任务中有所提升。被取代的程序员不能简单地转向“人工智能管理”，因为人工智能已经具备这能力。
 
-Today, AI agents handle many-weeks-long research and development tasks. The exponential steamrolled our conceptions of what was possible, even though every year Wharton professors tried to fit the data to a new sigmoid.
+如今，人工智能代理承担着为期数周的研发任务。指数级的推翻了我们对可能性的认知，尽管沃顿教授每年都试图将数据拟合到新的乙形结肠。
 
-](https://substackcdn.com/image/fetch/$s_!kA4x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bc01ebb-a883-4e5c-bd2b-fa7aaa872edb_1600x1059.png)
+]（https://substackcdn.com/image/fetch/$s_!kA4x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bc01ebb-a883-4e5c-bd2b-fa7aaa872edb_1600x1059.png）
 
-They write essentially all code. The highest performing of them are substantially smarter than almost all humans at almost all things. And they keep getting cheaper.
+他们基本上写所有代码。其中表现最好的人在几乎所有方面都比几乎所有人类都聪明得多。而且价格越来越便宜。
 
-AI _has_ created new jobs. Prompt engineers. AI safety researchers. Infrastructure technicians. Humans are still in the loop, coordinating at the highest level or directing for taste. For every new role AI created, though, it rendered dozens obsolete. The new roles paid a fraction of what the old ones did.
+人工智能创造了新的工作岗位。提示工程师。人工智能安全研究人员。基础设施技术员。人类仍在其中，最高层协调或为品味指挥。然而，每创造一个新角色，AI就让数十个角色变得过时。新职位的薪水只有旧职位的一小部分。
 
-> _**U.S. JOLTS: JOB OPENINGS FALL BELOW 5.5M; UNEMPLOYED-TO-OPENINGS RATIO CLIMBS TO ~1.7, HIGHEST SINCE AUG 2020 | Bloomberg, Oct 2026**_
+> _**美国震荡：职位空缺跌破550万;失业与职位空缺的比率升至~1.7，为2020年8月以来最高 |彭博社，2026年10月**_
 
-The hiring rate had been anemic all year, but October ‘26 JOLTS print provided some definitive data. Job openings fell below 5.5 million, a 15% decline YoY.
+全年招聘率一直低迷，但2026年10月的JOLTS印刷品提供了一些明确的数据。职位空缺数跌破550万个，同比下降15%。
 
-> _**INDEED: POSTINGS FALL SHARPLY IN SOFTWARE, FINANCE, CONSULTING AS “PRODUCTIVITY INITIATIVES” SPREAD | Indeed Hiring Lab, Nov–Dec 2026**_
+> _**确实：随着“生产力举措”的传播，软件、金融、咨询领域的职位大幅下降 |Indeed 招聘实验室，2026年11月至12月**_
 
-White-collar openings were collapsing while blue-collar openings remained relatively stable (construction, healthcare, trades). The churn was in the jobs that write memos _(we are, somehow, still in business)_, approve budgets, and keep the middle layers of the economy lubricated. Real wage growth in both cohorts, however, had been negative for the majority of the year and kept declining.
+白领岗位正在崩溃，而蓝领岗位（建筑、医疗、技工行业）相对稳定。更迭的职位出现在那些写备忘录（我们不知怎么的还在营业）、批准预算、维持经济中间层的岗位上。然而，两批人的实际工资增长在大部分时间内呈负增长，且持续下降。
 
-The equity market still cared less about JOLTS than it did the news that all of GE Vernova’s turbine capacity was now sold out until 2040, it ambled sideways in a tug of war between negative macro news with positive AI infrastructure headlines.
+股市对JOLTS的关注仍然不如GE Vernova所有涡轮机产能售罄直到2040年更为重要，它在负面宏观新闻与积极AI基础设施头条之间徘徊。
 
-The bond market (always smarter than equities, or at least less romantic) began pricing the consumption hit, however. The 10-year yield began a descent from 4.3% to 3.2% over the following four months. Still, the headline unemployment rate did not blow out, the composition nuance was still lost on some.
+然而，债券市场（通常比股票更聪明，或者至少不那么浪漫）开始定价消费受挫。接下来的四个月，10年期收益率从4.3%降至3.2%。不过，整体失业率并未大幅上升，但对部分人来说，作曲的细微差别仍然难以理解。
 
-In a normal recession, the cause eventually self-corrects. Overbuilding leads to a construction slowdown, which leads to lower rates, which leads to new construction. Inventory overshoot leads to destocking, which leads to restocking. The cyclical mechanism contains within it its own seeds of recovery.
+在正常的经济衰退中，原因最终会自我纠正。过度建设导致施工放缓，进而降低费率，进而引发新建。库存超支会导致去库存，进而又会补货。循环机制内蕴含着自身的复苏种子。
 
-**This cycle’s cause was not cyclical.**
+**这个周期的原因不是循环的。**
 
-](https://substackcdn.com/image/fetch/$s_!0WIw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d84258d-d811-4963-8914-16b104e6744f_1024x541.png)
+]（https://substackcdn.com/image/fetch/$s_!0WIw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d84258d-d811-4963-8914-16b104e6744f_1024x541.png）
 
-AI got better and cheaper. Companies laid off workers, then used the savings to buy more AI capability, which let them lay off more workers. Displaced workers spent less. Companies that sell things to consumers sold fewer of them, weakened, and invested more in AI to protect margins. AI got better and cheaper.
+人工智能变得更好、更便宜。公司先裁员，然后用节省下来的钱购买更多人工智能能力，从而裁员更多。被驱逐的工人花费更少。向消费者销售产品的公司销量减少，削弱了AI，并加大了对AI的投资以保护利润。人工智能变得更好、更便宜。
 
-A feedback loop with no natural brake.
+一个没有自然刹车的反馈回路。
 
-The intuitive expectation was that falling aggregate demand would slow the AI buildout. It didn’t, because this wasn’t hyperscaler-style CapEx. It was OpEx substitution. A company that had been spending $100M a year on employees and $5M on AI now spent $70M on employees and $20M on AI. AI investment increased by multiples, but it occurred as a reduction in total operating costs. Every company’s AI budget grew while its overall spending shrank.
+直觉预期是，总需求的下降会放缓人工智能的建设速度。事实并非如此，因为这不是超大规模资本支出。是OpEx替代。一家公司曾经每年在员工上花费1亿美元，在人工智能上花费500万美元，现在却花了7000万美元在员工和2000万美元上。人工智能投资增长了数倍，但其表现为总运营成本的下降。每家公司的人工智能预算都在增长，而整体支出却在缩减。
 
-The irony of this was that the AI infrastructure complex kept performing even as the economy it was disrupting began deteriorating. NVDA was still posting record revenues. TSM was still running at 95%+ utilization. The hyperscalers were still spending $150-200 billion per quarter on data center capex. Economies that were purely convex to this trend, like Taiwan and Korea, outperformed massively.
+讽刺的是，人工智能基础设施体系在经济开始恶化的同时依然持续运转。NVDA依然创下了创纪录的收入。TSM的使用率仍为95%+。超大规模企业每季度仍在数据中心资本支出1500亿至2000亿美元。完全顺应这一趋势的经济体，如台湾和韩国，表现大幅优于此。
 
-India was the inverse. The country’s IT services sector exported over $200 billion annually, the single largest contributor to India’s current account surplus and the offset that financed its persistent goods trade deficit. The entire model was built on one value proposition: Indian developers cost a fraction of their American counterparts. But the marginal cost of an AI coding agent had collapsed to, essentially, the cost of electricity. TCS, Infosys and Wipro saw contract cancellations accelerate through 2027. The rupee fell 18% against the dollar in four months as the services surplus that had anchored India’s external accounts evaporated. By Q1 2028, the IMF had begun “preliminary discussions” with New Delhi.
+印度则相反。该国IT服务行业每年出口超过2000亿美元，是印度经常账户顺差的最大贡献者，也是其持续商品贸易逆差的抵消。整个模式建立在一个价值主张上：印度开发商的成本仅为美国同行的一小部分。但人工智能编码代理的边际成本本质上已降至电费。TCS、Infosys和Wipro的合同取消在2027年加速。随着支撑印度外部账户的服务盈余消失，卢比兑美元在四个月内下跌了18%。到2028年第一季度，IMF已开始与新德里进行“初步讨论”。
 
-The engine that caused the disruption got better every quarter, which meant the disruption accelerated every quarter. There was no natural floor to the labor market.
+导致中断的发动机每季度都在变好，这意味着干扰每季度都在加速。劳动力市场没有自然的底线。
 
-In the US, we weren’t asking about how the bubble would burst in AI infrastructure anymore. We were asking what happens to a consumer-credit economy when consumers are being replaced with machines _._
+在美国，我们不再问AI基础设施泡沫如何破裂。我们是在问，当消费者被机器取代时，消费信贷经济会发生什么 _._
 
-2027 was when the macroeconomic story stopped being subtle. The transmission mechanism from the previous twelve months of disjointed but clearly negative developments became obvious. You didn’t need to go into the BLS data. Just attend a dinner party with friends.
+2027年，宏观经济故事不再是微妙的。过去十二个月零散但明显负面发展的传播机制变得清晰。你不需要去查BLS的数据。只要和朋友们参加晚宴就行了。
 
-**Displaced white-collar workers did not sit idle.**They downshifted. Many took lower-paying service sector and gig economy jobs, which increased labor supply in those segments and compressed wages there too.
+**被流离失所的白领工人没有闲着。**他们降级了。许多人选择了低薪服务业和零工经济岗位，这增加了这些领域的劳动力供应，也压缩了那里的工资。
 
-A friend of ours was a senior product manager at Salesforce in 2025. Title, health insurance, 401k, $180,000 a year. She lost her job in the third round of layoffs. After six months of searching, she started driving for Uber. Her earnings dropped to $45,000. The point is less the individual story and more the second-order math. Multiply this dynamic by a few hundred thousand workers across every major metro. Overqualified labor flooding the service and gig economy pushed down wages for existing workers who were already struggling. Sector-specific disruption metastasized into economy-wide wage compression.
+我们的一个朋友在2025年是Salesforce的高级产品经理。产权、健康保险、401k，年薪18万美元。她在第三轮裁员中失去了工作。经过六个月的寻找，她开始为Uber开车。她的收入降至45,000美元。重点不在于个别故事，而在于二阶数学。将这种动态乘以每个主要大都市的数十万工人。高素质劳动力涌入服务业和零工经济，压低了已经在挣扎的现有工人的工资。行业特定的变革演变成了全经济的工资压缩。
 
-](https://substackcdn.com/image/fetch/$s_!CLd4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f6a0cb1-86ff-4b99-811c-1652d5577fba_1024x541.jpeg)
+]（https://substackcdn.com/image/fetch/$s_!CLd4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f6a0cb1-86ff-4b99-811c-1652d5577fba_1024x541.jpeg）
 
-The pool of remaining human-centric had another correction ahead of it, happening while we write this. As autonomous delivery and self-driving vehicles work their way through the gig economy that absorbed the first wave of displaced workers.
+剩下的以人为中心的群体在我们写这段文字时，正经历着另一轮调整。随着自动驾驶配送和自动驾驶车辆在零工经济中逐步发展，这场经济正是吸收了第一批被解雇工人的过程。
 
-By February 2027, it was clear that still employed professionals were spending like they might be next. They were working twice as hard (mostly with the help of AI) just to not get fired, hopes of promotion or raises were gone. Savings rates ticked higher and spending softened.
+到2027年2月，仍然在职的专业人士消费明显像是他们可能成为下一个。他们加倍努力工作（大多借助人工智能），只是为了不被解雇，晋升或加薪的希望破灭了。储蓄率略有上升，支出也有所放缓。
 
-The most dangerous part was the lag. High earners used their higher-than-average savings to maintain the appearance of normalcy for two or three quarters. The hard data didn’t confirm the problem until it was already old news in the real economy. Then came the print that broke the illusion.
+最危险的是延迟。高收入者用高于平均水平的储蓄维持了两到三个季度的正常状态。硬数据直到现实经济中问题已成旧闻时才确认。然后出现了打破幻象的指纹。
 
-> _**U.S. INITIAL JOBLESS CLAIMS SURGE TO 487,000, HIGHEST SINCE APRIL 2020; Department of Labor, Q3 2027**_
+> _**美国初次失业救济申请激增至487,000人，为2020年4月以来最高;劳工部，2027年第三季度**_
 
-Initial claims surged to 487,000, the highest since April 2020. ADP and Equifax confirmed that the overwhelming majority of new filings were from white-collar professionals.
+初次申请人数激增至487,000人，为2020年4月以来最高。ADP和Equifax证实，绝大多数新申报来自白领专业人士。
 
-The S&P dropped 6% over the following week. Negative macro started winning the tug of war.
+标普指数在接下来的一周下跌了6%。负宏观开始赢得了这场拉锯战。
 
-In a normal recession, job losses are broadly distributed. Blue-collar and white-collar workers share the pain roughly in proportion to each segment’s share of employment. The consumption hit is also broadly distributed, and it shows up quickly in the data because lower-income workers have higher marginal propensities to consume.
+在正常的衰退中，失业会分布广泛。蓝领和白领工人大致按各自就业份额的比例分担痛苦。消费冲击分布广泛，且在数据中迅速显现，因为低收入工人的边际消费倾向更高。
 
-In this cycle, the job losses have been concentrated in the upper deciles of the income distribution. They are a relatively small share of total employment, but they drive a wildly disproportionate share of consumer spending. The top 10% of earners account for more than 50% of all consumer spending in the United States. The top 20% account for roughly 65%. These are the people who buy the houses, the cars, the vacations, the restaurant meals, the private school tuition, the home renovations. They are the demand base for the entire consumer discretionary economy.
+在本周期中，失业集中在收入分布的上十分位。他们在总就业中所占比例相对较小，但却极不成比例地推动了消费者支出的比重。美国收入最高的10%人口占所有消费支出的50%以上。前20%的人口约占65%。这些人买房、买车、买度假、餐厅用餐、私立学校学费、房屋装修。它们是整个非必需消费经济的需求基础。
 
-When these workers lost their jobs, or took 50% pay cuts to move into available roles, the consumption hit was enormous relative to the number of jobs lost. A 2% decline in white-collar employment translated to something like a 3-4% hit to discretionary consumer spending. Unlike blue-collar job losses, which tend to hit immediately (you get laid off from the factory, you stop spending next week), white-collar job losses have a lagged but deeper impact because these workers have savings buffers that allow them to maintain spending for a few months before the behavioral shift kicks in.
+当这些工人失业或因转岗而减薪50%时，消费损失相对于失去的工作岗位数量来说是巨大的。白领就业减少2%，意味着可自由支配消费支出会受到3-4%的冲击。与蓝领失业通常立刻发生（比如被工厂裁员，下周停止消费）不同，白领失业的影响虽然滞后但更深远，因为这些工人有储蓄缓冲，可以在行为转变开始前维持消费几个月。
 
-By Q2 2027, the economy was in recession. The NBER would not officially date the start until months later (they never do) but the data was unambiguous - we’d had two consecutive quarters of negative real GDP growth. But it wasn’t a “financial crisis”…yet.
+到2027年第二季度，经济陷入衰退。NBER直到几个月后才会正式确定起始时间（他们从不这样做），但数据明确无误——我们连续两个季度实质GDP增长为负。但这并不是“金融危机”......至少现在还没有。
 
-Private credit had grown from under $1 trillion in 2015 to over $2.5 trillion by 2026. A meaningful share of that capital had been deployed into software and technology deals, many of them leveraged buyouts of SaaS companies at valuations that assumed mid-teens revenue growth in perpetuity.
+私人信贷从2015年的不到1万亿美元增长到2026年的超过2.5万亿美元。其中相当一部分资金被投入到软件和技术交易中，许多交易利用对SaaS公司的收购，估值假设收入将持续增长到十几岁左右。
 
-Those assumptions died somewhere between the first agentic coding demo and the Q1 2026 software crash, but the marks didn’t seem to realize they were dead.
+这些假设在首次代理编码演示和2026年第一季度软件崩溃之间消亡，但这些目标似乎没意识到自己已经死了。
 
-As many public SaaS companies traded to 5-8x EBITDA, PE-backed software companies sat on balance sheets at marks reflecting acquisition valuations on multiples of revenue that didn’t exist anymore. Managers eased the marks down gradually, 100 cents, 92, 85, all while public comps said 50.
+当许多上市SaaS公司交易至5-8倍息税折旧摊销时，PE支持的软件公司资产负债表上的估值仍反映着已不存在的收入倍数的收购估值。经理们逐步降低了分数，分别是100美分、92美分、85美分，而公众比较则显示50美分。
 
-> **MOODY’S DOWNGRADES $18B OF PE-BACKED SOFTWARE DEBT ACROSS 14 ISSUERS, CITING ‘SECULAR REVENUE HEADWINDS FROM AI-DRIVEN COMPETITIVE DISRUPTION’; LARGEST SINGLE-SECTOR ACTION SINCE ENERGY IN 2015 | Moody’s Investors Service, April 2027**
+> **穆迪下调了14家发行机构中180亿美元的私募股权支持软件债务评级，理由是“人工智能驱动的竞争颠覆带来的长期收入逆风”;自2015年能源以来最大的单一部门行动 |穆迪投资者服务，2027年4月**
 
-Everyone remembers what happened after the downgrade. Industry veterans had already seen the playbook following the 2015 energy downgrades.
+大家都记得降级后发生的事。行业资深人士早已看清了2015年能源评级下调后的操作手册。
 
-Software-backed loans began defaulting in Q3 2027. PE portfolio companies in information services and consulting followed. Several multi-billion dollar LBOs of well-known SaaS companies entered restructuring.
+软件支持贷款于2027年第三季度开始违约。随后，信息服务和咨询领域的私募股权投资组合公司相继成立。几家数十亿美元的知名SaaS公司LBO进入了重组阶段。
 
-Zendesk was the smoking gun.
+Zendesk是铁证。
 
-> **ZENDESK MISSES DEBT COVENANTS AS AI-DRIVEN CUSTOMER SERVICE AUTOMATION ERODES ARR; $5B DIRECT LENDING FACILITY MARKED TO 58 CENTS; LARGEST PRIVATE CREDIT SOFTWARE DEFAULT ON RECORD | Financial Times, September 2027**
+> **ZENDESK错过债务契约，AI驱动的客户服务自动化侵蚀ARR;50亿美元的直接贷款设施，标价为58美分;有记录以来最大的私人信用软件违约 |《金融时报》，2027年9月**
 
-In 2022, Hellman & Friedman and Permira had taken Zendesk private for $10.2 billion. The debt package was $5 billion in direct lending, the largest ARR-backed facility in history at the time, led by Blackstone with Apollo, Blue Owl and HPS all in the lending group. The loan was explicitly structured around the assumption that Zendesk’s annual recurring revenue would remain recurring. At roughly 25x EBITDA, the leverage only made sense if it did.
+2022年，Hellman & Friedman和Permira以102亿美元将Zendesk私有化。该债务组合为50亿美元的直接贷款，当时是历史上最大的ARR支持机构，由黑石集团领衔，Apollo、Blue Owl和HPS均属贷款集团。该贷款明确基于Zendesk年度经常性收入保持持续的假设。在大约25倍的折旧摊销前利润（EBITDA）下，杠杆只有在发生时才有意义。
 
-By mid-2027, it didn’t.
+到了2027年中，情况并非如此。
 
-AI agents had been handling customer service autonomously for the better part of a year. The category Zendesk had defined (ticketing, routing, managing human support interactions) was already replaced by systems that resolved issues without generating a ticket at all. The Annualized Recurring Revenue the loan was underwritten against was no longer recurring, it was just revenue that hadn’t left yet.
+人工智能代理已经自主处理客户服务近一年了。Zendesk定义的类别（工单、路由、管理人工支持互动）已被那些无需生成工单即可解决问题的系统所取代。贷款所抵押的年化经常性收入不再是经常性收入，而是尚未流出的收入。
 
-The largest ARR-backed loan in history became the largest private credit software default in history. Every credit desk asked the same question at once: who else has a secular headwind disguised as a cyclical one?
+历史上最大的ARR支持贷款成为了历史上最大的私人信用软件违约案。每个信用部同时提出同一个问题：还有谁有伪装成周期性逆风的长期逆风？
 
-But here’s what the consensus got right, at least initially: this should have been survivable.
+但至少最初的共识是正确的：这本应是可以存活的。
 
-Private credit is not 2008 banking. The whole architecture was explicitly designed to avoid forced selling. These are closed-end vehicles with locked-up capital. LPs committed for seven to ten years. There are no depositors to run, no repo lines to pull. The managers could sit on impaired assets, work them out over time, and wait for recoveries. Painful, but manageable. The system was such that it was supposed to bend, not break.
+私人信贷不是2008年的银行业。整个架构设计明确避免强制销售。这些是封闭式资金锁定的车辆。LP承诺期限为七到十年。没有存款账户需要管理，也没有催收渠道需要拉。管理层可以暂时保管受损资产，逐步调整，等待回收。痛苦，但可以忍受。这个系统本来是要弯曲的，而不是断裂的。
 
-Executives at Blackstone, KKR and Apollo cited software exposure of 7-13% of assets. Containable. Every sell-side note and fintwit credit account said the same thing: private credit has permanent capital. They could absorb losses that would otherwise blow up a levered bank.
+黑石、KKR和Apollo的高管指出，软件暴露占资产的7%-13%。可控制。每个卖方票据和信用账户都说同一句话：私人信贷有永久资本。他们可以吸收本来会让杠杆银行崩溃的损失。
 
-_Permanent capital._ The phrase showed up in every earnings call and investor letter meant to reassure. It became a mantra. And like most mantras, nobody paid attention to the finer details. Here’s what it actually meant…
+_Permanent capital._ 这个词出现在每一次财报电话会议和投资者信中，旨在安抚。这成了我的座右铭。而且像大多数咒语一样，没人关注细节。这实际上意味着什么......
 
-Over the prior decade, the large alternative asset managers had acquired life insurance companies and turned them into funding vehicles. Apollo bought Athene. Brookfield bought American Equity. KKR took Global Atlantic. The logic was elegant: annuity deposits provided a stable, long-duration liability base. The managers invested those deposits into the private credit they originated and got paid twice, earning spread over on the insurance side and management fees on the asset management side. A fee-on-fee perpetual motion machine that worked beautifully under one condition.
+在过去十年里，大型另类资产管理公司收购了人寿保险公司，并将其转变为融资工具。阿波罗买下了雅典娜。布鲁克菲尔德收购了美国股权。KKR夺取了环球大西洋。这一逻辑很优雅：年金存款提供了稳定且长期的负债基础。管理人员将这些存款投资到他们发放的私人信贷中，并获得两笔报酬，保险方面赚取收益，资产管理方面则支付管理费。一台收费的永动机，在一个条件下运行得非常好。
 
-_The private credit had to be money good._
+_The私人信贷必须是金钱good._
 
-The losses hit balance sheets built to hold illiquid assets against long-duration obligations. The “permanent capital” that was supposed to make the system resilient was not some abstract pool of patient institutional money and sophisticated investors taking sophisticated risk. It was the savings of American households, “Main Street”, structured as annuities invested in the same PE-backed software and technology paper that was now defaulting. The locked-up capital that couldn’t run was life insurance policyholder money, and the rules are a bit different there.
+这些损失影响了用于持有流动性不佳资产以抵消长期债务的资产负债表。本应让系统具备韧性的“永久资本”，并不是由耐心的机构资金和精明投资者组成的抽象池，承担着复杂风险。那是美国家庭的储蓄，“主街”，结构化为年金，投资于同一家现已违约的PE支持软件和技术纸币。无法运行的锁定资本是寿险保单持有人的资金，规则略有不同。
 
-Compared to the banking system, insurance regulators had been docile - even complacent - but this was the wake-up call. Already uneasy about private credit concentrations at life insurers, they began downgrading the risk-based capital treatment of these assets. That forced the insurers to either raise capital or sell assets, neither of which was possible at attractive terms in a market already seizing up.
+与银行系统相比，保险监管机构一直很温顺——甚至有些自满——但这成了警钟。他们本就对寿险公司中的私人信用集中度感到不安，开始下调这些资产的风险基础资本处理。这迫使保险公司要么筹集资本，要么出售资产，而在市场已经紧张的情况下，这两者都无法以有吸引力的条件出售。
 
-> **NEW YORK, IOWA STATE REGULATORS MOVE TO TIGHTEN CAPITAL TREATMENT FOR CERTAIN PRIVATELY RATED CREDIT HELD BY LIFE INSURERS; NAIC GUIDANCE EXPECTED TO INCREASE RBC FACTORS AND TRIGGER ADDITIONAL SVO SCRUTINY | Reuters, Nov 2027**
+> **纽约、爱荷华州监管机构将收紧某些由寿险公司持有的私人信用的资本处理;NAIC指引预计将提高红细胞利率因素并触发更多SVO审查|路透社，2027年11月
 
-When Moody’s put Athene’s financial strength rating on negative outlook, Apollo’s stock dropped 22% in two sessions. Brookfield, KKR, and the others followed.
+当穆迪将Athene的财务实力评级定为负面展望时，Apollo的股价在两个交易日内下跌了22%。布鲁克菲尔德、KKR等人随后加入。
 
-It only got more complex from there. These firms hadn’t just created their insurer perpetual motion machine, they’d built an elaborate offshore architecture designed to maximize returns through regulatory arbitrage.The US insurer wrote the annuity, then ceded the risk to an affiliated Bermuda or Cayman reinsurer it also owned - set up to take advantage of more flexible regulation that permitted holding less capital against the same assets. That affiliate raised outside capital through offshore SPVs, a new layer of counterparties who invested alongside insurers into private credit originated by the same parent’s asset management arm.
+事情从那以后变得更加复杂。这些公司不仅打造了保险公司的永动机器，还构建了一个复杂的离岸架构，旨在通过监管套利最大化回报。美国保险公司承保了年金，然后将风险转让给其同时拥有的关联百慕大或开曼再保险公司——该再保险公司旨在利用更灵活的监管，允许以相同资产持有较少资本。该附属机构通过离岸特殊目的企业（SPV）筹集了外部资本，SPV是一层新的交易对手方，与保险公司共同投资于同一母公司资产管理部门发起的私人信贷。
 
-](https://substackcdn.com/image/fetch/$s_!yyoF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c777d0f-75a4-4e42-909d-812165aa351d_1077x702.jpeg)
+]（https://substackcdn.com/image/fetch/$s_!yyoF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c777d0f-75a4-4e42-909d-812165aa351d_1077x702.jpeg）
 
-The ratings agencies, some of which were themselves PE-owned, had not been paragons of transparency (surprising to virtually) no one. The spider web of different firms linked to different balance sheets was stunning in its opacity. When the underlying loans defaulted, the question of who actually bore the loss was genuinely unanswerable in real time.
+评级机构中有些本身也是私募股权持有，但他们并非透明度典范（几乎令所有人惊讶），没有人能做到。不同公司与不同资产负债表的蜘蛛网以其不透明令人震惊。当基础贷款违约时，究竟谁承担损失的问题实时无法回答。
 
-The November 2027 crash marked the transition of perception from a potentially garden-variety cyclical drawdown to something much more uncomfortable. _“A daisy chain of correlated bets on white collar productivity growth”_ was what Fed Chair Kevin Warsh called it during the FOMC’s emergency November meeting.
+2027年11月的崩盘标志着认知从可能的普通周期性回落转向更为令人不安的转变。“一串相关的白领生产率增长押注”——这是美联储主席凯文·沃什在联邦公开市场委员会11月紧急会议上所称的。
 
-See, it is never the losses themselves that cause the crisis. It’s recognizing them. And there is another, much larger, much much more important area of finance for which we have grown fearful of that recognition.
+你看，危机从来不是亏损本身造成的。而是认出他们。还有另一个更大、更重要的金融领域，我们对这一认可感到担忧。
 
-**The Mortgage Question**
+**抵押贷款问题**
 
-> _**ZILLOW HOME VALUE INDEX FALLS 11% YOY IN SAN FRANCISCO, 9% IN SEATTLE, 8% IN AUSTIN; FANNIE MAE FLAGS ‘ELEVATED EARLY-STAGE DELINQUENCIES’ IN ZIP CODES WITH >40% TECH/FINANCE EMPLOYMENT | Zillow / Fannie Mae, June 2028**_
+> _**ZILLOW房价指数在旧金山同比下降11%，西雅图下降9%，奥斯汀下降8%;房利美指出，科技/金融就业率>40%的邮政编码地区“早期逾期违约率上升”。Zillow / 房利美，2028年6月**_
 
-This month the Zillow Home Value Index fell 11% year-over-year in San Francisco, 9% in Seattle and 8% in Austin. This hasn’t been the only worrying headline. Last month, Fannie Mae flagged higher early-stage delinquency from jumbo-heavy ZIP codes - areas that are populated by 780+ credit score borrowers and typically “bulletproof”.
+本月，旧金山的Zillow房产价值指数同比下降了11%，西雅图下降了9%，奥斯汀下降了8%。这并不是唯一令人担忧的头条新闻。上个月，房利美指出，巨额邮政编码的早期违约率更高——这些地区信用评分780+，通常“防弹”。
 
-The US residential mortgage market is approximately $13 trillion. Mortgage underwriting is built on the fundamental assumption that the borrower will remain employed at roughly their current income level for the duration of the loan. For thirty years, in the case of most mortgages.
+美国住宅抵押贷款市场约为13万亿美元。抵押贷款承保基于借款人在贷款期间大致保持当前收入水平的基本假设。对于大多数抵押贷款来说，已经持续了三十年。
 
-The white-collar employment crisis has threatened this assumption with a sustained shift in income expectations. We now have to ask a question that seemed absurd just 3 years ago - _are prime mortgages money good?_
+白领就业危机威胁到了这一假设，收入预期将持续发生变化。我们现在必须问一个三年前还觉得荒谬的问题——_are优质抵押贷款的资金好吗？_
 
-Every prior mortgage crisis in US history has been driven by one of three things: speculative excess (lending to people who couldn’t afford the homes, as in 2008), interest rate shocks (rising rates making adjustable-rate mortgages unaffordable, as in the early 1980s), or localized economic shocks (a single industry collapsing in a single region, like oil in Texas in the 1980s or auto in Michigan in 2009).
+美国历史上每一次抵押贷款危机都是由三种原因之一驱动：投机性超额（如2008年向负担不起住房的人放贷）、利率冲击（利率上升使可调利率抵押贷款难以负担，如1980年代初）、或局部经济冲击（单一产业在某一地区崩溃，如1980年代德州石油或2009年密歇根汽车业）。
 
-None of these apply here. The borrowers in question are not subprime. They’re 780 FICO scores. They put 20% down. They have clean credit histories, stable employment records, and incomes that were verified and documented at origination. They were the borrowers that every risk model in the financial system treats as the bedrock of credit quality.
+这些都不适用于这里。这些借款人并不是次贷。它们有780分的FICO分数。他们付了20%的首付。他们拥有良好的信用记录、稳定的就业记录，以及在发放时经过核实和记录的收入。他们是金融体系中所有风险模型都视为信用质量基石的借款人。
 
-In 2008, the loans were bad on day one. In 2028, the loans were good on day one. The world just…changed after the loans were written. People borrowed against a future they can no longer afford to believe in.
+2008年，贷款从第一天起就很糟糕。2028年，贷款从第一天起就有效。这个世界只是......贷款写完后才更改。人们借款背负着他们已无法再相信的未来。
 
-](https://substackcdn.com/image/fetch/$s_!-8kB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2087b521-70e2-4069-8390-c8f0dbd53e9f_1024x559.png)
+]（https://substackcdn.com/image/fetch/$s_!-8kB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2087b521-70e2-4069-8390-c8f0dbd53e9f_1024x559.png）
 
-In 2027, we flagged early signs of invisible stress: HELOC draws, 401(k) withdrawals, and credit card debt spiking while mortgage payments remained current. As jobs were lost, hiring was frozen and bonuses cut, these prime households saw their debt-to-income ratios double.
+2027年，我们发现了隐形压力的早期迹象：HELOC提取、401（k）提款以及信用卡债务激增，而抵押贷款还款仍保持正常。随着工作岗位流失、招聘冻结和奖金削减，这些优质家庭的债务收入比翻了一番。
 
-They could still make the mortgage payment, but only by stopping all discretionary spending, draining savings, and deferring any home maintenance or improvement. They were technically current on their mortgage, but just one more shock away from distress, and the trajectory of AI capabilities suggested that shock is coming. Then we saw delinquencies begin to spike in San Francisco, Seattle, Manhattan and Austin, even as the national average stayed within historical norms.
+他们仍然可以支付房贷，但前提是停止所有非必需消费、耗尽储蓄，并推迟任何房屋维护或改进。他们技术上已经按时还款了抵押贷款，但只差一次冲击就会陷入困境，而人工智能能力的发展轨迹表明冲击即将到来。随后，我们看到旧金山、西雅图、曼哈顿和奥斯汀的违约率开始激增，尽管全国平均值保持在历史正常范围内。
 
-We’re now in the most acute stage. Falling home prices are manageable when the marginal buyer is healthy. Here, the marginal buyer is dealing with the same income impairment.
+我们现在处于最急性的阶段。当边缘买家健康时，房价下跌是可控的。在这里，边缘买方面临同样的收入损失。
 
-While concerns are building, we are not yet in a full-blown mortgage crisis. Delinquencies have risen but remain well below 2008 levels. It is the trajectory that’s the real threat.
+尽管担忧在加剧，但我们还未陷入全面的抵押贷款危机。违约率有所上升，但仍远低于2008年的水平。真正的威胁在于发展轨迹。
 
-](https://substackcdn.com/image/fetch/$s_!XiXV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fa31f0b-2188-4936-9ebb-88ccf78d51ff_1598x810.png)
+]（https://substackcdn.com/image/fetch/$s_!XiXV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fa31f0b-2188-4936-9ebb-88ccf78d51ff_1598x810.png）
 
-The Intelligence Displacement Spiral now has two financial accelerants to the real economy’s decline.
+情报转移螺旋现在有两个金融助燃剂，导致实体经济衰退。
 
-Labor displacement, mortgage concerns, private market turmoil. Each reinforces the other. And the traditional policy toolkit (rate cuts, QE) can address the financial engine but cannot address the real economy engine, because the real economy engine is not driven by tight financial conditions. It’s driven by AI making human intelligence less scarce and less valuable. You can cut rates to zero and buy every MBS and all the defaulted software LBO debt in the market…
+劳动力流失、抵押贷款问题、私人市场动荡。彼此相互强化。传统的政策工具箱（降息、量化宽松）可以解决金融引擎，但无法解决实体经济引擎，因为实体经济引擎并非由紧缩的金融环境驱动。这主要是由于人工智能使人类智能变得不那么稀缺和价值。你可以把利率降到零，买下所有MBS和市场上所有违约软件LBO债务......
 
-It won’t change the fact that a Claude agent can do the work of a $180,000 product manager for $200/month.
+这改变不了一个事实：一个Claude的代理人可以以每月200美元完成一个价值18万美元的产品经理的工作。
 
-If these fears manifest, the mortgage market cracks in the back half of this year. In that scenario, we’d expect the current drawdown in equities to ultimately rival that of the GFC (57% peak-to-trough). This would bring the S&P500 to ~3500 - levels we haven’t seen since the month before the ChatGPT moment in November 2022.
+如果这些担忧成真，抵押贷款市场将在今年下半年出现裂痕。在那种情景下，我们预计当前股市的回落最终将与全球金融危机（57%的峰值至谷底）相媲美。这将使标普500指数达到~3500——这是自2022年11月ChatGPT时刻前一个月以来未曾见过的水平。
 
-What’s clear is that the income assumptions underlying $13 trillion in residential mortgages are structurally impaired. What isn’t is whether policy can intervene before the mortgage market fully processes what this means. We’re hopeful, but we can’t deny the reasons not to be.
+可以确定的是，13万亿美元住宅抵押贷款背后的收入假设是结构性受损的。但政策是否能在抵押贷款市场完全理解其含义之前介入，这就不是问题所在。我们抱有希望，但也无法否认不该有的理由。
 
-The first negative feedback loop was in the real economy: AI capability improves, payroll shrinks, spending softens, margins tighten, companies buy more capability, capability improves. Then it turned financial: income impairment hit mortgages, bank losses tightened credit, the wealth effect cracked, and the feedback loop sped up. And both of these have been exacerbated by an insufficient policy response from a government that seems, quite frankly, confused.
+第一个负反馈循环出现在实体经济中：人工智能能力提升，工资减少，支出放缓，利润率收紧，企业购买更多能力，能力提升。随后情况转向金融：收入减损冲击了抵押贷款，银行亏损收紧了信贷，财富效应破裂，反馈循环加速。而这两者都因政府政策反应不足而加剧，坦率地说，政府似乎感到困惑。
 
-](https://substackcdn.com/image/fetch/$s_!0sEd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e7b551a-0d98-4485-a4fd-d7825349bac3_1024x559.png)
+]（https://substackcdn.com/image/fetch/$s_!0sEd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e7b551a-0d98-4485-a4fd-d7825349bac3_1024x559.png）
 
-The system wasn’t designed for a crisis like this. The federal government’s revenue base is essentially a tax on human time. People work, firms pay them, the government takes a cut. Individual income and payroll taxes are the spine of receipts in normal years.
+这个系统并不是为这种危机设计的。联邦政府的收入基础本质上是对人类时间的征税。人们工作，公司支付工资，政府抽成。个人所得税和工资税是正常年份收入的支柱。
 
-Through Q1 of this year, federal receipts were running 12% below CBO baseline projections. Payroll receipts are falling because fewer people are employed at prior compensation levels. Income tax receipts are falling because the incomes being earned are structurally lower. Productivity is surging, but the gains are flowing to capital and compute, not labor.
+截至今年第一季度，联邦收入比CBO基线预期低12%。工资收入下降是因为之前薪酬水平下就业人数减少。所得税收入下降，是因为所赚取的收入结构性较低。生产力在激增，但收益流向的是资本和计算，而非劳动力。
 
-Labor’s share of GDP declined from 64% in 1974 to 56% in 2024, a four-decade grind lower driven by globalization, automation, and the steady erosion of worker bargaining power. In the four years since AI began its exponential improvement, that has dropped to 46%. The sharpest decline on record.
+劳动力占GDP的份额从1974年的64%下降到2024年的56%，这是全球化、自动化和工人谈判能力持续削弱的四十年来的下降趋势。自从人工智能开始指数级提升以来的四年里，这一比例已降至46%。这是有记录以来最剧烈的下降。
 
-The output is still there. But it’s no longer routing through households on the way back to firms, which means it’s no longer routing through the IRS either. The circular flow is breaking, and the government is expected to step in to fix that.
+输出依然存在。但现在回公司时不再通过家庭转发，也就是说不再通过国税局转发。循环恶性循环正在破裂，预计政府将介入解决这一问题。
 
-](https://substackcdn.com/image/fetch/$s_!YdQQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c19580-7ac9-4287-aea8-a8341f320152_1600x762.png)
+]（https://substackcdn.com/image/fetch/$s_!YdQQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c19580-7ac9-4287-aea8-a8341f320152_1600x762.png）
 
-As in every downturn, outlays rise just as receipts fall. The difference this time is that the spending pressure is not cyclical. Automatic stabilizers were built for temporary job losses, not structural displacement. The system is paying benefits that assume workers will be reabsorbed. Many will not, at least not at anything like their prior wage. During COVID, the government freely embraced 15% deficits, but it was understood to be temporary. The people who need government support today were not hit by a pandemic they’ll recover from. They were replaced by a technology that continues to improve.
+和每次经济衰退一样，支出增加，收入却下降。这次的不同之处在于，消费压力不是周期性的。自动稳定器是为暂时失业而设计，而非结构性排挤。系统支付的福利假设工人将被重新吸收。很多人不会，至少不会像以前那样高。在新冠疫情期间，政府公开接受了15%的赤字，但据悉这是暂时的。今天需要政府支持的人并没有受到他们能够康复的疫情打击。它们被一项持续进步的技术所取代。
 
-**The government needs to transfer more money to households at precisely the moment it is collecting less money from them in taxes.**
+**政府需要在从家庭中征收税款减少的那一刻，向他们转移更多资金。**
 
-The U.S. won’t default. It prints the currency it spends, the same currency it uses to pay back borrowers. But this stress has shown up elsewhere. Municipal bonds are showing worrying signs of dispersion in year-to-date performance. States without income tax have been okay, but general obligation munis issued by states dependent on income tax (majority blue states) began to price in some default risk. Politicos caught on quickly, and the debate over who gets bailed out has fallen along partisan lines.
+美国不会违约。它印制自己花的货币，这也是它用来还款的货币。但这种压力也出现在其他地方。市政债券在年初迄今表现中显示出令人担忧的分散迹象。没有所得税的州表现还不错，但依赖所得税的州（多数为蓝州）发行的一般义务市政债开始将违约风险纳入考量。政客们很快意识到了这一点，关于谁能获得救助的辩论也沿着党派划分展开。
 
-The administration, to its credit, recognized the structural nature of the crisis early and began entertaining bipartisan proposals for what they’re calling the “Transition Economy Act”: a framework for direct transfers to displaced workers funded by a combination of deficit spending and a proposed tax on AI inference compute.
+值得称道的是，政府很早就认识到危机的结构性，并开始考虑两党提出他们所称的“转型经济法案”：这是一个通过赤字支出和拟议的人工智能推断计算税共同资助的直接转移给被剥夺工人的框架。
 
-The most radical proposal on the table goes further. The “Shared AI Prosperity Act” would establish a public claim on the returns of the intelligence infrastructure itself, something between a sovereign wealth fund and a royalty on AI-generated output, with dividends funding household transfers. Private sector lobbyists have flooded the media with warnings about the slippery slope.
+目前最激进的提案更进一步。《共享人工智能繁荣法案》将建立对智能基础设施回报的公共权利要求，介于主权财富基金和人工智能产出的特许权使用费之间，股息用于资助家庭转移。私营部门游说团体向媒体大量警告，提醒这会是滑坡效应。
 
-The politics behind the discussions have been grimly predictable, exacerbated by grandstanding and brinksmanship. The right calls transfers and redistribution Marxism and warns that taxing compute hands the lead to China. The left warns that a tax drafted with the help of incumbents becomes regulatory capture by another name. Fiscal hawks point to unsustainable deficits. Doves point to the premature austerity imposed after the GFC as a cautionary tale. The divide is only magnifying in the run up to this year’s presidential election.
+讨论背后的政治阴郁可预测，且因作秀和边缘政策而加剧。右翼呼吁马克思主义，并警告征税计算将引领中国。左派警告说，在现任者协助下起草的税收，变成了另一种监管俘获。财政鹰派指出赤字不可持续。鸽派指出，全球金融危机后过早实施的紧缩政策是一个警示故事。在今年总统大选临近时，这种分歧愈发明显。
 
-While the politicians bicker, the social fabric is fraying faster than the legislative process can move.
+当政客们争吵时，社会结构的瓦解速度比立法过程进展更快。
 
-The Occupy Silicon Valley movement has been emblematic of wider dissatisfaction. Last month, demonstrators blockaded the entrances to Anthropic and OpenAI’s San Francisco offices for three weeks straight. Their numbers are growing, and the demonstrations have drawn more media coverage than the unemployment data that prompted them.
+占领硅谷运动象征着更广泛的不满情绪。上个月，示威者连续三周封锁了Anthropic和OpenAI旧金山办公室的入口。他们的人数在增长，示威引发的媒体关注甚至超过了引发他们的失业数据。
 
-It’s hard to imagine the public hating anyone more than the bankers in the fallout of the GFC, but the AI labs are making a run at it. And, from the perspective of the masses, for good reason. Their founders and early investors have accumulated wealth at a pace that makes the Gilded Age look tame. The gains from the productivity boom accruing almost entirely to the owners of compute and the shareholders of the labs that ran on it has magnified US inequality to unprecedented levels.
+很难想象公众会比全球金融危机后更讨厌银行家，但人工智能实验室正在全力以赴。从大众的角度来看，这是有充分理由的。他们的创始人和早期投资者积累财富的速度，甚至让镀金时代看起来都显得温和。几乎完全归功于计算所有者和运行实验室股东的生产力繁荣，使美国的不平等达到了前所未有的水平。
 
-Every side has their own villain, but the real villain is time.
+每一方都有自己的反派，但真正的反派是时间。
 
-AI capability is evolving faster than institutions can adapt. The policy response is moving at the pace of ideology, not reality. If the government doesn’t agree on what the problem is soon, the feedback loop will write the next chapter for them.
+人工智能能力的发展速度快于机构的适应能力。政策反应是随着意识形态而非现实的节奏推进。如果政府不尽快达成问题所在，反馈循环将为他们写下下一章。
 
-For the entirety of modern economic history, human intelligence has been the scarce input. Capital was abundant (or at least, replicable). Natural resources were finite but substitutable. Technology improved slowly enough that humans could adapt. Intelligence, the ability to analyze, decide, create, persuade, and coordinate, was the thing that could not be replicated at scale.
+在整个现代经济史中，人类智慧一直是稀缺的输入。资本充裕（或者至少是可复制的）。自然资源有限，但可以替代。科技进步缓慢，人类能够适应。智慧，即分析、决策、创造、说服和协调的能力，是无法大规模复制的东西。
 
-Human intelligence derived its inherent premium from its scarcity. Every institution in our economy, from the labor market to the mortgage market to the tax code, was designed for a world in which that assumption held.
+人类智慧的内在价值来自于其稀缺性。我们经济中的每一个机构，从劳动力市场到抵押贷款市场再到税法，都是为一个这种假设成立的世界设计的。
 
-We are now experiencing the unwind of that premium. Machine intelligence is now a competent and rapidly improving substitute for human intelligence across a growing range of tasks. The financial system, optimized over decades for a world of scarce human minds, is repricing. That repricing is painful, disorderly, and far from complete.
+我们现在正经历溢价的解冻。机器智能如今已成为人类智能在日益广泛任务中高效且快速提升的替代工具。金融体系经过数十年优化，适应稀缺的人类世界，正在重新定价。这种重新定价既痛苦又混乱，远未完成。
 
-But repricing is not the same as collapse.
+但重新定价并不等同于崩溃。
 
-The economy can find a new equilibrium. Getting there is one of the few tasks left that only humans can do. We need to do it correctly.
+经济可以找到新的平衡。到达那里是仅剩人类能完成的少数任务之一。我们必须正确地做这件事。
 
-This is the first time in history the most productive asset in the economy has produced fewer, not more, jobs. Nobody’s framework fits, because none were designed for a world where the scarce input became abundant. So we have to make new frameworks. **Whether we build them in time is the only question that matters.**
+这是历史上首次，经济中最具生产力的资产创造了更少的就业岗位，而非更多的岗位。没有人能符合他们的框架，因为没有人适合一个稀缺输入变得充裕的世界。所以我们必须制定新的框架。**我们是否及时建造它们是唯一重要的问题。**
 
-_But you’re not reading this in June 2028. You’re reading it in February 2026._
+_But你现在不是在2028年6月读这篇文章。你正在阅读它，时间是2026年2月。_
 
-_The S&P is near all-time highs. The negative feedback loops have not begun. We are certain some of these scenarios won’t materialize. We’re equally certain that machine intelligence will continue to accelerate. The premium on human intelligence will narrow._
+_The标普接近历史高位。负反馈循环还未开始。我们确信其中一些情景不会发生。我们同样确信机器智能将持续加速发展。对人类智慧的重视度将narrow._
 
-_As investors, we still have time to assess how much of our portfolios are built upon assumptions that won’t survive the decade. As a society, we still have time to be proactive._
+_As投资者，我们仍有时间评估我们的投资组合中有多少是建立在无法跨越十年的假设之上。作为一个社会，我们还有时间去做些proactive._
 
-_The canary is still alive._
+_The金丝雀依然是alive._
 
-_**Acknowledgements:** Thanks to Sam Koppelman of_[Hunterbrook](https://open.substack.com/users/539423-hunterbrook?utm_source=mentions)_for his help with proofreading. Our co-author, Alap Shah of LOTUS, contributed the idea for this piece - CitriniResearch wrote this party, but he has written others in a series called the Intelligence Explosion, we highly recommend reading it. You can find it [here](https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm\_campaign=post&utm\_medium=web&showWelcomeOnShare=true)._
+_**致谢：** 感谢Sam Koppelman of_[Hunterbrook]（https://open.substack.com/users/539423-hunterbrook?utm_source=mentions）_for协助校对。我们的合著者，LOTUS的Alap Shah，提出了这篇文章的创意——CitriniResearch写了这篇派对，但他也写过名为《智能爆炸》系列的其他作品，我们强烈推荐阅读。你可以在这里找到（https：//open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis？r=1g6uar&utm\_campaign=post&utm\_medium=web&showWelcomeOnShare=true）._
 ---
+## 💭 AI解说
+
+*笔记和讨论空间*
+
+---
+
 ## 📝 翻译说明
 
-本文由 **AI 自动翻译**，可能存在翻译不当之处。
+本文由 **Azure Translator API** 自动翻译，可能存在翻译不当之处。
 
 | 项目 | 信息 |
 |------|------|
 | **原文链接** | [点击查看](https://www.citriniresearch.com/p/2028gic) |
-| **翻译模型** | GLM-5 (z-ai/glm5) |
-| **翻译来源** | NVIDIA NIM API |
-| **翻译时间** | 2026-02-22 |
+| **翻译服务** | Azure Translator API |
+| **翻译时间** | 2026-03-21 |
 | **校对状态** | 待人工校对 |
 
 > 💬 如发现翻译问题，欢迎在评论区指正，帮助改进翻译质量。
