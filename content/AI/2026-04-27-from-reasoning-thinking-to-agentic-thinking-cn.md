@@ -1,110 +1,105 @@
 ---
-title: "From 'Reasoning' Thinking to 'Agentic' Thinking (中文翻译)"
+title: "从「推理」思维到「能动」思维"
 date: 2026-04-27
-tags: [ai, web-clip, 中文翻译]
+tags: [AI, web-clip, 中文翻译]
 source: https://justinlin610.github.io/blog/from-reasoning-to-agentic-thinking/
 category: AI
 lang: zh
 translation_source: "2026-04-27-from-reasoning-thinking-to-agentic-thinking"
-translator: "GLM-5 (z-ai/glm5)"
+translator: "zotac (GLM-5)"
 ---
 
 > 🌐 **English Version**: [[2026-04-27-from-reasoning-thinking-to-agentic-thinking|Read original English version]]
-# From 'Reasoning' Thinking to 'Agentic' Thinking
 
-Title: From 'Reasoning' Thinking to 'Agentic' Thinking
+# 从「推理」思维到「能动」思维
 
-URL Source: https://justinlin610.github.io/blog/from-reasoning-to-agentic-thinking/
+过去两年彻底重塑了我们评估模型的方式以及対模型的期望。OpenAI 的 o1 表明"思考"可以成为一项核心能力——你可以为此训练模型，并将其暴露给用户。DeepSeek-R1 证明了推理风格的后训练可以在原实验室之外被复制和扩展。OpenAI 将 o1 描述为一个用强化学习训练"先思考再回答"的模型。DeepSeek 将 R1 定位于一个可与 o1 竞争的开源推理模型。
 
-Markdown Content:
-The last two years reshaped how we evaluate models and what we expect from them. OpenAI’s o1 showed that “thinking” could be a first-class capability, something you train for and expose to users. DeepSeek-R1 proved that reasoning-style post-training could be reproduced and scaled outside the original labs. OpenAI described o1 as a model trained with reinforcement learning to “think before it answers.” DeepSeek positioned R1 as an open reasoning model competitive with o1.
+这个阶段很重要。但 2025 年上半年主要关注的是推理思维：如何让模型在推理时花费更多计算资源，如何用更强的奖励信号训练它们，如何暴露或控制那些额外的推理工作。现在的问题是：接下来是什么？我相信答案是**能动思维**（agentic thinking）：为了行动而思考，在与环境互动的同时，根据来自世界的反馈持续更新计划。
 
-That phase mattered. But the first half of 2025 was mostly about reasoning thinking: how to make models spend more inference-time compute, how to train them with stronger rewards, how to expose or control that extra reasoning effort. The question now is what comes next. I believe the answer is agentic thinking: thinking in order to act, while interacting with an environment, and continuously updating plans based on feedback from the world.
+## 1. o1 和 R1 的崛起真正教会了我们什么
 
-## 1. What the Rise of o1 and R1 Actually Taught Us
+推理模型的第一波浪潮教会我们：如果我们想在语言模型中扩展强化学习，需要的是确定性的、稳定的、可扩展的反馈信号。数学、代码、逻辑和其他可验证的领域变得至关重要，因为这些场景中的奖励远比通用的偏好监督更强大——它们让 RL 优化的是正确性而不是似真性。基础设施变得至关重要。
 
-The first wave of reasoning models taught us that if we want to scale reinforcement learning in language models, we need feedback signals that are deterministic, stable, and scalable. Math, code, logic, and other verifiable domains became central because rewards in these settings are much stronger than generic preference supervision. They let RL optimize for correctness rather than plausibility. Infrastructure became critical.
+一旦模型被训练成长轨迹推理，RL 就不再是监督微调的轻量级附加物，而变成了一个系统问题。你需要大规模的 rollouts、高吞吐量的验证器、稳定的策略更新、高效的采样。推理模型的兴起既是 infra 的故事，也是建模的故事。OpenAI 将 o1 描述为一条用 RL 训练的推理线，DeepSeek R1 后来通过展示推理类 RL 需要多少专门的算法和基础设施工作，进一步强化了这个方向。第一个重大转变：从扩展预训练到扩展后训练以实现推理。
 
-Once a model is trained to reason through longer trajectories, RL stops being a lightweight add-on to supervised fine-tuning. It becomes a systems problem. You need rollouts at scale, high-throughput verification, stable policy updates, efficient sampling. The emergence of reasoning models was as much an infra story as a modeling story. OpenAI described o1 as a reasoning line trained with RL, and DeepSeek R1 later reinforced that direction by showing how much dedicated algorithmic and infrastructure work reasoning-based RL demands. The first big transition: from scaling pretraining to scaling post-training for reasoning.
+## 2. 真正的问题从来不只是"合并思维和指令"
 
-## 2. The Real Problem Was Never Just “Merge Thinking and Instruct”
+2025 年初，Qwen 团队的我们有一个宏大的愿景。理想系统应该统一思维模式（thinking）和指令模式（instruct）。它应该支持可调节的推理努力，类似于低/中/高推理设置。更理想的是，它应该从提示和上下文自动推断适当的推理量，这样模型就能决定什么时候立即回答、什么时候多思考、什么时候在一个真正困难的问题上花费更多计算。
 
-At the beginning of 2025, many of us in Qwen team had an ambitious picture in mind. The ideal system would unify thinking and instruct modes. It would support adjustable reasoning effort, similar in spirit to low / medium / high reasoning settings. Better still, it would automatically infer the appropriate amount of reasoning from the prompt and context, so the model could decide when to answer immediately, when to think longer, and when to spend much more computation on a truly difficult problem.
+从概念上讲，这是正确的方向。Qwen3 是最公开的尝试之一。它引入了"混合思维模式"，在同一个模型家族中同时支持思维和非思维行为，强调可控的思维预算，并描述了一个明确包含"思维模式融合"思维模式冷启动和推理 RL 之后的四阶段后训练流程。
 
-Conceptually, this was the right direction. Qwen3 was one of the clearest public attempts. It introduced “hybrid thinking modes,” supported both thinking and non-thinking behavior in one family, emphasized controllable thinking budgets, and described a four-stage post-training pipeline that explicitly included “thinking mode fusion” after long-CoT cold start and reasoning RL.
+但合并说起来容易，做起来难。真正的问题在于数据。当人们谈论合并思维和指令时，首先想到的往往是模型侧的兼容性：一个 checkpoint 能同时支持两种模式吗？一个聊天模板能在它们之间切换吗？一个 serving 栈能暴露正确的开关吗？但更深层的问题是两种模式的数据分布和行为目标存在实质性差异。
 
-But merging is much easier to describe than to execute well. The hard part is data. When people talk about merging thinking and instruct, they often think first about model-side compatibility: can one checkpoint support both modes, can one chat template switch between them, can one serving stack expose the right toggles. The deeper issue is that the data distributions and behavioral objectives of the two modes are substantially different.
+在平衡模型合并与提升后训练数据的质量和多样性方面，我们并没有做到尽善尽美。在修订过程中，我们也密切关注了用户实际如何使用思维模式和指令模式。一个强大的指令模型通常以直接性、简洁性、格式合规性、低延迟为奖励——在重度的企业任务如重写、标注、模板化支持、结构化提取和运营 QA 上。一个强大的思维模型以在困难问题上花费更多 token、保持连贯的中间结构、探索替代路径、以及保留足够的内部计算来有意义地提升最终正确性为奖励。
 
-We did not get everything right when trying to balance model merging with improving the quality and diversity of post-training data. During that revision process, we also paid close attention to how users were actually engaging with thinking and instruct modes. A strong instruct model is typically rewarded for directness, brevity, formatting compliance, low latency on repetitive, high-volume enterprise tasks such as rewriting, labeling, templated support, structured extraction, and operational QA. A strong thinking model is rewarded for spending more tokens on difficult problems, maintaining coherent intermediate structure, exploring alternative paths, and preserving enough internal computation to meaningfully improve final correctness.
+这两种行为特征是相互对抗的。如果合并后的数据没有得到精心筛选，结果通常在两个方向上都表现平庸："思维"行为变得嘈杂、臃肿或不够果断，而"指令"行为变得不那么干脆、不那么可靠、比商业用户实际需要的更贵。
 
-These two behavior profiles pull against each other. If the merged data is not carefully curated, the result is usually mediocre in both directions: the “thinking” behavior becomes noisy, bloated, or insufficiently decisive, while the “instruct” behavior becomes less crisp, less reliable, and more expensive than what commercial users actually want.
+分离在实践中仍然很有吸引力。2025 年后期，在 Qwen3 最初的混合框架之后，2507 发布了独立的指令版和思维版更新，包括独立的 30B 和 235B 变体。在商业部署中，大量客户仍然需要高吞吐量、低成本、高度可控的指令行为用于批量操作。对于这些场景，合并并没有明显的好处。分离这两条线让团队能够更专注于解决每个模式的数据和训练问题。
 
-Separation remained attractive in practice. Later in 2025, after the initial hybrid framing of Qwen3, the 2507 line shipped distinct Instruct and Thinking updates, including separate 30B and 235B variants. In commercial deployment, a large number of customers still wanted high-throughput, low-cost, highly steerable instruct behavior for batch operations. For those scenarios, merging wasn’t obviously a benefit. Separating the lines allowed teams to focus on solving the data and training problems of each mode more cleanly.
+其他实验室选择了相反的路线。Anthropic 公开倡导集成模型理念：Claude 3.7 Sonnet 作为混合推理模型引入，用户可以选择普通回答或扩展思维，API 用户可以设置思维预算。Anthropic 明确表示他们认为推理应该是一种集成能力，而不是单独的模型。GLM-4.5 也公开定位为混合推理模型，同时具有思维和非思维模式，统一了推理、编码和 agent 能力；DeepSeek 后来用 V3.1 的"思考与非思考"混合推理朝着类似方向发展。
 
-Other labs chose the opposite route. Anthropic publicly argued for an integrated model philosophy: Claude 3.7 Sonnet was introduced as a hybrid reasoning model where users could choose ordinary responses or extended thinking, and API users could set a thinking budget. Anthropic explicitly said they believed reasoning should be an integrated capability rather than a separate model. GLM-4.5 also publicly positioned itself as a hybrid reasoning model with both thinking and non-thinking modes, unifying reasoning, coding, and agent capabilities; DeepSeek later moved in a similar direction with V3.1’s “Think & Non-Think” hybrid inference.
+关键问题是合并是否有机。如果思维和指令只是被并存在一个 checkpoint 中，但行为上仍然像两个生硬缝合的人格，产品体验仍然不自然。真正成功的合并需要一个平滑的推理努力频谱。模型应该能够表达多层次的推理努力，理想情况下还能自适应地在它们之间选择。GPT 风格的努力控制指向这个方向：一种策略over compute，而不是二元开关。
 
-The key question is whether the merge is organic. If thinking and instruct are merely co-located inside one checkpoint but still behave like two awkwardly stitched personalities, the product experience remains unnatural. A truly successful merge requires a smooth spectrum of reasoning effort. The model should be able to express multiple levels of effort, and ideally choose among them adaptively. GPT-style effort control points toward this: a policy over compute, rather than a binary switch.
+## 3. 为什么 Anthropic 的方向是一个有益的修正
 
-## 3. Why Anthropic’s Direction Was a Useful Corrective
+Anthropic 围绕 Claude 3.7 和 Claude 4 的公开表态是克制的。他们强调集成推理、用户控制的思维预算、真实世界任务、编码质量，以及后来在扩展思维中使用工具的能力。Claude 3.7 作为具有可控预算的混合推理模型呈现；Claude 4 通过允许推理与工具使用交错来扩展这一点，同时 Anthropic 同时强调编码、长时运行任务和 agent 工作流作为主要目标。
 
-Anthropic’s public framing around Claude 3.7 and Claude 4 was restrained. They emphasized integrated reasoning, user-controlled thinking budgets, real-world tasks, coding quality, and later the ability to use tools during extended thinking. Claude 3.7 was presented as a hybrid reasoning model with controllable budgets; Claude 4 extended that by allowing reasoning to interleave with tool use, while Anthropic simultaneously emphasized coding, long-running tasks, and agent workflows as primary goals.
+产生更长的推理轨迹并不自动使模型更智能。在很多情况下，过多的可见推理反而暴露了弱点分配。如果模型试图以相同的冗长方式推理一切，它可能是在未能优先处理、未能压缩、或者未能行动。Anthropic 的轨迹表明了一种更有纪律的观点：思维应该由目标工作负载塑造。如果目标是编码，那么思维应该帮助代码库导航、规划、分解、错误恢复和工具编排。如果目标是 agent 工作流，那么思维应该提升长周期中的执行质量，而不是产生令人印象深刻的中间过程。
 
-Producing a longer reasoning trace doesn’t automatically make a model more intelligent. In many cases, excessive visible reasoning signals weak allocation. If the model is trying to reason about everything in the same verbose way, it may be failing to prioritize, failing to compress, or failing to act. Anthropic’s trajectory suggested a more disciplined view: thinking should be shaped by the target workload. If the target is coding, then thinking should help with codebase navigation, planning, decomposition, error recovery, and tool orchestration. If the target is agent workflows, then thinking should improve execution quality over long horizons rather than producing impressive intermediate prose.
+这种对目标实用性的强调指向了一个更大的趋势：**我们正在从训练模型的时代转向训练 agent 的时代。**
 
-This emphasis on targeted utility points toward something larger: we are moving from the era of training models to the era of training agents.
+我们在 Qwen3 博客中明确表示了这一点，将未来的 RL 进步与环境反馈驱动的长周期推理联系起来。Agent 是一个能够制定计划、决定何时行动、使用工具、感知环境反馈、修订策略并在长周期中持续行动的系统。它由与世界的闭环互动来定义。
 
-> We are transitioning from an era focused on training models to one centered on training agents.
+## 4. "能动思维"真正意味着什么
 
-We made this explicit in the Qwen3 blog, linking future RL advances to environmental feedback for long-horizon reasoning. An agent is a system that can formulate plans, decide when to act, use tools, perceive environment feedback, revise strategy, and continue over long horizons. It is defined by closed-loop interaction with the world.
+能动思维是一个不同的优化目标。推理思维通常以最终答案之前的内部 deliberation 质量来评判：模型能否解决定理、写证明、产出正确代码、或通过基准测试。能动思维是关于模型能否在互动中持续取得进展。
 
-## 4. What “Agentic Thinking” Really Means
+核心问题从"模型能想足够久吗？"转变为"模型能否以一种能够维持有效行动的方式思考？"能动思维必须处理推理模型基本可以避免的几件事：
 
-Agentic thinking is a different optimization target. Reasoning thinking is usually judged by the quality of internal deliberation before a final answer: can the model solve the theorem, write the proof, produce the correct code, or pass the benchmark. Agentic thinking is about whether the model can keep making progress while interacting with an environment.
+- 决定何时停止思考并采取行动
+- 选择调用哪个工具以及调用顺序
+- 纳入来自环境的嘈杂或部分观察
+- 在失败后修订计划
+- 在多轮和多工具调用中保持连贯性
 
-The central question shifts from “Can the model think long enough?” to “Can the model think in a way that sustains effective action?” Agentic thinking has to handle several things that pure reasoning models can mostly avoid:
+能动思维是一种通过行动来推理的模型。
 
-*   Deciding when to stop thinking and take an action
-*   Choosing which tool to invoke and in what order
-*   Incorporating noisy or partial observations from the environment
-*   Revising plans after failures
-*   Maintaining coherence across many turns and many tool calls
+## 5. 为什么能动 RL 基础设施更难
 
-Agentic thinking is a model that reasons through action.
+一旦目标从解决基准问题转变为解决交互任务，RL 堆栈就变了。经典推理 RL 的基础设施是不够的。在推理 RL 中，你通常可以将 rollouts 视为相对干净的轨迹，带有相对干净的验证器。在能动 RL 中，策略嵌入在一个更大的 harness 中：工具服务器、浏览器、终端、搜索引擎、模拟器、执行沙箱、API 层、记忆系统和编排框架。环境不再是静态验证器；它是训练系统的一部分。
 
-## 5. Why Agentic RL Infrastructure Is Harder
+这创造了一个新的系统要求：训练和推理必须更干净地分离。没有这种分离，rollout 吞吐量会崩溃。考虑一个必须在实时测试 harness 上执行生成代码的编码 agent：推理侧停滞等待执行反馈，训练侧饥渴地等待完成的轨迹，整个管道远低于经典推理 RL 期望的 GPU 利用率。添加工具延迟、部分可观察性和有状态环境会放大这些低效率。结果是实验在达到你目标的能力水平之前就已经缓慢而痛苦。
 
-Once the objective shifts from solving benchmark problems to solving interactive tasks, the RL stack changes. The infrastructure used for classical reasoning RL isn’t enough. In reasoning RL, you can often treat rollouts as mostly self-contained trajectories with relatively clean evaluators. In agentic RL, the policy is embedded inside a larger harness: tool servers, browsers, terminals, search engines, simulators, execution sandboxes, API layers, memory systems, and orchestration frameworks. The environment is no longer a static verifier; it’s part of the training system.
+环境本身也成为了头等研究工件。在 SFT 时代，我们痴迷于数据多样性。在 agent 时代，我们应该痴迷于环境质量：稳定性、真实性、覆盖率、难度、状态多样性、反馈丰富性、抗利用性和 rollout 生成的扩展性。环境构建已经开始成为一个真正的创业类别，而不是一个副业项目。如果 agent 被训练在类生产环境中运作，那么环境就是核心能力堆栈的一部分。
 
-This creates a new systems requirement: training and inference must be more cleanly decoupled. Without that decoupling, rollout throughput collapses. Consider a coding agent that must execute generated code against a live test harness: the inference side stalls waiting for execution feedback, the training side starves for completed trajectories, and the whole pipeline operates far below the GPU utilization you would expect from classical reasoning RL. Adding tool latency, partial observability, and stateful environments amplifies these inefficiencies. The result is that experimentation slows and becomes painful long before you reach the capability levels you are targeting.
+## 6. 下一个前沿是更有用的思维
 
-The environment itself also becomes a first-class research artifact. In the SFT era, we obsessed over data diversity. In the agent era, we should obsess over environment quality: stability, realism, coverage, difficulty, diversity of states, richness of feedback, exploit resistance, and scalability of rollout generation. Environment-building has started to become a real startup category rather than a side project. If the agent is being trained to operate in production-like settings, then the environment is part of the core capability stack.
+我的预期是能动思维将成为思维的主要形式。我认为它最终可能会取代旧的静态独白版的推理思维：超长的、孤立的内部轨迹，试图通过发出越来越多的文本来弥补缺乏互动。 即使在非常困难的数学或编码任务上，一个真正先进的系统也应该有权去搜索、模拟、执行、检查、验证和修订。目标是稳健地、富有成效地解决问题。
 
-## 6. The Next Frontier Is More Usable Thought
+训练此类系统中最难的挑战是 reward hacking。一旦模型获得了有意义的工具访问，reward hacking 就变得更加危险。一个有搜索功能的模型可能在 RL 期间学会直接查找答案。一个编码 agent 可能利用仓库中的未来信息，滥用日志，或发现使任务无效的捷径。一个有隐藏漏洞的环境可以使策略看起来像超人，而实际上是在训练它作弊。这就是 agent 时代比推理时代更微妙的地方。更好的工具使模型更有用，但也扩大了虚假优化的攻击面。我们应该预期下一个严重的 研究瓶颈将来自环境设计、评估器鲁棒性、反作弊协议，以及策略与世界之间更原则性的接口。尽管如此，方向是明确的。启用工具的思维比孤立的思维更有用，而且更有可能提高实际生产力。
 
-My expectation is that agentic thinking will become the dominant form of thinking. I think it may eventually replace much of the old static-monologue version of reasoning thinking: excessively long, isolated internal traces that try to compensate for lack of interaction by emitting more and more text. Even on very difficult math or coding tasks, a genuinely advanced system should have the right to search, simulate, execute, inspect, verify, and revise. The objective is to solve problems robustly and productively.
+能动思维也意味着 harness 工程。核心智能将越来越多地来自多个 agent 的组织方式：一个制定计划并路由工作的 orchestrator，像领域专家一样行动的专门 agent，以及执行更窄任务同时帮助控制上下文、避免污染并在不同推理层次之间保持分离的 sub-agent。未来是从训练模型到训练 agent，再从训练 agent 到训练系统。
 
-The hardest challenge in training such systems is reward hacking. As soon as the model gets meaningful tool access, reward hacking becomes much more dangerous. A model with search might learn to look up answers directly during RL. A coding agent might exploit future information in a repository, misuse logs, or discover shortcuts that invalidate the task. An environment with hidden leaks can make the policy look superhuman while actually training it to cheat. This is where the agent era becomes much more delicate than the reasoning era. Better tools make the model more useful, but they also enlarge the attack surface for spurious optimization. We should expect the next serious research bottlenecks to come from environment design, evaluator robustness, anti-cheating protocols, and more principled interfaces between policy and world. Still, the direction is clear. Tool-enabled thinking is simply more useful than isolated thinking, and has a far better chance of improving real productivity.
+## 结论
 
-Agentic thinking will also mean harness engineering. The core intelligence will increasingly come from how multiple agents are organized: an orchestrator that plans and routes work, specialized agents that act like domain experts, and sub-agents that execute narrower tasks while helping control context, avoid pollution, and preserve separation between different levels of reasoning. The future is a shift from training models to training agents, and from training agents to training systems.
+推理浪潮的第一阶段确立了一些重要的东西：在语言模型之上应用 RL，当反馈信号可靠且基础设施能够支持时，可以产生质量更强的认知。
 
-## Conclusion
+更深层的转变是从推理思维到能动思维：从更长地思考到为行动而思考。训练的核心对象已经转变为模型加环境系统，或者更具体地说，是 agent 和围绕它的 harness。这改变了哪些研究工件最重要：模型架构和训练数据，是的，但也包括环境设计、rollout 基础设施、评估器鲁棒性，以及多个 agent 协调的接口。它改变了"好思维"的含义：对于在现实世界约束下维持行动最有用的轨迹，而不是最长或最可见的。
 
-The first phase of the reasoning wave established something important: RL on top of language models can produce qualitatively stronger cognition when the feedback signal is reliable and the infrastructure can support it.
+它也改变了竞争优势的来源。在推理时代，优势来自更好的 RL 算法、更强的反馈信号和更可扩展的训练管道。在能动时代，优势将来自更好的环境、更紧密的 train-serve 集成、更强的 harness 工程，以及在模型的决策与这些决策产生的结果之间闭合 loop 的能力。
 
-The deeper transition is from reasoning thinking to agentic thinking: from thinking longer to thinking in order to act. The core object of training has shifted. It is the model-plus-environment system, or more concretely, the agent and the harness around it. That changes what research artifacts matter most: model architecture and training data, yes, but also environment design, rollout infrastructure, evaluator robustness, and the interfaces through which multiple agents coordinate. It changes what “good thinking” means: the most useful trace for sustaining action under real-world constraints, rather than the longest or most visible one.
-
-It also changes where the competitive edge will come from. In the reasoning era, the edge came from better RL algorithms, stronger feedback signals, and more scalable training pipelines. In the agentic era, the edge will come from better environments, tighter train-serve integration, stronger harness engineering, and the ability to close the loop between a model’s decisions and the consequences those decisions produce.
 ---
+
 ## 📝 翻译说明
 
-本文由 **AI 自动翻译**，可能存在翻译不当之处。
+本文由 AI 自动翻译，原文来自 Junyang Lin 博客，发表于 2026年3月26日。
 
 | 项目 | 信息 |
 |------|------|
-| **原文链接** | [点击查看](https://justinlin610.github.io/blog/from-reasoning-to-agentic-thinking/) |
-| **翻译模型** | GLM-5 (z-ai/glm5) |
-| **翻译来源** | NVIDIA NIM API |
+| **原文** | [From 'Reasoning' Thinking to 'Agentic' Thinking](https://justinlin610.github.io/blog/from-reasoning-to-agentic-thinking/) |
+| **翻译模型** | zotac (GLM-5) |
 | **翻译时间** | 2026-04-27 |
 | **校对状态** | 待人工校对 |
 
-> 💬 如发现翻译问题，欢迎在评论区指正，帮助改进翻译质量。
+> 如有翻译不当之处，欢迎在评论区指正。
