@@ -6,6 +6,8 @@ title: "AI"
 
 ## Articles
 
+- [[2026-04-27-from-reasoning-thinking-to-agentic-thinking-cn|From 'Reasoning' Thinking to 'Agentic' Thinking (中文)]] (2026-04-27)
+- [[2026-04-27-from-reasoning-thinking-to-agentic-thinking|From 'Reasoning' Thinking to 'Agentic' Thinking]] (2026-04-27)
 - [[2026-03-11-how-to-train-your-own-llm|How to Train Your Own LLM]] (2026-03-11)
 - [[2026-03-09-how-ai-is-transforming-work-at-anthropic-cn|How AI Is Transforming Work at Anthropic (中文)]] (2026-03-09)
 - [[2026-03-09-how-ai-is-transforming-work-at-anthropic|How AI Is Transforming Work at Anthropic]] (2026-03-09)
@@ -16,4 +18,4 @@ title: "AI"
 - [[THE-2028-GLOBAL-INTELLIGENCE-CRISIS--------cn|THE 2028 GLOBAL INTELLIGENCE CRISIS (中文)"THE 2028 GLOBAL INTELLIGENCE CRISIS (中文翻译) (中文)]] (2026-02-22)
 
 ---
-*Last updated: 2026-03-21*
+*Last updated: 2026-04-27*
